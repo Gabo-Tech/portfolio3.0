@@ -52,7 +52,15 @@
         ariaLabel: "Portfolio introduction",
         skip: "Skip intro",
         skipAria: "Skip introduction and go to portfolio content",
-        help: "Brief animated overview of toolkit categories. Press Escape or Skip intro to dismiss.",
+        help:
+          "Choose whether the intro plays sound, then a brief animated overview of toolkit categories. Press Escape or Skip intro to dismiss.",
+        audioPromptTitle: "Play intro with sound?",
+        audioPromptHint:
+          "This intro can play background music. Do you have audio enabled (speakers or headphones on)?",
+        audioYes: "Yes, with sound",
+        audioNo: "No, silent intro",
+        audioYesAria: "Start the intro with background music",
+        audioNoAria: "Start the intro without music",
         announceSection: "Section: ",
         announceTech: "Technology: ",
         announceTechEmpty: "Technology. ",
@@ -274,7 +282,15 @@
         ariaLabel: "Introducción del portafolio",
         skip: "Saltar intro",
         skipAria: "Saltar la introducción e ir al contenido del portafolio",
-        help: "Breve presentación animada de categorías del stack. Pulse Escape o Saltar intro para cerrar.",
+        help:
+          "Elija si la intro lleva sonido; después, una breve presentación animada del stack. Pulse Escape o Saltar intro para cerrar.",
+        audioPromptTitle: "¿Reproducir la intro con sonido?",
+        audioPromptHint:
+          "La introducción puede incluir música de fondo. ¿Tienes el audio activado (altavoces o auriculares)?",
+        audioYes: "Sí, con sonido",
+        audioNo: "No, sin sonido",
+        audioYesAria: "Iniciar la intro con música de fondo",
+        audioNoAria: "Iniciar la intro sin música",
         announceSection: "Sección: ",
         announceTech: "Tecnología: ",
         announceTechEmpty: "Tecnología. ",
@@ -497,7 +513,15 @@
         ariaLabel: "Portfolio-Einführung",
         skip: "Intro überspringen",
         skipAria: "Einführung überspringen und zum Portfolio-Inhalt",
-        help: "Kurze animierte Übersicht der Toolkit-Kategorien. Escape oder Intro überspringen schliesst das Fenster.",
+        help:
+          "Wählen Sie, ob die Einführung Ton hat; danach eine kurze animierte Übersicht der Toolkit-Kategorien. Escape oder Intro überspringen schliesst das Fenster.",
+        audioPromptTitle: "Einführung mit Ton abspielen?",
+        audioPromptHint:
+          "Die Einführung kann Hintergrundmusik spielen. Ist bei Ihnen Ton aktiv (Lautsprecher oder Kopfhörer)?",
+        audioYes: "Ja, mit Ton",
+        audioNo: "Nein, stumm",
+        audioYesAria: "Einführung mit Hintergrundmusik starten",
+        audioNoAria: "Einführung ohne Musik starten",
         announceSection: "Bereich: ",
         announceTech: "Technologie: ",
         announceTechEmpty: "Technologie. ",
@@ -806,9 +830,9 @@
 
   var OVERLAY_ID = "intro-overlay";
   var FRAME_ID = "intro-frame";
+  var AUDIO_PROMPT_ID = "intro-audio-prompt";
   var THEME_AUDIO_ID = "intro-theme-audio";
   var LIVE_ID = "intro-live";
-  var introThemeUnlockFn = null;
   var abortState = {
     mq: null,
     onScheme: null,
@@ -833,8 +857,7 @@
     }, 40);
   }
 
-  function tryPlayIntroTheme() {
-    var el = document.getElementById(THEME_AUDIO_ID);
+  function prepareIntroThemeAudio(el) {
     if (!el) return;
     el.volume = 0.22;
     try {
@@ -843,25 +866,17 @@
         if (typeof el.load === "function") el.load();
       }
     } catch (e) {}
+  }
+
+  function playIntroThemeFromUserGesture() {
+    var el = document.getElementById(THEME_AUDIO_ID);
+    prepareIntroThemeAudio(el);
+    if (!el) return;
     var playAttempt = el.play();
-    if (!playAttempt || !playAttempt.catch) return;
-    playAttempt.catch(function () {
-      if (introThemeUnlockFn) return;
-      introThemeUnlockFn = function () {
-        document.removeEventListener("pointerdown", introThemeUnlockFn);
-        introThemeUnlockFn = null;
-        var a = document.getElementById(THEME_AUDIO_ID);
-        if (a) a.play().catch(function () {});
-      };
-      document.addEventListener("pointerdown", introThemeUnlockFn);
-    });
+    if (playAttempt && playAttempt.catch) playAttempt.catch(function () {});
   }
 
   function stopIntroTheme() {
-    if (introThemeUnlockFn) {
-      document.removeEventListener("pointerdown", introThemeUnlockFn);
-      introThemeUnlockFn = null;
-    }
     var el = document.getElementById(THEME_AUDIO_ID);
     if (el) {
       el.pause();
@@ -1066,7 +1081,42 @@
     document.addEventListener("keydown", abortState.escHandler);
   }
 
-  async function runSequence(overlay, frame) {
+  function waitForAudioChoice() {
+    return new Promise(function (resolve) {
+      var yes = document.getElementById("intro-audio-yes");
+      var no = document.getElementById("intro-audio-no");
+      var promptEl = document.getElementById(AUDIO_PROMPT_ID);
+
+      function finish(withAudio) {
+        if (yes) yes.onclick = null;
+        if (no) no.onclick = null;
+        if (promptEl) {
+          promptEl.hidden = true;
+          promptEl.setAttribute("aria-hidden", "true");
+        }
+        resolve(withAudio);
+      }
+
+      if (yes) {
+        yes.onclick = function (ev) {
+          ev.preventDefault();
+          playIntroThemeFromUserGesture();
+          finish(true);
+        };
+      }
+      if (no) {
+        no.onclick = function (ev) {
+          ev.preventDefault();
+          stopIntroTheme();
+          finish(false);
+        };
+      }
+
+      if (!yes && !no) finish(false);
+    });
+  }
+
+  async function runSequence(overlay, frame, withAudio) {
     var mq = window.matchMedia("(prefers-color-scheme: dark)");
 
     function syncScheme() {
@@ -1101,7 +1151,7 @@
     }
 
     document.body.classList.add("intro-active");
-    tryPlayIntroTheme();
+    if (!withAudio) stopIntroTheme();
 
     var pendingCategoryEl = null;
     var categoryAnimIndex = 0;
@@ -1144,11 +1194,45 @@
       return;
     }
 
-    overlay.removeAttribute("hidden");
+    var plan = buildPlanFromStack();
+    if (plan.length === 0) {
+      overlay.parentNode.removeChild(overlay);
+      return;
+    }
 
-    runSequence(overlay, frame).catch(function () {
-      var mq = window.matchMedia("(prefers-color-scheme: dark)");
-      fadeOutAndRemove(overlay, mq, null);
+    overlay.removeAttribute("hidden");
+    overlay.classList.add("intro-overlay--awaiting-audio-choice");
+
+    var mqEarly = window.matchMedia("(prefers-color-scheme: dark)");
+    function onSchemeEarly() {
+      overlay.classList.toggle("intro-overlay--dark", mqEarly.matches);
+    }
+    if (mqEarly.addEventListener) mqEarly.addEventListener("change", onSchemeEarly);
+    else mqEarly.addListener(onSchemeEarly);
+    onSchemeEarly();
+
+    registerAbortShortcuts(overlay, mqEarly, onSchemeEarly);
+
+    var skipBtnEarly = document.getElementById("intro-skip");
+    if (skipBtnEarly) {
+      skipBtnEarly.onclick = function (ev) {
+        ev.preventDefault();
+        fadeOutAndRemove(overlay, mqEarly, onSchemeEarly);
+      };
+    }
+
+    requestAnimationFrame(function () {
+      var yesBtn = document.getElementById("intro-audio-yes");
+      if (yesBtn) yesBtn.focus();
+    });
+
+    waitForAudioChoice().then(function (withAudio) {
+      detachSchemeListener(mqEarly, onSchemeEarly);
+      overlay.classList.remove("intro-overlay--awaiting-audio-choice");
+      runSequence(overlay, frame, withAudio).catch(function () {
+        var mq = window.matchMedia("(prefers-color-scheme: dark)");
+        fadeOutAndRemove(overlay, mq, null);
+      });
     });
   }
 
