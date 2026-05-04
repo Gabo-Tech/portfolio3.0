@@ -1436,6 +1436,12 @@ body.intro-active {
   pointer-events: none;
 }
 
+/** Full-bleed intro canvas: no side inset beyond safe areas so icon train can cross edge-to-edge. */
+body.intro-active .intro-overlay {
+  padding: max(0px, env(safe-area-inset-top)) max(0px, env(safe-area-inset-right))
+    max(0px, env(safe-area-inset-bottom)) max(0px, env(safe-area-inset-left));
+}
+
 .intro-skip {
   position: fixed;
   z-index: 10001;
@@ -1592,13 +1598,13 @@ body.intro-active {
   perspective: 2200px;
 }
 
-/** During the sequence, give absolute-positioned intro batches room to use the viewport (minus overlay padding). */
+/** During the sequence, frame spans the full overlay width for the icon train sweep. */
 body.intro-active .intro-frame {
   align-self: stretch;
-  min-height: calc(100dvh - 3.25rem);
-  min-height: calc(100vh - 3.25rem);
+  min-height: 100dvh;
+  min-height: 100vh;
   width: 100%;
-  max-width: min(98vw, 80rem);
+  max-width: none;
 }
 
 .intro-category {
@@ -1695,10 +1701,10 @@ body.intro-active .intro-frame {
 /* Durations sync with portfolio.js INTRO_TRAIN_MS, INTRO_GRID_CELL_MS, INTRO_GRID_STAGGER_MS */
 @keyframes intro-tech-train-move {
   from {
-    transform: translate(-50%, 0) translateX(38vw);
+    transform: translate(-50%, 0) translateX(calc(50vw + 100%));
   }
   to {
-    transform: translate(-50%, 0) translateX(-38vw);
+    transform: translate(-50%, 0) translateX(calc(-50vw - 100%));
   }
 }
 
@@ -1737,7 +1743,7 @@ body.intro-active .intro-frame {
 }
 
 .intro-tech-batch--train-active .intro-tech-batch__strip {
-  animation: intro-tech-train-move 0.26s linear forwards;
+  animation: intro-tech-train-move 0.4s linear forwards;
 }
 
 .intro-tech-batch__grid {
@@ -1753,7 +1759,8 @@ body.intro-active .intro-frame {
   max-width: none;
   max-height: none;
   margin: 0 auto;
-  padding: clamp(0.65rem, 2.2vmin, 1.5rem);
+  padding: max(0px, env(safe-area-inset-top)) max(0px, env(safe-area-inset-right))
+    max(0px, env(safe-area-inset-bottom)) max(0px, env(safe-area-inset-left));
   box-sizing: border-box;
   overflow: hidden;
 }

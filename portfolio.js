@@ -842,7 +842,7 @@
   /** Category title on screen (ms). */
   var INTRO_CATEGORY_MS = 400;
   /** Match `intro-tech-train-move` in styles.css (s → ms). */
-  var INTRO_TRAIN_MS = 260;
+  var INTRO_TRAIN_MS = 400;
   /** Max per-cell grid animation; match `intro-tech-cell-settle` in styles.css (ms). */
   var INTRO_GRID_CELL_MS = 360;
   var INTRO_GRID_STAGGER_MS = 18;
