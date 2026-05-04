@@ -155,6 +155,18 @@ blockquote p.type-mix {
   font-weight: 500;
 }
 
+@media (min-width: 48rem) {
+  :root {
+    --layout-gutter: clamp(1.125rem, 2.75vw + 0.4rem, 1.75rem);
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --layout-gutter: clamp(1.375rem, 3.25vw + 0.55rem, 2.35rem);
+  }
+}
+
 @media (min-width: 1600px) {
   html {
     font-size: 104%;
@@ -163,7 +175,7 @@ blockquote p.type-mix {
 
 @media (min-width: 1920px) {
   :root {
-    --layout-gutter: clamp(0.5rem, 0.75vw + 0.2rem, 0.725rem);
+    --layout-gutter: clamp(1.65rem, 2.75vw + 0.85rem, 3rem);
   }
 
   html {
@@ -173,7 +185,7 @@ blockquote p.type-mix {
 
 @media (min-width: 2560px) {
   :root {
-    --layout-gutter: clamp(0.325rem, 0.5vw, 0.575rem);
+    --layout-gutter: clamp(2rem, 3.5vw + 0.6rem, 3.75rem);
     --max: min(
       96rem,
       calc(
@@ -190,7 +202,7 @@ blockquote p.type-mix {
 
 @media (min-width: 3840px) {
   :root {
-    --layout-gutter: clamp(0.375rem, 0.55vw, 0.75rem);
+    --layout-gutter: clamp(2.25rem, 4vw + 1.25rem, 4.75rem);
     --max: min(
       122rem,
       calc(
@@ -1397,7 +1409,7 @@ body.intro-active {
 }
 
 .intro-tech__icon {
-  font-size: clamp(7rem, 38vw, 26rem);
+  font-size: clamp(10rem, 45vw, 36rem);
   line-height: 1;
   filter: var(--intro-icon-filter);
 }
@@ -1461,7 +1473,7 @@ body.intro-active {
   }
 
   .intro-tech__icon {
-    font-size: clamp(3.25rem, 20vw, 12rem);
+    font-size: clamp(4.75rem, 29vw, 17rem);
   }
 
   .intro-final__name {
@@ -1480,7 +1492,7 @@ body.intro-active {
   }
 
   .intro-tech__icon {
-    font-size: clamp(7rem, 38vw, 26rem);
+    font-size: clamp(10rem, 45vw, 36rem);
   }
 
   .intro-final__name {
