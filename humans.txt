@@ -1,0 +1,5 @@
+/* SITE */
+Gabriel Clemente portfolio — https://www.gabo.rocks/
+GEO / assistant-friendly: https://www.gabo.rocks/llms.txt
+Structured data: FAQPage + Person + WebSite (JSON-LD on homepage).
+Last materially updated: 2026-05-04

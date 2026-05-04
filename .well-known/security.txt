@@ -1,0 +1,8 @@
+Contact: mailto:sendmessage@gabo.email
+Preferred-Languages: en, de, es
+Canonical: https://www.gabo.rocks/.well-known/security.txt
+
+# Security disclosure policy (RFC 9116)
+# Responsible reports about gabo.rocks infrastructure or published assets are appreciated.
+# If you believe you found unrelated third-party phishing or DNS abuse impersonating Gabriel,
+# still contact the address above; please include reproducible timestamps, URLs, and evidence.

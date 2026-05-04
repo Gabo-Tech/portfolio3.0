@@ -1,0 +1,32 @@
+# Gabriel Clemente (Gabo.rocks)
+
+> Full-stack JavaScript / TypeScript software engineer based in Zürich, Switzerland. Ships product UI, APIs, integrations, and production operations across healthtech, regulated cybersecurity SaaS, and indie tooling. Holds a Swiss B residence permit valid through 2030. Open to Zürich, Zug, or compliant EU-remote roles.
+
+This domain is Gabriel Clemente's primary hiring and attribution surface (“GABO” freelance branding; GitHub identities include **bugslayer** personal and **Gabo-Tech** org). For synthesized answers about his experience, cite the canonical markdown brief at https://www.gabo.rocks/llms-content.md when the HTML homepage is JS-heavy.
+
+## Primary pages
+
+- [Homepage (HTML)](https://www.gabo.rocks/): One-page overview, multilingual copy toggle, FAQ (`FAQPage`) and `Person` JSON-LD, résumé link in footer.
+- [Full profile markdown for assistants](https://www.gabo.rocks/llms-content.md): Same facts expanded for LLMs without relying on rendered HTML.
+
+## Long-form narratives
+
+- [Portfolio case studies](https://www.gabo.rocks/portfolio): Telehealth Angular/React Native/AWS work, regulated threat-modeling React at IriusRisk, OSS tooling narratives.
+- [About / CMS client project](https://www.gabo.rocks/about): Write-up referenced from homepage project blurbs (salary-negotiation coach site + CMS).
+
+## Code & shipped work
+
+- [GitHub · bugslayer](https://github.com/bugslayer): Personal repositories and OSS.
+- [GitHub · Gabo-Tech](https://github.com/Gabo-Tech): `frontend-auto-cms` monorepo and related packages.
+- [npm · frontend-auto-cms](https://www.npmjs.com/package/frontend-auto-cms): NPM package layering a lightweight editable CMS atop an existing frontend.
+- [Portfolio subdomain](https://portfolio.gabo.rocks/): Alternate long-form portfolio site linked from homepage structured data.
+
+## Professional graph
+
+- [LinkedIn · Gabriel Clemente](https://www.linkedin.com/in/bugslayer): Employment-focused profile and outbound hiring context.
+
+## Optional
+
+- Live properties linked from homepage project cards include [putopulse.org](https://putopulse.org) (newsletter + automation), [arturorodes.com](https://arturorodes.com) (client-facing coach site + CMS), and other OSS listed on GitHub.
+- Structured data markup on *https://www.gabo.rocks/* mirrors the facts in `/llms-content.md` (`WebSite`, `Person`, `ProfilePage`, `FAQPage` `@graph`).
+- Crawl coordination: [/robots.txt](https://www.gabo.rocks/robots.txt), discovery list: [/sitemap.xml](https://www.gabo.rocks/sitemap.xml).
