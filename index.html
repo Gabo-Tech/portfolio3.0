@@ -3,39 +3,54 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#134e4a" media="(prefers-color-scheme: dark)" />
-    <title>Gabriel Clemente — Full-Stack JS/TS Engineer | Zürich</title>
+    <script src="portfolio.js"></script>
+    <meta name="theme-color" content="#F8F5F0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0F0F0F" media="(prefers-color-scheme: dark)" />
+    <title data-i18n="doc.title">Gabriel Clemente, full-stack JS/TS engineer | Zürich</title>
     <meta
       name="description"
-      content="Self-taught full-stack engineer (TypeScript, React, Node). Product UI, APIs, and integrations across healthtech, cybersecurity SaaS, and client delivery. Swiss B permit. Open to Zürich, Zug, EU-remote."
+      data-i18n-content="doc.description"
+      content="Self-taught full-stack dev (TypeScript, React, Node). I've shipped UI, APIs, and integrations in healthtech, cybersecurity SaaS, and client work. Swiss B permit. Open to Zürich, Zug, or EU remote."
     />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="author" content="Gabriel Clemente" />
     <link rel="canonical" href="https://www.gabo.rocks/" />
     <link rel="icon" href="https://www.gabo.rocks/favicon.ico" sizes="any" />
-    <meta property="og:title" content="Gabriel Clemente — Full-Stack JS/TS Engineer" />
+    <meta property="og:title" content="Gabriel Clemente, full-stack JS/TS engineer" />
     <meta
       property="og:description"
-      content="Full-stack JavaScript/TypeScript engineer in Zürich. Healthtech, threat-modeling SaaS, automation. Swiss B permit to 2030."
+      content="Full-stack JavaScript and TypeScript in Zürich. Healthtech, threat-modeling SaaS, automation. Swiss B permit through 2030."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.gabo.rocks/" />
     <meta property="og:site_name" content="Gabriel Clemente" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:image" content="https://www.gabo.rocks/og-image.png" />
-    <meta property="og:image:alt" content="Gabriel Clemente — Full-stack JavaScript TypeScript engineer" />
+    <meta property="og:image:alt" content="Gabriel Clemente, full-stack JavaScript and TypeScript engineer" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Gabriel Clemente — Full-Stack JS/TS Engineer" />
+    <meta name="twitter:title" content="Gabriel Clemente, full-stack JS/TS engineer" />
     <meta
       name="twitter:description"
-      content="Self-taught full-stack engineer in Zürich. React, Node, TypeScript. Swiss B permit. Healthtech &amp; cybersecurity SaaS."
+      content="Self-taught full-stack engineer in Zürich. React, Node, TypeScript. Swiss B permit. Healthtech and cybersecurity SaaS."
     />
     <meta name="twitter:image" content="https://www.gabo.rocks/og-image.png" />
+    <meta name="twitter:image:alt" content="Gabriel Clemente portfolio, full-stack JavaScript engineer, Zürich" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-sans/Geist-Black.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,900;1,14..32,400&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -44,12 +59,28 @@
       integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    </noscript>
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css" />
+    </noscript>
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
@@ -68,7 +99,7 @@
             "@id": "https://www.gabo.rocks/#person",
             "name": "Gabriel Clemente",
             "jobTitle": "Full-stack software engineer",
-            "description": "Self-taught full-stack JavaScript and TypeScript engineer. Builds product UI, APIs, and integrations across healthtech, cybersecurity SaaS, and automation.",
+            "description": "Self-taught full-stack JavaScript and TypeScript engineer. Builds product UI, APIs, and integrations: healthtech, cybersecurity SaaS, automation.",
             "email": "sendmessage@gabo.email",
             "telephone": "+41-76-733-16-55",
             "url": "https://www.gabo.rocks/",
@@ -78,21 +109,116 @@
               "addressLocality": "Zürich",
               "addressCountry": "CH"
             },
+            "givenName": "Gabriel",
+            "familyName": "Clemente",
+            "knowsLanguage": ["English", "Spanish", "Valencian", "Dutch", "Portuguese", "German"],
+            "hasOccupation": {
+              "@type": "Occupation",
+              "name": "Software developer",
+              "occupationalCategory": "Computer and mathematical occupations",
+              "skills": ["TypeScript", "JavaScript", "React", "Node.js", "Angular", "PostgreSQL"]
+            },
+            "alumniOf": [
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Brigham Young University-Idaho"
+              },
+              {
+                "@type": "EducationalOrganization",
+                "name": "Universidad CEU Cardenal Herrera"
+              }
+            ],
             "knowsAbout": [
               "JavaScript",
               "TypeScript",
               "React",
-              "Node.js",
               "Angular",
+              "Next.js",
+              "Astro",
+              "Node.js",
+              "Express",
               "PostgreSQL",
+              "MongoDB",
               "AWS",
-              "Software engineering"
+              "Docker",
+              "Vitest",
+              "Jest",
+              "Cybersecurity SaaS",
+              "Health technology",
+              "Technical leadership"
             ],
             "sameAs": [
               "https://www.linkedin.com/in/bugslayer/",
               "https://github.com/bugslayer",
               "https://www.gabo.rocks/",
-              "https://portfolio.gabo.rocks/"
+              "https://portfolio.gabo.rocks/",
+              "https://github.com/Gabo-Tech/frontend-auto-cms",
+              "https://www.npmjs.com/package/frontend-auto-cms",
+              "https://putopulse.org",
+              "https://arturorodes.com"
+            ]
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://www.gabo.rocks/#profile",
+            "url": "https://www.gabo.rocks/",
+            "name": "Gabriel Clemente, full-stack engineer | Zürich",
+            "inLanguage": "en",
+            "isPartOf": { "@id": "https://www.gabo.rocks/#website" },
+            "mainEntity": { "@id": "https://www.gabo.rocks/#person" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.gabo.rocks/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Who is Gabriel Clemente?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gabriel Clemente is a full-stack software engineer specializing in JavaScript and TypeScript. He builds product UIs, APIs, integrations, and production operations. His recent roles include freelance engineering at GABO (Switzerland), frontend development at IriusRisk (regulated threat-modeling software), full-stack engineering at Beyondbmi (telehealth), and SMB work under GABO. He holds a Swiss B residence permit valid through 2030 and is based in Zürich."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Gabriel Clemente's work authorization in Switzerland?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "He is based in Zürich, Switzerland, holds a Swiss B permit through 2030, and communicates on this site that Swiss employers typically do not need to sponsor him. He seeks roles in Zürich, Zug, or compliant EU-remote arrangements depending on jurisdiction."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What technologies does Gabriel Clemente emphasize?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Core production experience includes React, TypeScript and JavaScript across web and native; Angular from telehealth SaaS work; Node.js and Express backends; Postgres and tooling such as TanStack Query, Zustand, Ant Design, Docker, Cypress, Vitest, and CI with GitHub Actions. He publishes npm tooling including frontend-auto-cms."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is this portfolio site built?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Static-first HTML and CSS with minimal JavaScript: localized copy, theme toggle, optional intro sequence, and scroll helpers. No heavy client framework on this page."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where can recruiters verify projects and publications?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "See selected work on https://www.gabo.rocks/ plus case studies on https://www.gabo.rocks/portfolio/, code on GitHub at https://github.com/bugslayer and https://github.com/Gabo-Tech/, the npm package frontend-auto-cms at https://www.npmjs.com/package/frontend-auto-cms and live shipped sites such as arturorodes.com and putopulse.org linked from this portfolio."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do recruiters or clients contact Gabriel?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Email sendmessage@gabo.email or telephone +41767331655. His résumé PDF is linked from https://www.gabo.rocks/ footer and longer-form pages include https://portfolio.gabo.rocks/."
+                }
+              }
             ]
           }
         ]
@@ -100,171 +226,247 @@
     </script>
   </head>
   <body>
-    <a class="skip" href="#main-content">Skip to content</a>
+    <a class="skip" href="#main-content" data-i18n="skip.content">Skip to content</a>
+    <div
+      id="intro-overlay"
+      class="intro-overlay"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      data-i18n-aria-label="intro.ariaLabel"
+      aria-label="Portfolio introduction"
+      aria-describedby="intro-dialog-help"
+    >
+      <p id="intro-dialog-help" class="visually-hidden" data-i18n="intro.help">
+        Brief animated overview of toolkit categories. Press Escape to dismiss.
+      </p>
+      <div id="intro-live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+      <audio id="intro-theme-audio" class="intro-theme-audio" preload="none" playsinline>
+        <source src="maintheme.mp3" type="audio/mpeg" />
+      </audio>
+      <button
+        type="button"
+        id="intro-skip"
+        class="intro-skip"
+        data-i18n="intro.skip"
+        data-i18n-aria-label="intro.skipAria"
+      >
+        Skip intro
+      </button>
+      <div id="intro-frame" class="intro-frame" aria-hidden="true"></div>
+    </div>
     <header class="site-header" role="banner">
       <div class="nav-inner">
-        <a class="brand" href="#summary">Gabriel Clemente</a>
-        <nav class="nav-scroll" aria-label="In-page sections">
+        <a class="brand type-mix" href="#summary"><span class="type-mix__hit">Gabriel</span> Clemente</a>
+        <div class="nav-actions">
+          <nav class="nav-scroll" data-i18n-aria-label="nav.aria" aria-label="In-page sections">
           <ul class="nav-links">
-            <li><a href="#summary">Summary</a></li>
-            <li><a href="#impact">Impact</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#summary" data-i18n="nav.summary">Summary</a></li>
+            <li><a href="#impact" data-i18n="nav.impact">Impact</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+            <li><a href="#stack" data-i18n="nav.stack">Stack</a></li>
+            <li><a href="#work" data-i18n="nav.work">Work</a></li>
+            <li><a href="#education" data-i18n="nav.education">Education</a></li>
+            <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
           </ul>
         </nav>
+        <button
+          type="button"
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-pressed="false"
+          data-i18n-aria-label="theme.switchDark"
+          aria-label="Switch to dark theme"
+        >
+          <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+        </button>
+        </div>
       </div>
     </header>
 
     <main id="main-content">
-      <section id="summary" aria-labelledby="summary-heading">
-        <p class="section-label" id="label-summary">Overview</p>
-        <h1 id="summary-heading">Gabriel Clemente</h1>
-        <p class="hero-title">Full-stack software engineer — JavaScript / TypeScript</p>
-        <p class="hero-meta">
-          Zürich, Switzerland<br />
-          <span class="permit">Swiss B permit through 2030 — no Swiss sponsorship needed for employers.</span>
+      <div class="print-only recruiter-print-banner" data-i18n-html="print.banner">
+        <strong>Gabriel Clemente</strong>. Full-stack developer (TypeScript / JavaScript). Zürich, Swiss B permit through
+        2030. Available 2026. Static-first, minimal JS site.
+      </div>
+      <section id="summary" aria-labelledby="label-summary summary-heading">
+        <p class="section-label" id="label-summary" data-i18n="section.summary">Overview</p>
+        <h1 id="summary-heading" class="type-mix type-mix--display">
+          <span class="type-mix__hit">Gabriel</span> Clemente
+        </h1>
+        <p class="hero-title type-mix" data-i18n-html="hero.title">
+          <span class="type-mix__hit">Full-stack</span> software engineer,
+          <span class="type-mix__hit">JavaScript</span> / <span class="type-mix__hit">TypeScript</span>
         </p>
-        <ul class="contact-list">
+        <p class="hero-meta" data-i18n-html="hero.meta">
+          Zürich, Switzerland<br />
+          <span class="permit type-mix"
+            ><span class="type-mix__hit">Swiss B permit</span> through 2030. No Swiss sponsorship needed for
+            employers.</span
+          >
+        </p>
+        <p class="hero-target type-mix" data-i18n-html="hero.targetRole">
+          Targeting:
+          <span class="type-mix__hit">Full-stack developer</span>
+          roles: product UI, APIs, and integrations (<span class="type-mix__hit">TypeScript</span> /
+          <span class="type-mix__hit">JavaScript</span>).
+        </p>
+        <p class="hero-availability type-mix" data-i18n-html="hero.availability">
+          <span class="type-mix__hit">Open to full-time</span> or long-term contract from <strong>2026</strong>. Zürich,
+          Zug, or compliant EU remote.
+        </p>
+        <ul class="contact-list" data-i18n-aria-label="contactList.aria" aria-label="Contact methods and profiles">
           <li><a href="mailto:sendmessage@gabo.email">sendmessage@gabo.email</a></li>
           <li><a href="tel:+41767331655">+41&nbsp;76&nbsp;733&nbsp;16&nbsp;55</a></li>
           <li>
-            <a href="https://github.com/bugslayer" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/bugslayer/" target="_blank" rel="noopener noreferrer"
-              >LinkedIn</a
+            <a href="https://github.com/bugslayer" target="_blank" rel="noopener noreferrer"
+              >GitHub<span class="visually-hidden" data-i18n="a11y.newTab"> (opens in new tab)</span></a
             >
           </li>
           <li>
-            <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks</a>
+            <a href="https://www.linkedin.com/in/bugslayer/" target="_blank" rel="noopener noreferrer"
+              >LinkedIn<span class="visually-hidden" data-i18n="a11y.newTab"> (opens in new tab)</span></a
+            >
           </li>
           <li>
-            <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">Case studies</a>
+            <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer"
+              ><span data-i18n="contactList.caseStudies">Case studies</span><span class="visually-hidden" data-i18n="a11y.newTab"> (opens in new tab)</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://portfolio.gabo.rocks/Gabriel%20Clemente%20-%20Full%20Stack%20JavaScript%20Software%20Engineer%20-%20Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span data-i18n="contactList.resume">Résumé (PDF)</span><span class="visually-hidden" data-i18n="a11y.opensResume"> (opens résumé in new tab)</span></a
+            >
           </li>
         </ul>
-        <p class="lede lede--spaced-top">
-          I ship end-to-end product work: clear UI, dependable APIs, integrations, and the operational glue around
-          them. Self-taught from 2019 after a year of CS at BYU Idaho; since then I’ve delivered on a
-          <strong>telehealth</strong> stack (Angular, React Native, Node, Postgres, AWS), an <strong>enterprise threat‑modeling</strong> UI
-          (React, TanStack Query, Zustand, Vitest), and today <strong>founder‑led engineering</strong> under GABO — client launches,
-          automation, and public tooling. I care about code the next person can read and systems that hold up in production;
-          if something in your stack is new to me, I learn it quickly.
+        <p class="lede lede--spaced-top type-mix" data-i18n-html="lede">
+          I build full-stack product work: UIs, APIs, integrations, and whatever keeps things running in production.
+          Self-taught since 2019 (one year of CS at BYU Idaho, then I left to ship real stuff). Since then I've worked on a
+          <strong>telehealth</strong> stack (Angular, React Native, Node, Postgres, AWS), an <strong>enterprise threat-modeling</strong> UI
+          (React, TanStack Query, Zustand, Vitest), and now <strong>freelance engineering</strong> at GABO: client launches,
+          automation, and public tooling. I write code the next person can read and systems that don't fall over in prod. New stack? I'll learn it.
         </p>
       </section>
 
-      <section id="impact" aria-labelledby="impact-heading">
-        <p class="section-label" id="label-impact">At a glance</p>
-        <h2 id="impact-heading">Impact</h2>
-        <ul class="impact-list">
-          <li><strong>4+ years</strong> shipping JavaScript/TypeScript products for production users (B2B, regulated, and consumer‑facing).</li>
-          <li><strong>10+</strong> client and product initiatives — from marketing sites to integration‑heavy workflows.</li>
-          <li><strong>Beyondbmi:</strong> Full-stack features across scheduling, trackers, video, and clinical flows. Learned Angular on the job; <strong>first production MR in week one</strong>; ~1 month solo ownership (production DB, critical bugs, releases).</li>
-          <li><strong>IriusRisk:</strong> <strong>20+</strong> React components; Ant Design, TanStack Query, Zustand; <strong>100+</strong> diagram‑editor fixes over ~6 months; <strong>2nd place</strong> company hackathon.</li>
-          <li><strong>GABO (current):</strong> Puto Pulse to <strong>500+</strong> subscribers; arturorodes.com (Astro, Alpine, GSAP); published <strong>frontend-auto-cms</strong> for repo‑backed editorial workflows.</li>
+      <section id="impact" aria-labelledby="label-impact impact-heading">
+        <p class="section-label" id="label-impact" data-i18n="section.impact">In short</p>
+        <h2 id="impact-heading" data-i18n="impact.heading">Impact</h2>
+        <ul class="impact-list type-mix">
+          <li data-i18n-html="impact.li1"><strong>4+ years</strong> shipping JavaScript/TypeScript products for real users (B2B, regulated, consumer-facing).</li>
+          <li data-i18n-html="impact.li2"><strong>10+</strong> client and product initiatives, from marketing sites to integration-heavy workflows.</li>
+          <li data-i18n-html="impact.li3"><strong>Beyondbmi:</strong> Full-stack features across scheduling, trackers, video, and clinical flows. Learned Angular on the job; <strong>first production MR in week one</strong>; ~1 month solo ownership (production DB, critical bugs, releases). Shipped steadily until budgets tightened near a product milestone.</li>
+          <li data-i18n-html="impact.li4"><strong>IriusRisk:</strong> <strong>20+</strong> React components; Ant Design, TanStack Query, Zustand; <strong>100+</strong>  bug fixes over ~6 months; <strong>2nd place</strong> company hackathon.</li>
+          <li data-i18n-html="impact.li5"><strong>GABO (current):</strong> Puto Pulse to <strong>500+</strong> subscribers; arturorodes.com (Astro, Alpine, GSAP); published <strong>frontend-auto-cms</strong> for repo-backed editorial workflows.</li>
         </ul>
       </section>
 
-      <section id="experience" aria-labelledby="experience-heading">
-        <p class="section-label" id="label-experience">Roles</p>
-        <h2 id="experience-heading">Experience</h2>
+      <section id="experience" aria-labelledby="label-experience experience-heading">
+        <p class="section-label" id="label-experience" data-i18n="section.experience">Roles</p>
+        <h2 id="experience-heading" data-i18n="experience.heading">Experience</h2>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">Founder &amp; lead engineer</h3>
-            <span class="job-meta">Oct 2025 – present</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.gaboFounder.title"><span class="type-mix__hit">Freelance</span> software engineer</h3>
+            <span class="job-meta" data-i18n-html="jobs.gaboFounder.meta"><time datetime="2025-10">Oct 2025</time> to present</span>
           </div>
-          <p class="job-company">GABO LLC · Switzerland · Remote</p>
+          <p class="job-company" data-i18n="jobs.gaboFounder.company">GABO LLC, Switzerland, remote</p>
           <ul>
-            <li>Client delivery plus own products: newsletter (Puto Pulse), automation (email/social), and npm tooling.</li>
-            <li>Shipped arturorodes.com with Astro, Alpine.js, GSAP; frontend-auto-cms for guardrailed, repo-backed content updates.</li>
-            <li>Stack varies by project; I still write the production code.</li>
+            <li data-i18n="jobs.gaboFounder.li1">Client delivery plus own products: newsletter (Puto Pulse), automation (email/social), and npm tooling.</li>
+            <li data-i18n="jobs.gaboFounder.li2">Shipped arturorodes.com with Astro, Alpine.js, GSAP; frontend-auto-cms for guardrailed, repo-backed content updates.</li>
+            <li data-i18n="jobs.gaboFounder.li3">Stack varies by project; I still write the production code.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">Frontend developer</h3>
-            <span class="job-meta">Oct 2024 – Oct 2025</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.irius.title"><span class="type-mix__hit">Frontend</span> developer</h3>
+            <span class="job-meta" data-i18n-html="jobs.irius.meta"><time datetime="2024-10">Oct 2024</time> to <time datetime="2025-10">Oct 2025</time></span>
           </div>
-          <p class="job-company">IriusRisk · Huesca, Spain (remote)</p>
+          <p class="job-company" data-i18n="jobs.irius.company">IriusRisk, Huesca, Spain (remote)</p>
           <ul>
-            <li>Enterprise threat-modeling product UI: React, TypeScript, Ant Design, TanStack Query, Zustand, SASS, Vitest.</li>
-            <li>PR review, backend API collaboration, and production support in a regulated context.</li>
-            <li>2nd place company-wide hackathon; reliable feature delivery on high-complexity UI.</li>
+            <li data-i18n="jobs.irius.li1">Enterprise threat-modeling product UI: React, TypeScript, Ant Design, TanStack Query, Zustand, SASS, Vitest.</li>
+            <li data-i18n="jobs.irius.li2">PR review, backend API collaboration, and production support in a regulated context.</li>
+            <li data-i18n="jobs.irius.li3">2nd place company-wide hackathon; reliable feature delivery on high-complexity UI.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">Independent build period</h3>
-            <span class="job-meta">Apr 2024 – Oct 2024</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.independent.title"><span class="type-mix__hit">Independent</span> build period</h3>
+            <span class="job-meta" data-i18n-html="jobs.independent.meta"><time datetime="2024-04">Apr 2024</time> to <time datetime="2024-10">Oct 2024</time></span>
           </div>
-          <p class="job-company">Self-directed · Remote</p>
+          <p class="job-company" data-i18n="jobs.independent.company">Self-directed, remote</p>
           <ul>
-            <li>Active search for full-time roles while shipping public projects so skills and cadence stayed current.</li>
-            <li>Continuous commits and portfolio-visible work — no gap in output.</li>
+            <li data-i18n="jobs.independent.li1">Looking for full-time roles while keeping public projects alive so I didn't go stale.</li>
+            <li data-i18n="jobs.independent.li2">Steady commits and portfolio-visible work; there wasn't really a gap.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">Full-stack engineer</h3>
-            <span class="job-meta">Nov 2022 – Apr 2024</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.beyond.title"><span class="type-mix__hit">Full-stack</span> engineer</h3>
+            <span class="job-meta" data-i18n-html="jobs.beyond.meta"><time datetime="2022-11">Nov 2022</time> to <time datetime="2024-04">Apr 2024</time></span>
           </div>
-          <p class="job-company">Beyondbmi · Dublin, Ireland (remote)</p>
+          <p class="job-company" data-i18n="jobs.beyond.company">Beyondbmi, Dublin, Ireland (remote)</p>
           <ul>
-            <li>Telehealth SaaS: Angular, TypeScript, Express, TypeORM, Postgres, React Native, AWS (incl. Lambda), Stripe, messaging/automation.</li>
-            <li>Learned Angular from zero; first merge request in week one; solo ownership for ~1 month while senior was away (production DB, critical bugs, releases).</li>
-            <li>Engagement ended when company budget tightened; product was near a target milestone.</li>
+            <li data-i18n="jobs.beyond.li1">Telehealth SaaS: Angular, TypeScript, Express, TypeORM, Postgres, React Native, AWS (incl. Lambda), Stripe, messaging/automation.</li>
+            <li data-i18n="jobs.beyond.li2">Learned Angular from zero; first merge request in week one; solo ownership for ~1 month while senior was away (production DB, critical bugs, releases).</li>
+            <li data-i18n="jobs.beyond.li3">
+              Shipped scheduling, trackers, video, clinical flows, and integrations until the engagement ended when company
+              budgets tightened; product was near a target milestone.
+            </li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">Solo full-stack developer</h3>
-            <span class="job-meta">Aug 2021 – Nov 2022</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.solo.title"><span class="type-mix__hit">Solo</span> full-stack developer</h3>
+            <span class="job-meta" data-i18n-html="jobs.solo.meta"><time datetime="2021-08">Aug 2021</time> to <time datetime="2022-11">Nov 2022</time></span>
           </div>
-          <p class="job-company">GABO · Spain / self-employed · Mostly remote</p>
+          <p class="job-company" data-i18n="jobs.solo.company">GABO, Spain / self-employed, mostly remote</p>
           <ul>
-            <li>SMB and startup delivery: landings, e-commerce, SEO; breadth from greenfield JS to WordPress, PHP, and integration-heavy work.</li>
-            <li>Futuria / Digital Kit — Rehubik automation (forms, SQL, Odoo, Zapier, APIs, Python, Google Apps Script).</li>
-            <li>Clients via Valencia accelerators; US entity for clean contracting.</li>
+            <li data-i18n="jobs.solo.li1">SMB and startup work: landings, ecommerce, SEO; everything from greenfield JS to WordPress, PHP, and integrations.</li>
+            <li data-i18n="jobs.solo.li2">Futuria / Digital Kit: Rehubik automation (forms, SQL, Odoo, Zapier, APIs, Python, Google Apps Script).</li>
+            <li data-i18n="jobs.solo.li3">Clients via Valencia accelerators; US entity for clean contracting.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">UI designer</h3>
-            <span class="job-meta">Jul 2022 – Aug 2022</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.uiDesigner.title"><span class="type-mix__hit">UI</span> designer</h3>
+            <span class="job-meta" data-i18n-html="jobs.uiDesigner.meta"><time datetime="2022-07">Jul 2022</time> to <time datetime="2022-08">Aug 2022</time></span>
           </div>
-          <p class="job-company">talenTeal · Valencia, Spain (on-site)</p>
+          <p class="job-company" data-i18n="jobs.uiDesigner.company">talenTeal, Valencia, Spain (on-site)</p>
           <ul>
-            <li>Redesigned company landing for clearer UX/UI and accessibility.</li>
-            <li>Stronger engagement and a more navigable marketing surface.</li>
+            <li data-i18n="jobs.uiDesigner.li1">Redesigned company landing for clearer UX/UI and accessibility.</li>
+            <li data-i18n="jobs.uiDesigner.li2">Stronger engagement and a more navigable marketing surface.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-header">
-            <h3 class="job-title">Technical support specialist</h3>
-            <span class="job-meta">Feb 2022 – Mar 2022</span>
+            <h3 class="job-title type-mix" data-i18n-html="jobs.lujo.title"><span class="type-mix__hit">Technical</span> support specialist</h3>
+            <span class="job-meta" data-i18n-html="jobs.lujo.meta"><time datetime="2022-02">Feb 2022</time> to <time datetime="2022-03">Mar 2022</time></span>
           </div>
-          <p class="job-company">Lujo Network · Valencia, Spain (hybrid)</p>
+          <p class="job-company" data-i18n="jobs.lujo.company">Lujo Network, Valencia, Spain (hybrid)</p>
           <ul>
-            <li>Hardened digital footprint: secure sign-in flows, firewalls, backup posture; database work including migration off Google Sheets to a real database.</li>
-            <li>Contributed to website segments and team training on security practices.</li>
+            <li data-i18n="jobs.lujo.li1">Hardened digital footprint: secure sign-in flows, firewalls, backup posture; database work including migration off Google Sheets to a real database.</li>
+            <li data-i18n="jobs.lujo.li2">Contributed to website segments and team training on security practices.</li>
           </ul>
         </article>
       </section>
 
-      <section id="stack" aria-labelledby="stack-heading">
-        <p class="section-label" id="label-stack">Toolkit</p>
-        <h2 id="stack-heading">Core stack</h2>
+      <section id="stack" aria-labelledby="label-stack stack-heading">
+        <p class="section-label" id="label-stack" data-i18n="section.stack">Toolkit</p>
+        <h2 id="stack-heading" class="type-mix" data-i18n-html="stack.heading"><span class="type-mix__hit">Core</span> stack</h2>
         <div class="stack-groups">
           <div class="stack-group">
-            <h3>Frontend</h3>
+            <h3 data-i18n="stack.frontend">Frontend</h3>
             <div class="tech-grid">
               <span class="tech-item"><i class="devicon-react-original colored" aria-hidden="true"></i> React</span>
               <span class="tech-item"><i class="devicon-typescript-plain colored" aria-hidden="true"></i> TypeScript</span>
@@ -278,8 +480,8 @@
               <span class="tech-item"><i class="fas fa-bolt" aria-hidden="true"></i> TanStack Query</span>
             </div>
           </div>
-          <div class="stack-group">
-            <h3>Backend &amp; APIs</h3>
+          <div class="stack-group" data-intro-merge-next="true">
+            <h3 data-i18n="stack.backend">Backend &amp; APIs</h3>
             <div class="tech-grid">
               <span class="tech-item"><i class="devicon-nodejs-plain colored" aria-hidden="true"></i> Node.js</span>
               <span class="tech-item"><i class="devicon-express-original colored" aria-hidden="true"></i> Express</span>
@@ -287,7 +489,7 @@
             </div>
           </div>
           <div class="stack-group">
-            <h3>Data &amp; platform</h3>
+            <h3 data-i18n="stack.data">Data &amp; platform</h3>
             <div class="tech-grid">
               <span class="tech-item"><i class="devicon-postgresql-plain colored" aria-hidden="true"></i> PostgreSQL</span>
               <span class="tech-item"><i class="devicon-mongodb-plain colored" aria-hidden="true"></i> MongoDB</span>
@@ -297,7 +499,7 @@
             </div>
           </div>
           <div class="stack-group">
-            <h3>Quality &amp; delivery</h3>
+            <h3 data-i18n="stack.quality">Quality &amp; delivery</h3>
             <div class="tech-grid">
               <span class="tech-item"><i class="devicon-jest-plain colored" aria-hidden="true"></i> Jest</span>
               <span class="tech-item"><i class="fas fa-vial" aria-hidden="true"></i> Vitest</span>
@@ -308,125 +510,259 @@
             </div>
           </div>
         </div>
-        <p class="stack-more">
-          Also used: React Native, WordPress, PHP, Python, Laravel, Playwright, Tauri, Svelte, Zapier, Google Apps Script, Odoo, and more — ask for depth on any line item.
+        <p class="stack-more type-mix" data-i18n-html="stack.more">
+          Also used:
+          <span class="type-mix__hit">React Native</span>, WordPress, PHP,
+          <span class="type-mix__hit">Python</span>, Laravel, Playwright, Tauri, Svelte, Zapier, Google Apps Script,
+          Odoo, and more. Ask if you want detail on any of that.
         </p>
       </section>
 
-      <section id="work" aria-labelledby="work-heading">
-        <p class="section-label" id="label-work">Shipped</p>
-        <h2 id="work-heading">Selected work</h2>
+      <section id="work" aria-labelledby="label-work work-heading">
+        <p class="section-label" id="label-work" data-i18n="section.work">Shipped</p>
+        <h2 id="work-heading" class="type-mix" data-i18n-html="work.heading"><span class="type-mix__hit">Selected</span> work</h2>
         <ul class="work-list">
-          <li class="work-item">
+          <li class="work-item type-mix">
             <strong>Arturo Rodés</strong>
-            <p>
-              Coach marketing site + client-owned CMS workflow · Live:
-              <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com</a> · Featured
-              narrative:
-              <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer">gabo.rocks/about</a>
+            <p data-i18n-html="work.arturo">
+              Salary negotiation coach site and a client-owned CMS workflow. Live at
+              <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer"
+                >arturorodes.com<span class="visually-hidden"> (opens in new tab)</span></a
+              >. Longer write-up at
+              <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer"
+                >gabo.rocks/about<span class="visually-hidden"> (opens in new tab)</span></a
+              >.
             </p>
           </li>
-          <li class="work-item">
+          <li class="work-item type-mix">
             <strong>Puto Pulse</strong>
-            <p>
-              Newsletter and automation (<strong>500+</strong> subscribers) ·
-              <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org</a>
+            <p data-i18n-html="work.puto">
+              Newsletter and automation, <strong>500+</strong> subscribers.
+              <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer"
+                >putopulse.org<span class="visually-hidden"> (opens in new tab)</span></a
+              >
             </p>
           </li>
-          <li class="work-item">
+          <li class="work-item type-mix">
             <strong>frontend-auto-cms</strong>
-            <p>
-              Turn a frontend into an editable mini-CMS (<code>npm i frontend-auto-cms</code>) ·
+            <p data-i18n-html="work.cms">
+              Turn a frontend into a small editable CMS (<code>npm i frontend-auto-cms</code>).
               <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer"
-                >GitHub</a
+                >GitHub<span class="visually-hidden"> (opens in new tab)</span></a
               >
-              ·
+              ,
               <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer"
-                >npm</a
-              >
+                >npm<span class="visually-hidden"> (opens in new tab)</span></a
+              >.
             </p>
           </li>
-          <li class="work-item">
+          <li class="work-item type-mix">
+            <strong>Beyondbmi</strong>
+            <p data-i18n-html="work.beyondCase"></p>
+          </li>
+          <li class="work-item type-mix">
+            <strong>IriusRisk</strong>
+            <p data-i18n-html="work.iriusCase"></p>
+          </li>
+          <li class="work-item type-mix">
             <strong>ChatGPT Multiplatform Desktop Wrapper</strong>
-            <p>
-              Native-style desktop for Linux (Tauri + JS); bridges the gap where official installers omit Linux ·
+            <p data-i18n-html="work.chatgpt">
+              Native-feel desktop for Linux (Tauri + JS) where the official installers skip Linux.
               <a
                 href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper"
                 target="_blank"
                 rel="noopener noreferrer"
-                >GitHub</a
-              >
+                >GitHub<span class="visually-hidden"> (opens in new tab)</span></a
+              >.
             </p>
           </li>
-          <li class="work-item">
-            <strong>IriusRisk / Beyondbmi</strong>
-            <p>
-              Case-study cards ·
-              <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio</a>
-            </p>
+          <li class="work-item type-mix">
+            <strong data-i18n="work.moreStudiesLabel">More case studies</strong>
+            <p data-i18n-html="work.caseStudiesMore"></p>
           </li>
         </ul>
       </section>
 
-      <section id="recommend" aria-labelledby="recommend-heading">
-        <p class="section-label" id="label-recommend">Social proof</p>
-        <h2 id="recommend-heading">Recommendation</h2>
+      <section id="recommend" aria-labelledby="label-recommend recommend-heading">
+        <p class="section-label" id="label-recommend" data-i18n="section.recommend">From a client</p>
+        <h2 id="recommend-heading" data-i18n="recommend.heading">Recommendations</h2>
+        <figure class="blockquote-wrap">
+          <blockquote cite="https://arturorodes.com">
+            <p class="type-mix">
+              "One of the very few people I would recommend in the tech industry ...
+              <span class="type-mix__hit">high-quality work</span>, incredible
+              <span class="type-mix__hit">speed of execution</span>, and consistent
+              <span class="type-mix__hit">overdelivery</span> ...
+              <span class="type-mix__hit">relentless</span> in completing tasks."
+            </p>
+            <cite class="cite-name" data-i18n="recommend.cite">Arturo Rodés, Product Manager (client, arturorodes.com)</cite>
+          </blockquote>
+        </figure>
+        <p class="section-label section-label--inline" data-i18n="section.recommendManager">From a manager</p>
         <figure class="blockquote-wrap">
           <blockquote>
-            <p>
-              “One of the very few people I would recommend in the tech industry… high-quality work, incredible speed of
-              execution, and consistent overdelivery… relentless in completing tasks.”
-            </p>
-            <cite class="cite-name">Arturo Rodés — Product Manager (client, arturorodes.com)</cite>
+            <p class="type-mix" data-i18n-html="recommend.quote2"></p>
+            <cite class="cite-name" data-i18n="recommend.cite2">Ciro Vivacqua, CTO &amp; Enterprise Architect, Beyondbmi</cite>
           </blockquote>
         </figure>
         <p class="stack-more stack-more--tight-top">
-          <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer"
-            >More recommendations on gabo.rocks<span aria-hidden="true"> →</span></a
+          <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer" data-i18n-html="recommend.more"
+            >More on gabo.rocks<span class="visually-hidden"> (opens in new tab)</span><span aria-hidden="true">
+              &rarr;</span
+            ></a
           >
         </p>
       </section>
 
-      <section id="languages" aria-labelledby="languages-heading">
-        <p class="section-label" id="label-languages">Communication</p>
-        <h2 id="languages-heading">Languages</h2>
+      <section id="languages" aria-labelledby="label-languages languages-heading">
+        <p class="section-label" id="label-languages" data-i18n="section.languages">Communication</p>
+        <h2 id="languages-heading" data-i18n="languages.heading">Languages</h2>
         <ul class="lang-list">
-          <li>English, Spanish, Valencian — native.</li>
-          <li>Dutch — full professional fluency.</li>
-          <li>Portuguese — fluent.</li>
-          <li>German — learning (building toward day-to-day in CH).</li>
-          <li>Default for work: English.</li>
+          <li data-i18n="languages.li1">English, Spanish, Valencian (all native).</li>
+          <li data-i18n="languages.li2">Dutch: full professional fluency.</li>
+          <li data-i18n="languages.li3">Portuguese: fluent.</li>
+          <li data-i18n="languages.li4">German: learning, aiming for day-to-day in Switzerland.</li>
+          <li data-i18n="languages.li5">Default for work: English.</li>
         </ul>
       </section>
 
-      <section id="education" aria-labelledby="education-heading">
-        <p class="section-label" id="label-education">Background</p>
-        <h2 id="education-heading">Education &amp; path</h2>
-        <ul class="edu-list">
-          <li><strong>Self-taught software path</strong> — 2019–present: left university after one year to ship real products; continuous learning on the job.</li>
-          <li><strong>CS</strong> — BYU Idaho (2020–2021), foundation before full-time client work.</li>
-          <li><strong>Full-stack web development (MERN)</strong> — CEU Cardenal Herrera University bootcamp, Apr–Jul 2022.</li>
-          <li><strong>Short courses</strong> — DevOps and cybersecurity management (Charles Sturt University), 2021–2022.</li>
+      <section id="education" aria-labelledby="label-education education-heading">
+        <p class="section-label" id="label-education" data-i18n="section.education">Background</p>
+        <h2 id="education-heading" data-i18n-html="education.heading">Education &amp; path</h2>
+        <ul class="edu-list type-mix">
+          <li data-i18n-html="education.li1"><strong>Self-taught path</strong>, 2019 to now: left uni after a year to ship real products; still learning on the job.</li>
+          <li data-i18n-html="education.li2"><strong>CS</strong>, BYU Idaho (2020 to 2021), then into full-time work.</li>
+          <li data-i18n-html="education.li3"><strong>Full-stack web (MERN)</strong> bootcamp at CEU Cardenal Herrera, Apr to Jul 2022.</li>
+          <li data-i18n-html="education.li4"><strong>Short courses</strong>: DevOps and cybersecurity management (Charles Sturt), 2021 and 2022.</li>
         </ul>
+      </section>
+
+      <section id="faq" aria-labelledby="label-faq faq-heading">
+        <p class="section-label" id="label-faq" data-i18n="section.faq">Recruiters &amp; search</p>
+        <h2 id="faq-heading" data-i18n="faq.heading">Common questions</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-summary" id="faq-q-who" data-i18n="faq.qWho">Who is Gabriel Clemente?</summary>
+            <div class="faq-a">
+              <p data-i18n-html="faq.aWho">
+                Gabriel Clemente is a full-stack software engineer specializing in JavaScript and TypeScript. He builds
+                product UIs, APIs, integrations, and production operations. His recent roles include freelance
+                engineering at GABO (Switzerland), frontend development at IriusRisk (regulated threat-modeling software),
+                full-stack engineering at Beyondbmi (telehealth), and SMB work under GABO. He holds a Swiss B residence
+                permit valid through 2030 and is based in Zürich.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-summary" id="faq-q-permit" data-i18n="faq.qPermit">What is Gabriel Clemente's work authorization in Switzerland?</summary>
+            <div class="faq-a">
+              <p data-i18n-html="faq.aPermit">
+                He is based in Zürich, Switzerland, holds a Swiss B permit through 2030, and communicates on this site
+                that Swiss employers typically do not need to sponsor him. He seeks roles in Zürich, Zug, or compliant
+                EU-remote arrangements depending on jurisdiction.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-summary" id="faq-q-tech" data-i18n="faq.qTech">What technologies does Gabriel Clemente emphasize?</summary>
+            <div class="faq-a">
+              <p data-i18n-html="faq.aTech">
+                Core production experience includes React, TypeScript and JavaScript across web and native; Angular from
+                telehealth SaaS work; Node.js and Express backends; Postgres and tooling such as TanStack Query, Zustand,
+                Ant Design, Docker, Cypress, Vitest, and CI with GitHub Actions. He publishes npm tooling including
+                <a
+                  href="https://www.npmjs.com/package/frontend-auto-cms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >frontend-auto-cms<span class="visually-hidden"> (opens in new tab)</span></a
+                >.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-summary" id="faq-q-build" data-i18n="faq.qBuild">How is this portfolio site built?</summary>
+            <div class="faq-a">
+              <p data-i18n-html="faq.aBuild"></p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-summary" id="faq-q-verify" data-i18n="faq.qVerify">Where can recruiters verify projects and publications?</summary>
+            <div class="faq-a">
+              <p data-i18n-html="faq.aVerify">
+                See selected work on
+                <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer"
+                  >gabo.rocks<span class="visually-hidden"> (opens in new tab)</span></a
+                >
+                plus case studies on
+                <a href="https://www.gabo.rocks/portfolio/" target="_blank" rel="noopener noreferrer"
+                  >gabo.rocks/portfolio<span class="visually-hidden"> (opens in new tab)</span></a
+                >, code on GitHub at
+                <a href="https://github.com/bugslayer" target="_blank" rel="noopener noreferrer"
+                  >github.com/bugslayer<span class="visually-hidden"> (opens in new tab)</span></a
+                >
+                and
+                <a href="https://github.com/Gabo-Tech/" target="_blank" rel="noopener noreferrer"
+                  >github.com/Gabo-Tech<span class="visually-hidden"> (opens in new tab)</span></a
+                >, the npm package
+                <a
+                  href="https://www.npmjs.com/package/frontend-auto-cms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >frontend-auto-cms<span class="visually-hidden"> (opens in new tab)</span></a
+                >
+                and live shipped sites such as
+                <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer"
+                  >arturorodes.com<span class="visually-hidden"> (opens in new tab)</span></a
+                >
+                and
+                <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer"
+                  >putopulse.org<span class="visually-hidden"> (opens in new tab)</span></a
+                >
+                linked from this portfolio.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-summary" id="faq-q-contact" data-i18n="faq.qContact">How do recruiters or clients contact Gabriel?</summary>
+            <div class="faq-a">
+              <p data-i18n-html="faq.aContact">
+                Email
+                <a href="mailto:sendmessage@gabo.email">sendmessage@gabo.email</a> or telephone
+                <a href="tel:+41767331655">+41&nbsp;76&nbsp;733&nbsp;16&nbsp;55</a>. His résumé PDF is linked from the
+                <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer"
+                  >gabo.rocks<span class="visually-hidden"> (opens in new tab)</span></a
+                >
+                footer and longer-form pages include
+                <a href="https://portfolio.gabo.rocks/" target="_blank" rel="noopener noreferrer"
+                  >portfolio.gabo.rocks<span class="visually-hidden"> (opens in new tab)</span></a
+                >.
+              </p>
+            </div>
+          </details>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer" id="contact" role="contentinfo">
       <div class="footer-inner">
-        <p class="footer-note footer-lead">Available 2026 · Zürich · Zug · EU-remote</p>
+        <p class="footer-note footer-lead type-mix" data-i18n-html="footer.lead">
+          <span class="type-mix__hit">Available 2026</span>, Zürich, Zug, EU remote
+        </p>
         <div class="footer-cta">
           <a
             class="btn btn-primary"
             href="https://portfolio.gabo.rocks/Gabriel%20Clemente%20-%20Full%20Stack%20JavaScript%20Software%20Engineer%20-%20Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            >Download résumé (PDF)</a
+            ><span data-i18n="footer.resume">Download résumé (PDF)</span><span class="visually-hidden" data-i18n="a11y.opensResume"> (opens résumé in new tab)</span></a
           >
-          <a class="btn btn-secondary" href="mailto:sendmessage@gabo.email">Email me</a>
+          <a class="btn btn-secondary" href="mailto:sendmessage@gabo.email" data-i18n="footer.email">Email me</a>
         </div>
         <p class="footer-note">
-          Prefer the full story timeline?
-          <a href="https://portfolio.gabo.rocks/" target="_blank" rel="noopener noreferrer">portfolio.gabo.rocks</a>
+          <span data-i18n="footer.storyBefore">Want the longer story?</span>
+          <a href="https://portfolio.gabo.rocks/" target="_blank" rel="noopener noreferrer"
+            >portfolio.gabo.rocks<span class="visually-hidden" data-i18n="a11y.newTab"> (opens in new tab)</span></a
+          >
         </p>
       </div>
     </footer>
