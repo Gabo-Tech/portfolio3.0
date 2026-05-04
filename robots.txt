@@ -1,4 +1,4 @@
-# https://www.gabo.rocks/robots.txt
+# https://resume.gabo.rocks/robots.txt
 # Hiring / portfolio domain: indexable HTML and machine-readable GEO assets.
 
 User-agent: *
@@ -40,4 +40,4 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
-Sitemap: https://www.gabo.rocks/sitemap.xml
+Sitemap: https://resume.gabo.rocks/sitemap.xml
