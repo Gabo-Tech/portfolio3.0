@@ -252,36 +252,16 @@
       <audio id="intro-theme-audio" class="intro-theme-audio" preload="none" playsinline>
         <source src="maintheme.mp3" type="audio/mpeg" />
       </audio>
-      <div
-        id="intro-audio-prompt"
-        class="intro-audio-prompt"
-        role="group"
-        aria-labelledby="intro-audio-prompt-title"
-      >
-        <h2 id="intro-audio-prompt-title" class="intro-audio-prompt__title" data-i18n="intro.audioPromptTitle">
-          Play intro with sound?
-        </h2>
-        <p class="intro-audio-prompt__hint" data-i18n="intro.audioPromptHint">
-          This intro can play background music. Do you have audio enabled?
-        </p>
+      <div id="intro-audio-prompt" class="intro-audio-prompt">
         <div class="intro-audio-prompt__actions">
           <button
             type="button"
-            id="intro-audio-yes"
+            id="intro-start"
             class="intro-audio-prompt__btn intro-audio-prompt__btn--primary"
-            data-i18n="intro.audioYes"
-            data-i18n-aria-label="intro.audioYesAria"
+            data-i18n="intro.start"
+            data-i18n-aria-label="intro.startAria"
           >
-            Yes, with sound
-          </button>
-          <button
-            type="button"
-            id="intro-audio-no"
-            class="intro-audio-prompt__btn"
-            data-i18n="intro.audioNo"
-            data-i18n-aria-label="intro.audioNoAria"
-          >
-            No, silent intro
+            Start
           </button>
         </div>
       </div>
@@ -298,7 +278,10 @@
     </div>
     <header class="site-header" role="banner">
       <div class="nav-inner">
-        <a class="brand type-mix" href="#summary"><span class="type-mix__hit">Gabriel</span> Clemente</a>
+        <a class="brand type-mix" href="#summary" aria-label="Gabriel Clemente">
+          <span class="brand__full"><span class="type-mix__hit">Gabriel</span>&nbsp;Clemente</span>
+          <span class="brand__short" aria-hidden="true"><span class="type-mix__hit">G</span>C</span>
+        </a>
         <div class="nav-actions">
           <nav class="nav-scroll" data-i18n-aria-label="nav.aria" aria-label="In-page sections">
           <ul class="nav-links">
@@ -394,9 +377,8 @@
         </p>
       </section>
 
-      <section id="impact" aria-labelledby="label-impact impact-heading">
-        <p class="section-label" id="label-impact" data-i18n="section.impact">In short</p>
-        <h2 id="impact-heading" data-i18n="impact.heading">Impact</h2>
+      <section id="impact" aria-labelledby="impact-heading">
+        <h2 id="impact-heading" class="section-title" data-i18n="impact.heading">Impact</h2>
         <ul class="impact-list type-mix">
           <li data-i18n-html="impact.li1"><strong>4+ years</strong> shipping JavaScript/TypeScript products for real users (B2B, regulated, consumer-facing).</li>
           <li data-i18n-html="impact.li2"><strong>10+</strong> client and product initiatives, from marketing sites to integration-heavy workflows.</li>
@@ -406,9 +388,8 @@
         </ul>
       </section>
 
-      <section id="experience" aria-labelledby="label-experience experience-heading">
-        <p class="section-label" id="label-experience" data-i18n="section.experience">Roles</p>
-        <h2 id="experience-heading" data-i18n="experience.heading">Experience</h2>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading" class="section-title" data-i18n="experience.heading">Experience</h2>
 
         <article class="job">
           <div class="job-header">
@@ -502,9 +483,8 @@
         </article>
       </section>
 
-      <section id="stack" aria-labelledby="label-stack stack-heading">
-        <p class="section-label" id="label-stack" data-i18n="section.stack">Toolkit</p>
-        <h2 id="stack-heading" class="type-mix" data-i18n-html="stack.heading"><span class="type-mix__hit">Core</span> stack</h2>
+      <section id="stack" aria-labelledby="stack-heading">
+        <h2 id="stack-heading" class="section-title" data-i18n="stack.heading">Core stack</h2>
         <div class="stack-groups">
           <div class="stack-group">
             <h3 data-i18n="stack.frontend">Frontend</h3>
@@ -559,74 +539,19 @@
         </p>
       </section>
 
-      <section id="work" aria-labelledby="label-work work-heading">
-        <p class="section-label" id="label-work" data-i18n="section.work">Shipped</p>
-        <h2 id="work-heading" class="type-mix" data-i18n-html="work.heading"><span class="type-mix__hit">Selected</span> work</h2>
-        <ul class="work-list">
-          <li class="work-item type-mix">
-            <strong>Arturo Rodés</strong>
-            <p data-i18n-html="work.arturo">
-              Salary negotiation coach site and a client-owned CMS workflow. Live at
-              <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer"
-                >arturorodes.com<span class="visually-hidden"> (opens in new tab)</span></a
-              >. Longer write-up at
-              <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer"
-                >gabo.rocks/about<span class="visually-hidden"> (opens in new tab)</span></a
-              >.
-            </p>
-          </li>
-          <li class="work-item type-mix">
-            <strong>Puto Pulse</strong>
-            <p data-i18n-html="work.puto">
-              Newsletter and automation, <strong>500+</strong> subscribers.
-              <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer"
-                >putopulse.org<span class="visually-hidden"> (opens in new tab)</span></a
-              >
-            </p>
-          </li>
-          <li class="work-item type-mix">
-            <strong>frontend-auto-cms</strong>
-            <p data-i18n-html="work.cms">
-              Turn a frontend into a small editable CMS (<code>npm i frontend-auto-cms</code>).
-              <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer"
-                >GitHub<span class="visually-hidden"> (opens in new tab)</span></a
-              >
-              ,
-              <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer"
-                >npm<span class="visually-hidden"> (opens in new tab)</span></a
-              >.
-            </p>
-          </li>
-          <li class="work-item type-mix">
-            <strong>Beyondbmi</strong>
-            <p data-i18n-html="work.beyondCase"></p>
-          </li>
-          <li class="work-item type-mix">
-            <strong>IriusRisk</strong>
-            <p data-i18n-html="work.iriusCase"></p>
-          </li>
-          <li class="work-item type-mix">
-            <strong>ChatGPT Multiplatform Desktop Wrapper</strong>
-            <p data-i18n-html="work.chatgpt">
-              Native-feel desktop for Linux (Tauri + JS) where the official installers skip Linux.
-              <a
-                href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper"
-                target="_blank"
-                rel="noopener noreferrer"
-                >GitHub<span class="visually-hidden"> (opens in new tab)</span></a
-              >.
-            </p>
-          </li>
-          <li class="work-item type-mix">
-            <strong data-i18n="work.moreStudiesLabel">More case studies</strong>
-            <p data-i18n-html="work.caseStudiesMore"></p>
-          </li>
-        </ul>
+      <section id="work" aria-labelledby="work-heading">
+        <h2 id="work-heading" class="section-title" data-i18n="work.heading">Selected work</h2>
+        <ul
+          id="portfolio-work-list"
+          class="work-list"
+          data-work-dynamic="true"
+          aria-busy="true"
+          aria-live="polite"
+        ></ul>
       </section>
 
-      <section id="recommend" aria-labelledby="label-recommend recommend-heading">
-        <p class="section-label" id="label-recommend" data-i18n="section.recommend">From a client</p>
-        <h2 id="recommend-heading" data-i18n="recommend.heading">Recommendations</h2>
+      <section id="recommend" aria-labelledby="recommend-heading">
+        <h2 id="recommend-heading" class="section-title" data-i18n="recommend.heading">Recommendations</h2>
         <figure class="blockquote-wrap">
           <blockquote cite="https://arturorodes.com">
             <p class="type-mix">
@@ -639,7 +564,6 @@
             <cite class="cite-name" data-i18n="recommend.cite">Arturo Rodés, Product Manager (client, arturorodes.com)</cite>
           </blockquote>
         </figure>
-        <p class="section-label section-label--inline" data-i18n="section.recommendManager">From a manager</p>
         <figure class="blockquote-wrap">
           <blockquote>
             <p class="type-mix" data-i18n-html="recommend.quote2"></p>
@@ -655,21 +579,21 @@
         </p>
       </section>
 
-      <section id="languages" aria-labelledby="label-languages languages-heading">
-        <p class="section-label" id="label-languages" data-i18n="section.languages">Communication</p>
-        <h2 id="languages-heading" data-i18n="languages.heading">Languages</h2>
+      <section id="languages" aria-labelledby="languages-heading">
+        <h2 id="languages-heading" class="section-title" data-i18n="languages.heading">Languages</h2>
         <ul class="lang-list">
-          <li data-i18n="languages.li1">English, Spanish, Valencian (all native).</li>
-          <li data-i18n="languages.li2">Dutch: full professional fluency.</li>
-          <li data-i18n="languages.li3">Portuguese: fluent.</li>
-          <li data-i18n="languages.li4">German: learning, aiming for day-to-day in Switzerland.</li>
-          <li data-i18n="languages.li5">Default for work: English.</li>
+          <li data-i18n-html="languages.li1">
+            <strong>English</strong>, <strong>Spanish</strong>, <strong>Valencian</strong> (all native).
+          </li>
+          <li data-i18n-html="languages.li2"><strong>Dutch</strong>: full professional fluency.</li>
+          <li data-i18n-html="languages.li3"><strong>Portuguese</strong>: fluent.</li>
+          <li data-i18n-html="languages.li4"><strong>German</strong>: learning, aiming for day-to-day in Switzerland.</li>
+          <li data-i18n-html="languages.li5">Default for work: <strong>English</strong>.</li>
         </ul>
       </section>
 
-      <section id="education" aria-labelledby="label-education education-heading">
-        <p class="section-label" id="label-education" data-i18n="section.education">Background</p>
-        <h2 id="education-heading" data-i18n-html="education.heading">Education &amp; path</h2>
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading" class="section-title" data-i18n="education.heading">Education &amp; path</h2>
         <ul class="edu-list type-mix">
           <li data-i18n-html="education.li1"><strong>Self-taught path</strong>, 2019 to now: left uni after a year to ship real products; still learning on the job.</li>
           <li data-i18n-html="education.li2"><strong>CS</strong>, BYU Idaho (2020 to 2021), then into full-time work.</li>
@@ -678,9 +602,8 @@
         </ul>
       </section>
 
-      <section id="faq" aria-labelledby="label-faq faq-heading">
-        <p class="section-label" id="label-faq" data-i18n="section.faq">Recruiters &amp; search</p>
-        <h2 id="faq-heading" data-i18n="faq.heading">Common questions</h2>
+      <section id="faq" aria-labelledby="faq-heading">
+        <h2 id="faq-heading" class="section-title" data-i18n="faq.heading">Common questions</h2>
         <div class="faq-list">
           <details class="faq-item">
             <summary class="faq-summary" id="faq-q-who" data-i18n="faq.qWho">Who is Gabriel Clemente?</summary>

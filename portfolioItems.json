@@ -1,0 +1,913 @@
+[
+  {
+    "id": 1,
+    "color": "from-amber-300 to-orange-300",
+    "title": "ARTURO RODÉS",
+    "desc": "Client project for GABO in 2026 from Switzerland. arturorodes.com for a salary negotiation coach. Astro, Alpine, GSAP. I also published frontend-auto-cms on npm so they can edit copy in a small dashboard and push to the repo. Not a one-off handoff.",
+    "img": "images/arturorodes.webp",
+    "link": "https://arturorodes.com",
+    "skills": [
+      {
+        "name": "Astro",
+        "hoverColor": "#7b4cb8",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Alpine.js",
+        "hoverColor": "#2c4f7c",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "GSAP",
+        "hoverColor": "#88ce02",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "TypeScript",
+        "hoverColor": "#007acc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "npm Package",
+        "hoverColor": "#cb3837",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Headless CMS",
+        "hoverColor": "#22c55e",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      }
+    ],
+    "featuredRank": 1,
+    "summaryKey": "work.arturo",
+    "detailHtml": "<p>GABO client build (2026, Switzerland): public marketing site plus an editorial workflow the client owns. Astro keeps pages fast and boring in the right way; Alpine.js handles light interaction; GSAP where motion earns its place.</p><p>I shipped <strong>frontend-auto-cms</strong> on npm so their team proposes copy updates in a small dashboard and lands changes through Git—guardrails instead of emailing Word files around.</p>"
+  },
+  {
+    "id": 18,
+    "color": "from-rose-300 to-amber-300",
+    "title": "PUTO PULSE",
+    "desc": "putopulse.org: I started this in Oct 2025. Weekly book summary newsletter, 500 plus subscribers, big back catalog. I built the site and wired a lot of automation (AI where it helps, email, social) so it doesn't need a full content team. Real product, real readers, not a tutorial.",
+    "img": "images/putopulseimg.webp",
+    "link": "https://putopulse.org",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "hoverColor": "#007acc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "AI / Automation",
+        "hoverColor": "linear-gradient(45deg, #8b5cf6, #ec4899)",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "HTML/CSS",
+        "hoverColor": "#1572b6",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Email",
+        "hoverColor": "#1e40af",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Social media",
+        "hoverColor": "#0ea5e9",
+        "hoverTextColor": "#ffffff"
+      }
+    ],
+    "featuredRank": 2,
+    "summaryKey": "work.puto",
+    "detailHtml": "<p><strong>putopulse.org</strong>: started Oct&nbsp;2025. Weekly book-summary newsletter—500+ subscribers, deep back catalogue.</p><p>I built the site and stitched automation end to end (AI where it actually helps, email, social) so editorial does not need a full content ops team.</p>"
+  },
+  {
+    "id": 14,
+    "color": "from-purple-300 to-red-300",
+    "title": "My Portfolio",
+    "desc": "Personal site and living résumé: Next.js 14 (App Router), Tailwind CSS, Framer Motion, next-intl (EN/DE/ES), scroll-driven layout, and performance-minded images. Built to showcase case studies, recommendations, and contact in one cohesive experience, not a theme demo.",
+    "img": "images/portfolioimg.webp",
+    "link": "",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "React",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Next.js",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Tailwind CSS",
+        "hoverColor": "#38bdf8",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Framer Motion",
+        "hoverColor": "linear-gradient(45deg, #e10098, #9c1aff, #00c4ff)",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "from-purple-300 to-pink-300",
+    "title": "IRIUSRISK",
+    "desc": "Oct 2024 to Oct 2025, full-time remote. React, Ant Design, TanStack Query, Zustand, SASS, Vitest for unit tests. Lots of async edge cases; we used Query for server state and tried to keep client state small. Code review, working with backend, prod bugs. 2nd in the company hackathon. In-app work is NDA; the link is their public company site.",
+    "img": "images/iriusriskimg.webp",
+    "link": "https://www.iriusrisk.com/",
+    "skills": [
+      {
+        "name": "React",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "React Query",
+        "hoverColor": "linear-gradient(45deg, #ff4154, #ff6b6b)",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Zustand",
+        "hoverColor": "#443333",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "SASS",
+        "hoverColor": "#cc6699",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Ant Design",
+        "hoverColor": "linear-gradient(45deg, #1890ff, #40a9ff)",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "TypeScript",
+        "hoverColor": "#007acc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Vitest",
+        "hoverColor": "#646cff",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Git",
+        "hoverColor": "#f05032",
+        "hoverTextColor": "#ffffff"
+      }
+    ],
+    "featuredRank": 5,
+    "summaryKey": "work.iriusCase",
+    "detailHtml": "<p>Oct&nbsp;2024–Oct&nbsp;2025 full-time remote. Enterprise threat-modelling SaaS UI: dense React surfaces, Ant Design, TanStack Query + Zustand to keep server/client state sane, Sass, Vitest for unit coverage.</p><p>I lived in PR review with backend teammates, hunted async edge cases, and chipped away at production regressions (<strong>100+</strong> fixes over roughly six months) in a regulated context. Screenshots/video are constrained by NDA; the linked site is the public company brochure.</p><p>Placed second in the company-wide hackathon during that window.</p>"
+  },
+  {
+    "id": 3,
+    "color": "from-blue-300 to-green-300",
+    "title": "BEYONDBMI",
+    "desc": "Nov 2022 to Apr 2024, full-time remote contractor. Two devs. I learned Angular on the job, first merge request in week one. Express, TypeORM, Postgres, React Native, AWS, Stripe, SendGrid, Twilio, Daily, and we were careful with health data. Senior was gone a month; I was in prod and on the DB. Job ended when cash was low and they didn't need as much engineering. Member app is not public; link is their marketing site.",
+    "img": "images/beyondbmiimg.webp",
+    "link": "https://beyondbmi.ie/",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Angular",
+        "hoverColor": "linear-gradient(45deg, #dd1b16, #c3002f)",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "TypeScript",
+        "hoverColor": "#007acc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Bootstrap",
+        "hoverColor": "#563d7c",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "React Native",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Metro",
+        "hoverColor": "#5a4fcf",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "AWS",
+        "hoverColor": "linear-gradient(45deg, #ff9900, #ff5c00)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Express",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "TypeORM",
+        "hoverColor": "#ff4088",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Postgres",
+        "hoverColor": "#336791",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Jest",
+        "hoverColor": "#C21325",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "CI/CD",
+        "hoverColor": "#4caf50",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Docker",
+        "hoverColor": "linear-gradient(45deg, #2496ed, #0db7ed)",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Jira",
+        "hoverColor": "#0052cc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Bitbucket",
+        "hoverColor": "#2684ff",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Git",
+        "hoverColor": "#f05032",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Stripe",
+        "hoverColor": "#6772e5",
+        "hoverTextColor": "#ffffff"
+      }
+    ],
+    "featuredRank": 4,
+    "summaryKey": "work.beyondCase",
+    "detailHtml": "<p>Nov&nbsp;2022–Apr&nbsp;2024, full-time remote (two-engineer squad). Angular on web, React Native for the member apps, Node/Express + TypeORM + Postgres on AWS, plus Stripe, messaging, scheduling, trackers, clinical flows, integrations.</p><p>I learned Angular on the job; first production MR in week one; about a month of solo ownership while our senior was out (prod DB moves, escalation bridge, releases). Engagement ended when budgets tightened—not because the codebase froze.</p><p>Public storefront is linked; clinician/member interfaces are protected.</p>"
+  },
+  {
+    "id": 4,
+    "color": "from-green-300 to-violet-300",
+    "title": "GABO",
+    "desc": "My company site is solutions.gabo.rocks. It's how I explain GABO after starting alone in Spain and setting up the US company. Astro, Solid, Tailwind, Vercel. Same brand as the client work, Puto Pulse, and the cms package.",
+    "img": "images/gabollcimg.webp",
+    "link": "https://solutions.gabo.rocks",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Astro",
+        "hoverColor": "#7b4cb8",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Solid.js",
+        "hoverColor": "#2c4f7c",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Tailwind CSS",
+        "hoverColor": "#38bdf8",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Vercel",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Next.js",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "React",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "TypeScript",
+        "hoverColor": "#007acc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Git",
+        "hoverColor": "#f05032",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "GitHub",
+        "hoverColor": "linear-gradient(45deg, #181717, #000000)",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "from-violet-300 to-purple-300",
+    "title": "TALENTEAL",
+    "desc": "July to Aug 2022, part time while I was still running GABO in Spain. Met them through the Valencia startup scene (think Lanzadera / Demium type accelerators). They said frontend but what they really needed was a landing that converts. Mostly remote, I went in person sometimes.",
+    "img": "images/talentealimg.webp",
+    "link": "",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "React",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Redux",
+        "hoverColor": "#764abc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Django",
+        "hoverColor": "#092e20",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "UI/UX Design",
+        "hoverColor": "#ff9800",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Sass",
+        "hoverColor": "#cf649a",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Git",
+        "hoverColor": "#f05032",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "GitHub",
+        "hoverColor": "linear-gradient(45deg, #181717, #000000)",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "color": "from-yellow-300 to-pink-300",
+    "title": "IMALEVANTE",
+    "desc": "Freelance with Futuria (Digital Kit type work for SMEs). WordPress and PHP landing for this company. Same era as the Rehubik automation, different client.",
+    "img": "images/imalevanteimg.webp",
+    "link": "https://imalevante.es/",
+    "skills": [
+      {
+        "name": "WordPress",
+        "hoverColor": "#21759b",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "PHP",
+        "hoverColor": "#777bb4",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "color": "from-sky-300 to-lime-300",
+    "title": "REHUBIK (FUTURIA)",
+    "desc": "Contract with Futuria for Rehubik (IKEA renovation network in Spain). I mapped how data should move and then built it: web forms into SQL, hook to Odoo and Zapier with Gmail, Trello API from the web for project cards, Coefficient into Google Sheets and Excel for reporting, Nodemailer, Google Apps Script on Drive, plus custom PHP and Python where the off-the-shelf tools stopped. The screenshot is the architecture I used to align with their team. Live public page for the product line: IKEA lead form and copy.",
+    "img": "images/rehubik-architecture.webp",
+    "link": "https://rehubik.com/trabajamos-con-ikea/",
+    "skills": [
+      {
+        "name": "PHP",
+        "hoverColor": "#777bb4",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Python",
+        "hoverColor": "#3776ab",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Google Apps Script",
+        "hoverColor": "#34a853",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "SQL",
+        "hoverColor": "#336791",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Odoo",
+        "hoverColor": "#714b67",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Zapier",
+        "hoverColor": "#ff4a00",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Trello API",
+        "hoverColor": "#0079bf",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "WordPress",
+        "hoverColor": "#21759b",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "from-red-300 to-yellow-300",
+    "title": "EXA MONSTER",
+    "desc": "Freelance contract. SaaS-style storage product: Laravel, WordPress, PHP, Hetzner, React Native client, Stripe. Client work from my early contractor days, not a school exercise.",
+    "img": "images/examonsterimg.webp",
+    "link": "",
+    "skills": [
+      {
+        "name": "Laravel",
+        "hoverColor": "#ff2d20",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "WordPress",
+        "hoverColor": "#21759b",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "PHP",
+        "hoverColor": "#777bb4",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "React Native",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Hetzner",
+        "hoverColor": "#ff2d20",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "SaaS",
+        "hoverColor": "#22c55e",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Stripe",
+        "hoverColor": "#6772e5",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "color": "from-purple-300 to-red-300",
+    "title": "LUJO NETWORK",
+    "desc": "Early 2022 while I was independent. Sign in and sign up with i18n and validation, plus IT type work: firewalls, backups, DB, short security training for people in the office. Half support, half dev. Still shapes how I think about not shipping stupid mistakes.",
+    "img": "images/lujonetworkig.webp",
+    "link": "https://www.lujonetwork.com/v/home",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "HTML",
+        "hoverColor": "#e34c26",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "CSS",
+        "hoverColor": "#1572b6",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Database Management",
+        "hoverColor": "#4caf50",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Cybersecurity",
+        "hoverColor": "#ff5722",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "color": "from-black to-red-300",
+    "title": "RENTSBY",
+    "desc": "Paid contract (startup in the accelerator world). Cypress E2E, find regressions, log bugs. They needed coverage; I was the testing side.",
+    "img": "images/rentsbyimg.webp",
+    "link": "",
+    "skills": [
+      {
+        "name": "Cypress",
+        "hoverColor": "#00bcd4",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Testing",
+        "hoverColor": "#2196f3",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "color": "from-blue-300 to-red-300",
+    "title": "GABO SL",
+    "desc": "Personal / student style project, MERN, open source. Social feed experiment. I shipped it to learn, not as a paid build.",
+    "img": "images/gabosl.gif",
+    "link": "https://github.com/Gabo-Tech/Gabo-s-Social-Life",
+    "skills": [
+      {
+        "name": "React.js",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Sass",
+        "hoverColor": "#cf649a",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "HTML",
+        "hoverColor": "#e34c26",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Axios",
+        "hoverColor": "#5a29e4",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "React Router",
+        "hoverColor": "#ca4245",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "MongoDB",
+        "hoverColor": "#47a248",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Redux",
+        "hoverColor": "#764abc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Cypress",
+        "hoverColor": "#00bcd4",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Express",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Node.js",
+        "hoverColor": "#339933",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Material UI",
+        "hoverColor": "#0081cb",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Swagger",
+        "hoverColor": "#85ea2d",
+        "hoverTextColor": "#000000"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "color": "from-pink-300 to-indigo-300",
+    "title": "ROUTEU",
+    "desc": "Personal / learning project, open source. MERN, Vercel, Heroku. Route list and sharing. I built it for practice, not for a paying client.",
+    "img": "images/routesuimg.webp",
+    "link": "https://route-u.vercel.app",
+    "skills": [
+      {
+        "name": "React.js",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "CSS",
+        "hoverColor": "#1572b6",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Bootstrap",
+        "hoverColor": "#563d7c",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Ant Design",
+        "hoverColor": "#1890ff",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Grommet",
+        "hoverColor": "#00bfa5",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Sass",
+        "hoverColor": "#cf649a",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "HTML",
+        "hoverColor": "#e34c26",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Axios",
+        "hoverColor": "#5a29e4",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "React Router",
+        "hoverColor": "#ca4245",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "MongoDB",
+        "hoverColor": "#47a248",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Redux",
+        "hoverColor": "#764abc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Express",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Node.js",
+        "hoverColor": "#339933",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "color": "from-green-300 to-blue-300",
+    "title": "QUIZ",
+    "desc": "Small personal project. Open Trivia API, HTML, CSS, JS, GitHub Pages. Weekend code, not contract work.",
+    "img": "images/quizig.webp",
+    "link": "https://gabo-tech.github.io/Custom-Quizz",
+    "skills": [
+      {
+        "name": "HTML",
+        "hoverColor": "#e34c26",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "CSS",
+        "hoverColor": "#1572b6",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "color": "from-indigo-300 to-green-300",
+    "title": "FIGHT GAME",
+    "desc": "Side project, open on GitHub Pages. HTML, CSS, vanilla JS, two-player toy game. For fun, not a client deliverable.",
+    "img": "images/gameimg.webp",
+    "link": "https://gabo-tech.github.io/StreetFighter-like-OSG",
+    "skills": [
+      {
+        "name": "HTML",
+        "hoverColor": "#e34c26",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "CSS",
+        "hoverColor": "#1572b6",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "color": "from-blue-300 to-black",
+    "title": "EasyApply-LinkedIn",
+    "desc": "Personal tool I wrote for my own job search: Python and Selenium to run LinkedIn Easy Apply with filters, logging, and a simple list of who I already hit. Solves a boring problem for me, not a paying customer.",
+    "img": "images/easyapplylinkedinimg.webp",
+    "link": "https://github.com/Gabo-Tech/EasyApply-Linkedin",
+    "skills": [
+      {
+        "name": "Python",
+        "hoverColor": "#3776ab",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Selenium",
+        "hoverColor": "#43B02A",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JSON",
+        "hoverColor": "#000000",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Logging",
+        "hoverColor": "#efb210",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Web Scraping",
+        "hoverColor": "#1e4d2b",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "color": "from-red-300 to-blue-300",
+    "title": "COJC",
+    "desc": "Personal project for something I use myself: scripture study in a small desktop app. Tauri, Svelte, Windows / macOS / Linux. Not client work, just my own need for a calmer way to read.",
+    "img": "images/churchofjesuschristimg.webp",
+    "link": "https://github.com/Gabo-Tech/Scriptures-of-The-Church-of-Jesus-Christ-of-Latter-Day-Saints",
+    "skills": [
+      {
+        "name": "Tauri",
+        "hoverColor": "#ffc107",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Svelte",
+        "hoverColor": "#ff3e00",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Node.js",
+        "hoverColor": "#339933",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "color": "from-red-300 to-purple-300",
+    "title": "DGABO Token",
+    "desc": "Decentralized GABO Token is a personal cryptocurrency project developed using JavaScript and Motoko for smart contracts. Although not deployed due to high blockchain fees, this project demonstrates the process of creating and managing a token on the Internet Computer blockchain. The project includes a web mockup and emulator setup instructions for local development.",
+    "img": "images/dtokenimg.webp",
+    "link": "https://github.com/Gabo-Tech/Web3-Token-and-Faucet",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "Motoko",
+        "hoverColor": "#00bfa5",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "HTML",
+        "hoverColor": "#e34c26",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "CSS",
+        "hoverColor": "#1572b6",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "React",
+        "hoverColor": "#61dafb",
+        "hoverTextColor": "#000000"
+      }
+    ]
+  },
+  {
+    "id": "cms",
+    "featuredRank": 3,
+    "title": "frontend-auto-cms",
+    "summaryKey": "work.cms",
+    "desc": "npm library: frontend repo-backed CMS workflows so marketing can propose copy without breaking production.",
+    "detailHtml": "<p>Turn a static site into a guardrailed CMS: authors edit in a tiny dashboard, changes land as pull requests against the same Git repository developers already trust—no surprise SQL or mystery CMS servers.</p><p>Shipped on npm and wired for teams that already think in repos and reviews.</p>",
+    "img": "",
+    "link": "https://www.npmjs.com/package/frontend-auto-cms",
+    "skills": [
+      {
+        "name": "TypeScript",
+        "hoverColor": "#007acc",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "npm",
+        "hoverColor": "#cb3837",
+        "hoverTextColor": "#ffffff"
+      },
+      {
+        "name": "Git",
+        "hoverColor": "#f05032",
+        "hoverTextColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "featuredRank": 6,
+    "title": "ChatGPT Multiplatform Desktop Wrapper",
+    "summaryKey": "work.chatgpt",
+    "desc": "Tauri + JavaScript shell for Linux where vendor desktop builds are uneven.",
+    "detailHtml": "<p>Native-ish desktop wrapper for the ChatGPT web app on Linux—Tauri keeps the footprint small versus shipping a separate browser bundle.</p><p>For users who prefer an app chrome (taskbar entry, sane windowing) instead of leaving another pinned browser tab alive.</p>",
+    "img": "",
+    "link": "https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper",
+    "skills": [
+      {
+        "name": "Tauri",
+        "hoverColor": "#ffc107",
+        "hoverTextColor": "#000000"
+      },
+      {
+        "name": "JavaScript",
+        "hoverColor": "linear-gradient(45deg, #f7e018, #f7df1e)",
+        "hoverTextColor": "#000000"
+      }
+    ]
+  }
+]

@@ -53,14 +53,9 @@
         skip: "Skip intro",
         skipAria: "Skip introduction and go to portfolio content",
         help:
-          "Choose whether the intro plays sound, then a brief animated overview of toolkit categories. Press Escape or Skip intro to dismiss.",
-        audioPromptTitle: "Play intro with sound?",
-        audioPromptHint:
-          "This intro can play background music. Do you have audio enabled (speakers or headphones on)?",
-        audioYes: "Yes, with sound",
-        audioNo: "No, silent intro",
-        audioYesAria: "Start the intro with background music",
-        audioNoAria: "Start the intro without music",
+          "Press Start for a brief animated overview of toolkit categories. Optional background music may play. Press Escape or Skip intro to dismiss.",
+        start: "Start",
+        startAria: "Start the animated intro; background music may play if your device allows it",
         announceSection: "Section: ",
         announceTech: "Technology: ",
         announceTechEmpty: "Technology. ",
@@ -186,7 +181,7 @@
         },
       },
       stack: {
-        heading: '<span class="type-mix__hit">Core</span> stack',
+        heading: "Core stack",
         frontend: "Frontend",
         backend: "Backend & APIs",
         data: "Data & platform",
@@ -195,9 +190,9 @@
           'Also used: <span class="type-mix__hit">React Native</span>, WordPress, PHP, <span class="type-mix__hit">Python</span>, Laravel, Playwright, Tauri, Svelte, Zapier, Google Apps Script, Odoo, and more. Ask if you want detail on any of that.',
       },
       work: {
-        heading: '<span class="type-mix__hit">Selected</span> work',
+        heading: "Selected work",
         arturo:
-          'Salary negotiation coach site and a client-owned CMS workflow. Live at <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>. Longer write-up at <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer">gabo.rocks/about<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Salary negotiation coach site and a client-owned CMS workflow. Live at <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         puto:
           'Newsletter and automation, <strong>500+</strong> subscribers. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
@@ -205,12 +200,16 @@
         chatgpt:
           'Native-feel desktop for Linux (Tauri + JS) where the official installers skip Linux. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Telehealth product work: scheduling, clinical trackers, video sessions, and integration-heavy flows across <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres, and <strong>AWS</strong>. Longer case study on <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Telehealth product work: scheduling, clinical trackers, video sessions, and integration-heavy flows across <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres, and <strong>AWS</strong>.',
         iriusCase:
-          'Enterprise <strong>threat-modeling</strong> UI in a regulated context: complex React surface with Ant Design, TanStack Query, Zustand, and Vitest. Longer case study on <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Enterprise <strong>threat-modeling</strong> UI in a regulated context: complex React surface with Ant Design, TanStack Query, Zustand, and Vitest.',
         moreStudiesLabel: "More case studies",
+        moreStudiesCollapse: "Collapse list",
         caseStudiesMore:
-          'Additional write-ups and context on <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Other shipped projects—including learning builds and tooling—listed below.',
+        caseStudyExpand: "Expand case study",
+        caseStudyCollapse: "Collapse case study",
+        loadProjectsError: "Could not load project list. Reload the page or try again later.",
       },
       recommend: {
         heading: "Recommendations",
@@ -223,14 +222,15 @@
       },
       languages: {
         heading: "Languages",
-        li1: "English, Spanish, Valencian (all native).",
-        li2: "Dutch: full professional fluency.",
-        li3: "Portuguese: fluent.",
-        li4: "German: learning, aiming for day-to-day in Switzerland.",
-        li5: "Default for work: English.",
+        li1:
+          "<strong>English</strong>, <strong>Spanish</strong>, <strong>Valencian</strong> (all native).",
+        li2: "<strong>Dutch</strong>: full professional fluency.",
+        li3: "<strong>Portuguese</strong>: fluent.",
+        li4: "<strong>German</strong>: learning, aiming for day-to-day in Switzerland.",
+        li5: "Default for work: <strong>English</strong>.",
       },
       education: {
-        heading: "Education &amp; path",
+        heading: "Education & path",
         li1:
           "<strong>Self-taught path</strong>, 2019 to now: left uni after a year to ship real products; still learning on the job.",
         li2: "<strong>CS</strong>, BYU Idaho (2020 to 2021), then into full-time work.",
@@ -283,14 +283,9 @@
         skip: "Saltar intro",
         skipAria: "Saltar la introducción e ir al contenido del portafolio",
         help:
-          "Elija si la intro lleva sonido; después, una breve presentación animada del stack. Pulse Escape o Saltar intro para cerrar.",
-        audioPromptTitle: "¿Reproducir la intro con sonido?",
-        audioPromptHint:
-          "La introducción puede incluir música de fondo. ¿Tienes el audio activado (altavoces o auriculares)?",
-        audioYes: "Sí, con sonido",
-        audioNo: "No, sin sonido",
-        audioYesAria: "Iniciar la intro con música de fondo",
-        audioNoAria: "Iniciar la intro sin música",
+          "Pulse Empezar para una breve intro animada del stack. Puede sonar música de fondo. Pulse Escape o Saltar intro para cerrar.",
+        start: "Empezar",
+        startAria: "Iniciar la intro animada; puede sonar música de fondo si el dispositivo lo permite",
         announceSection: "Sección: ",
         announceTech: "Tecnología: ",
         announceTechEmpty: "Tecnología. ",
@@ -416,7 +411,7 @@
         },
       },
       stack: {
-        heading: "Stack <span class=\"type-mix__hit\">principal</span>",
+        heading: "Stack principal",
         frontend: "Frontend",
         backend: "Backend y APIs",
         data: "Datos y plataforma",
@@ -425,9 +420,9 @@
           'También uso <span class="type-mix__hit">React Native</span>, WordPress, PHP, <span class="type-mix__hit">Python</span>, Laravel, Playwright, Tauri, Svelte, Zapier, Google Apps Script, Odoo y más. Pregunta si quieres detalle sobre algo.',
       },
       work: {
-        heading: "Trabajos <span class=\"type-mix__hit\">seleccionados</span>",
+        heading: "Trabajos seleccionados",
         arturo:
-          'Web para coach de negociación salarial y flujo CMS propiedad del cliente. En vivo en <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>. Más detalle en <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer">gabo.rocks/about<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Web para coach de negociación salarial y flujo CMS propiedad del cliente. En vivo en <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         puto:
           'Newsletter y automatización, más de <strong>500</strong> suscriptores. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
@@ -435,12 +430,15 @@
         chatgpt:
           'Escritorio con sensación nativa en Linux (Tauri + JS) donde los instaladores oficiales ignoran Linux. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Producto de telesalud: citas, trackers clínicos, videollamadas y flujos con muchas integraciones sobre <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres y <strong>AWS</strong>. Caso largo en <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Producto de telesalud: citas, trackers clínicos, videollamadas y flujos con muchas integraciones sobre <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres y <strong>AWS</strong>.',
         iriusCase:
-          'UI de <strong>modelado de amenazas</strong> enterprise en contexto regulado: React complejo con Ant Design, TanStack Query, Zustand y Vitest. Caso largo en <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'UI de <strong>modelado de amenazas</strong> enterprise en contexto regulado: React complejo con Ant Design, TanStack Query, Zustand y Vitest.',
         moreStudiesLabel: "Más casos de estudio",
-        caseStudiesMore:
-          'Más textos y contexto en <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+        moreStudiesCollapse: "Cerrar lista",
+        caseStudiesMore: "Otros proyectos—incluye prácticas y herramientas—en la lista de abajo.",
+        caseStudyExpand: "Expandir caso",
+        caseStudyCollapse: "Cerrar caso de estudio",
+        loadProjectsError: "No se pudo cargar la lista de proyectos. Recarga la página o inténtalo más tarde.",
       },
       recommend: {
         heading: "Recomendaciones",
@@ -453,11 +451,12 @@
       },
       languages: {
         heading: "Idiomas",
-        li1: "Inglés, español y valenciano (todos nativos).",
-        li2: "Neerlandés: nivel profesional completo.",
-        li3: "Portugués: fluido.",
-        li4: "Alemán: en aprendizaje; objetivo uso cotidiano en Suiza.",
-        li5: "Idioma de trabajo por defecto: inglés.",
+        li1:
+          "<strong>Inglés</strong>, <strong>español</strong> y <strong>valenciano</strong> (todos nativos).",
+        li2: "<strong>Neerlandés</strong>: nivel profesional completo.",
+        li3: "<strong>Portugués</strong>: fluido.",
+        li4: "<strong>Alemán</strong>: en aprendizaje; objetivo uso cotidiano en Suiza.",
+        li5: "Idioma de trabajo por defecto: <strong>inglés</strong>.",
       },
       education: {
         heading: "Formación y trayectoria",
@@ -514,14 +513,9 @@
         skip: "Intro überspringen",
         skipAria: "Einführung überspringen und zum Portfolio-Inhalt",
         help:
-          "Wählen Sie, ob die Einführung Ton hat; danach eine kurze animierte Übersicht der Toolkit-Kategorien. Escape oder Intro überspringen schliesst das Fenster.",
-        audioPromptTitle: "Einführung mit Ton abspielen?",
-        audioPromptHint:
-          "Die Einführung kann Hintergrundmusik spielen. Ist bei Ihnen Ton aktiv (Lautsprecher oder Kopfhörer)?",
-        audioYes: "Ja, mit Ton",
-        audioNo: "Nein, stumm",
-        audioYesAria: "Einführung mit Hintergrundmusik starten",
-        audioNoAria: "Einführung ohne Musik starten",
+          "Start antippen für eine kurze animierte Übersicht der Werkzeugkategorien. Optional kann Hintergrundmusik laufen. Escape oder Intro überspringen schliesst das Fenster.",
+        start: "Start",
+        startAria: "Animierte Einführung starten; Hintergrundmusik kann abspielen, wenn Ihr Gerät es erlaubt",
         announceSection: "Bereich: ",
         announceTech: "Technologie: ",
         announceTechEmpty: "Technologie. ",
@@ -643,7 +637,7 @@
         },
       },
       stack: {
-        heading: '<span class="type-mix__hit">Kern</span>-Stack',
+        heading: "Kern-Stack",
         frontend: "Frontend",
         backend: "Backend & APIs",
         data: "Daten & Plattform",
@@ -652,9 +646,9 @@
           'Ausserdem: <span class="type-mix__hit">React Native</span>, WordPress, PHP, <span class="type-mix__hit">Python</span>, Laravel, Playwright, Tauri, Svelte, Zapier, Google Apps Script, Odoo und mehr. Frag gern nach Details.',
       },
       work: {
-        heading: '<span class="type-mix__hit">Ausgewählte</span> Arbeiten',
+        heading: "Ausgewählte Arbeiten",
         arturo:
-          'Site für Gehaltsverhandlungs-Coach und CMS-Workflow im Kundenbesitz. Live unter <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>. Ausführlicher Text auf <a href="https://www.gabo.rocks/about" target="_blank" rel="noopener noreferrer">gabo.rocks/about<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Site für Gehaltsverhandlungs-Coach und CMS-Workflow im Kundenbesitz. Live unter <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         puto:
           'Newsletter und Automatisierung, <strong>500+</strong> Abonnenten. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
@@ -662,12 +656,16 @@
         chatgpt:
           'Desktop mit nativem Gefühl für Linux (Tauri + JS), wo offizielle Installer Linux auslassen. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Telehealth-Produkt: Termine, klinische Tracker, Videosessions und integrationslastige Flows mit <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres und <strong>AWS</strong>. Längere Fallstudie auf <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Telehealth-Produkt: Termine, klinische Tracker, Videosessions und integrationslastige Flows mit <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres und <strong>AWS</strong>.',
         iriusCase:
-          '<strong>Threat-Modeling</strong>-Enterprise-UI in reguliertem Umfeld: komplexe React-Oberfläche mit Ant Design, TanStack Query, Zustand und Vitest. Längere Fallstudie auf <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          '<strong>Threat-Modeling</strong>-Enterprise-UI in reguliertem Umfeld: komplexe React-Oberfläche mit Ant Design, TanStack Query, Zustand und Vitest.',
         moreStudiesLabel: "Weitere Fallstudien",
+        moreStudiesCollapse: "Liste schließen",
         caseStudiesMore:
-          'Weitere Texte und Kontext auf <a href="https://www.gabo.rocks/portfolio" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          "Weitere Projekte—Übungsprojekte und Tools—stehen in der Liste unten.",
+        caseStudyExpand: "Fallstudie öffnen",
+        caseStudyCollapse: "Fallstudie schließen",
+        loadProjectsError: "Projektliste konnte nicht geladen werden. Seite neu laden oder später erneut versuchen.",
       },
       recommend: {
         heading: "Empfehlungen",
@@ -680,14 +678,15 @@
       },
       languages: {
         heading: "Sprachen",
-        li1: "Englisch, Spanisch, Valencianisch (alle muttersprachlich).",
-        li2: "Niederländisch: volle professionelle Kompetenz.",
-        li3: "Portugiesisch: fliessend.",
-        li4: "Deutsch: am Lernen, Ziel Alltag in der Schweiz.",
-        li5: "Standardsprache für Arbeit: Englisch.",
+        li1:
+          "<strong>Englisch</strong>, <strong>Spanisch</strong>, <strong>Valencianisch</strong> (alle muttersprachlich).",
+        li2: "<strong>Niederländisch</strong>: volle professionelle Kompetenz.",
+        li3: "<strong>Portugiesisch</strong>: fliessend.",
+        li4: "<strong>Deutsch</strong>: am Lernen, Ziel Alltag in der Schweiz.",
+        li5: "Standardsprache für Arbeit: <strong>Englisch</strong>.",
       },
       education: {
-        heading: "Ausbildung &amp; Weg",
+        heading: "Ausbildung & Weg",
         li1:
           "<strong>Selbst gelernter Weg</strong>, 2019 bis heute: Uni nach einem Jahr verlassen, um echte Produkte zu liefern; weiter lernend on the job.",
         li2: "<strong>Informatik</strong>, BYU Idaho (2020 bis 2021), danach Vollzeitarbeit.",
@@ -799,6 +798,7 @@
     locale: locale,
     t: t,
     applyDom: applyDom,
+    applyPlaceholders: applyPlaceholders,
     announceSectionPrefix: function () {
       return t("intro.announceSection");
     },
@@ -833,6 +833,21 @@
   var AUDIO_PROMPT_ID = "intro-audio-prompt";
   var THEME_AUDIO_ID = "intro-theme-audio";
   var LIVE_ID = "intro-live";
+
+  /** Reserve before theme end for `intro-overlay--exit` (~560ms) + small buffer. */
+  var INTRO_FADE_RESERVE_MS = 650;
+  /** If theme duration is unknown (no audio / metadata missing). */
+  var INTRO_THEME_FALLBACK_SEC = 11;
+
+  /** Category title on screen (ms). */
+  var INTRO_CATEGORY_MS = 400;
+  /** Match `intro-tech-train-move` in styles.css (s → ms). */
+  var INTRO_TRAIN_MS = 260;
+  /** Max per-cell grid animation; match `intro-tech-cell-settle` in styles.css (ms). */
+  var INTRO_GRID_CELL_MS = 360;
+  var INTRO_GRID_STAGGER_MS = 18;
+  var INTRO_BATCH_HOLD_MS = 240;
+
   var abortState = {
     mq: null,
     onScheme: null,
@@ -894,6 +909,36 @@
     });
   }
 
+  function gridPhaseWaitMs(itemCount) {
+    var n = itemCount > 0 ? itemCount - 1 : 0;
+    return INTRO_GRID_CELL_MS + n * INTRO_GRID_STAGGER_MS + 50;
+  }
+
+  function waitForThemeDurationSec(withAudio) {
+    return new Promise(function (resolve) {
+      if (!withAudio) {
+        resolve(INTRO_THEME_FALLBACK_SEC);
+        return;
+      }
+      var el = document.getElementById(THEME_AUDIO_ID);
+      if (!el) {
+        resolve(INTRO_THEME_FALLBACK_SEC);
+        return;
+      }
+      function pick() {
+        var d = el.duration;
+        if (typeof d === "number" && !isNaN(d) && isFinite(d) && d > 0) resolve(d);
+        else resolve(INTRO_THEME_FALLBACK_SEC);
+      }
+      if (el.readyState >= 1) {
+        pick();
+        return;
+      }
+      el.addEventListener("loadedmetadata", pick, { once: true });
+      setTimeout(pick, 900);
+    });
+  }
+
   function techLabelFromSpan(span) {
     var clone = span.cloneNode(true);
     var icons = clone.querySelectorAll("i, svg");
@@ -923,16 +968,16 @@
     var plan = [];
     for (var b = 0; b < blocks.length; b++) {
       var block = blocks[b];
-      plan.push({ type: "category", title: block.title });
+      var items = [];
       for (var t = 0; t < block.items.length; t++) {
         var span = block.items[t];
         var icon = span.querySelector("i");
-        plan.push({
-          type: "tech",
+        items.push({
           label: techLabelFromSpan(span),
           iconClone: icon ? icon.cloneNode(true) : null,
         });
       }
+      plan.push({ title: block.title, items: items });
     }
     return plan;
   }
@@ -972,46 +1017,74 @@
     });
   }
 
-  function mountTech(frame, iconClone, label) {
+  async function mountTechBatch(frame, sectionTitle, items, shouldContinue) {
+    if (!items || items.length === 0) return;
+
     clearFrame(frame);
     var I = window.__portfolioI18n;
-    var techP = I && I.announceTechPrefix ? I.announceTechPrefix() : "Technology: ";
-    var techE = I && I.announceTechEmpty ? I.announceTechEmpty() : "Technology. ";
-    announceSlide(label ? techP + label + ". " : techE);
-    var wrap = document.createElement("div");
-    wrap.className = "intro-tech";
-    wrap.setAttribute("aria-hidden", "true");
-    var iconWrap = document.createElement("div");
-    iconWrap.className = "intro-tech__icon";
-    if (iconClone) {
-      iconWrap.appendChild(iconClone);
-    } else {
-      var ph = document.createElement("span");
-      ph.setAttribute("aria-hidden", "true");
-      ph.textContent = "◆";
-      iconWrap.appendChild(ph);
-    }
-    wrap.appendChild(iconWrap);
-    frame.appendChild(wrap);
-    requestAnimationFrame(function () {
-      wrap.classList.add("intro-anim-in");
-    });
-    return wrap;
-  }
+    var prefix = I && I.announceSectionPrefix ? I.announceSectionPrefix() : "Section: ";
+    announceSlide(prefix + sectionTitle + ". " + items.length + " technologies. ");
 
-  function hideTechNode(wrap) {
-    return new Promise(function (resolve) {
-      if (!wrap || !wrap.parentNode) {
-        resolve();
-        return;
+    var batch = document.createElement("div");
+    batch.className = "intro-tech-batch";
+    batch.setAttribute("aria-hidden", "true");
+    var strip = document.createElement("div");
+    strip.className = "intro-tech-batch__strip";
+
+    for (var i = 0; i < items.length; i++) {
+      var item = items[i];
+      var cell = document.createElement("div");
+      cell.className = "intro-tech-batch__cell";
+      cell.style.setProperty("--intro-delay", i * INTRO_GRID_STAGGER_MS + "ms");
+      cell.style.setProperty("--intro-x-nudge", i % 2 === 0 ? "-10px" : "10px");
+      var iconWrap = document.createElement("div");
+      iconWrap.className = "intro-tech-batch__icon";
+      if (item.iconClone) {
+        iconWrap.appendChild(item.iconClone);
+      } else {
+        var ph = document.createElement("span");
+        ph.setAttribute("aria-hidden", "true");
+        ph.textContent = "◆";
+        iconWrap.appendChild(ph);
       }
-      wrap.classList.remove("intro-anim-in");
-      wrap.classList.add("intro-anim-out");
-      setTimeout(function () {
-        if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
-        resolve();
-      }, 45);
+      cell.appendChild(iconWrap);
+      strip.appendChild(cell);
+    }
+    batch.appendChild(strip);
+    frame.appendChild(batch);
+
+    await new Promise(function (r) {
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          batch.classList.add("intro-tech-batch--train-active");
+          r();
+        });
+      });
     });
+    await wait(INTRO_TRAIN_MS);
+    if (shouldContinue && !shouldContinue()) {
+      if (batch.parentNode) batch.parentNode.removeChild(batch);
+      return;
+    }
+
+    var grid = document.createElement("div");
+    grid.className = "intro-tech-batch__grid";
+    while (strip.firstChild) {
+      grid.appendChild(strip.firstChild);
+    }
+    if (strip.parentNode) batch.removeChild(strip);
+    batch.appendChild(grid);
+    requestAnimationFrame(function () {
+      batch.classList.remove("intro-tech-batch--train-active");
+      batch.classList.add("intro-tech-batch--grid-active");
+    });
+    await wait(gridPhaseWaitMs(items.length));
+    if (shouldContinue && !shouldContinue()) {
+      if (batch.parentNode) batch.parentNode.removeChild(batch);
+      return;
+    }
+    await wait(INTRO_BATCH_HOLD_MS);
+    if (batch.parentNode) batch.parentNode.removeChild(batch);
   }
 
   async function mountFinalSequence(frame) {
@@ -1034,13 +1107,14 @@
     requestAnimationFrame(function () {
       name.classList.add("intro-anim-in");
     });
-    await wait(1000);
+    await wait(450);
     requestAnimationFrame(function () {
       tag.classList.add("intro-anim-in");
     });
-    await wait(320);
-    await wait(1000);
-    await wait(1400);
+    await wait(200);
+    await wait(280);
+    await wait(700);
+    await wait(520);
   }
 
   function detachSchemeListener(mq, onScheme) {
@@ -1081,15 +1155,13 @@
     document.addEventListener("keydown", abortState.escHandler);
   }
 
-  function waitForAudioChoice() {
+  function waitForStart() {
     return new Promise(function (resolve) {
-      var yes = document.getElementById("intro-audio-yes");
-      var no = document.getElementById("intro-audio-no");
+      var startBtn = document.getElementById("intro-start");
       var promptEl = document.getElementById(AUDIO_PROMPT_ID);
 
       function finish(withAudio) {
-        if (yes) yes.onclick = null;
-        if (no) no.onclick = null;
+        if (startBtn) startBtn.onclick = null;
         if (promptEl) {
           promptEl.hidden = true;
           promptEl.setAttribute("aria-hidden", "true");
@@ -1097,22 +1169,15 @@
         resolve(withAudio);
       }
 
-      if (yes) {
-        yes.onclick = function (ev) {
+      if (startBtn) {
+        startBtn.onclick = function (ev) {
           ev.preventDefault();
           playIntroThemeFromUserGesture();
           finish(true);
         };
+      } else {
+        finish(false);
       }
-      if (no) {
-        no.onclick = function (ev) {
-          ev.preventDefault();
-          stopIntroTheme();
-          finish(false);
-        };
-      }
-
-      if (!yes && !no) finish(false);
     });
   }
 
@@ -1153,33 +1218,42 @@
     document.body.classList.add("intro-active");
     if (!withAudio) stopIntroTheme();
 
-    var pendingCategoryEl = null;
+    var sequenceStart = performance.now();
+    var themeSec = await waitForThemeDurationSec(withAudio);
+    var deadline = sequenceStart + themeSec * 1000 - INTRO_FADE_RESERVE_MS;
+
+    function isPastDeadline() {
+      return performance.now() >= deadline;
+    }
+
+    function shouldContinue() {
+      return !!overlay.parentNode && !isPastDeadline();
+    }
+
     var categoryAnimIndex = 0;
 
-    for (var i = 0; i < plan.length; i++) {
+    for (var b = 0; b < plan.length; b++) {
       if (!overlay.parentNode) return;
-      var step = plan[i];
-      if (step.type === "category") {
-        if (pendingCategoryEl) await hideCategoryNode(pendingCategoryEl);
-        var variant = categoryAnimIndex % 2 === 0 ? "scale" : "flip";
-        categoryAnimIndex += 1;
-        pendingCategoryEl = mountCategory(frame, step.title, variant);
-        await wait(2000);
-      } else if (step.type === "tech") {
-        if (pendingCategoryEl) {
-          await hideCategoryNode(pendingCategoryEl);
-          pendingCategoryEl = null;
-        }
-        var hold = 50;
-        var wrap = mountTech(frame, step.iconClone, step.label);
-        await wait(hold);
-        await hideTechNode(wrap);
+      if (isPastDeadline()) break;
+
+      var block = plan[b];
+      var variant = categoryAnimIndex % 2 === 0 ? "scale" : "flip";
+      categoryAnimIndex += 1;
+      var catEl = mountCategory(frame, block.title, variant);
+      await wait(INTRO_CATEGORY_MS);
+      if (!overlay.parentNode) return;
+      await hideCategoryNode(catEl);
+      if (isPastDeadline()) break;
+      if (block.items && block.items.length > 0) {
+        await mountTechBatch(frame, block.title, block.items, shouldContinue);
       }
     }
 
-    if (pendingCategoryEl) await hideCategoryNode(pendingCategoryEl);
-
     if (!overlay.parentNode) return;
+    if (isPastDeadline()) {
+      end();
+      return;
+    }
     await mountFinalSequence(frame);
     if (overlay.parentNode) end();
   }
@@ -1201,7 +1275,7 @@
     }
 
     overlay.removeAttribute("hidden");
-    overlay.classList.add("intro-overlay--awaiting-audio-choice");
+    overlay.classList.add("intro-overlay--awaiting-start");
 
     var mqEarly = window.matchMedia("(prefers-color-scheme: dark)");
     function onSchemeEarly() {
@@ -1222,13 +1296,13 @@
     }
 
     requestAnimationFrame(function () {
-      var yesBtn = document.getElementById("intro-audio-yes");
-      if (yesBtn) yesBtn.focus();
+      var startFocus = document.getElementById("intro-start");
+      if (startFocus) startFocus.focus();
     });
 
-    waitForAudioChoice().then(function (withAudio) {
+    waitForStart().then(function (withAudio) {
       detachSchemeListener(mqEarly, onSchemeEarly);
-      overlay.classList.remove("intro-overlay--awaiting-audio-choice");
+      overlay.classList.remove("intro-overlay--awaiting-start");
       runSequence(overlay, frame, withAudio).catch(function () {
         var mq = window.matchMedia("(prefers-color-scheme: dark)");
         fadeOutAndRemove(overlay, mq, null);
@@ -1491,12 +1565,292 @@ document.addEventListener("DOMContentLoaded", function () {
     requestAnimationFrame(onScrollOrResize);
   })();
 
+  (function loadPortfolioProjects() {
+    var listEl = document.getElementById("portfolio-work-list");
+    if (!listEl || listEl.getAttribute("data-work-dynamic") !== "true") return;
+
+    var I = window.__portfolioI18n;
+    var t =
+      I && typeof I.t === "function"
+        ? I.t.bind(null)
+        : function (k) {
+            return k;
+          };
+    var applyPH =
+      I && typeof I.applyPlaceholders === "function"
+        ? I.applyPlaceholders
+        : function () {};
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function assetUrl(rel) {
+      if (!rel || !String(rel).trim()) return "";
+      var s = String(rel).trim();
+      if (/^https?:\/\//i.test(s)) return s;
+      try {
+        return new URL(s.replace(/^\//, ""), window.location.href).href;
+      } catch (err1) {
+        return s;
+      }
+    }
+
+    function teaserInner(item) {
+      if (item.summaryKey) {
+        return '<div class="type-mix work-teaser-rich">' + t(item.summaryKey) + "</div>";
+      }
+      return "<p>" + escapeHtml(item.desc || "") + "</p>";
+    }
+
+    function renderSkills(skills) {
+      if (!skills || !skills.length) return "";
+      var out = '<ul class="work-skill-list">';
+      for (var si = 0; si < skills.length; si++) {
+        var sk = skills[si];
+        if (!sk || !sk.name) continue;
+        out += '<li class="work-skill-pill">' + escapeHtml(sk.name) + "</li>";
+      }
+      out += "</ul>";
+      return out;
+    }
+
+    function renderGallery(item) {
+      var parts = [];
+      if (item.img && String(item.img).trim()) {
+        parts.push(
+          '<figure class="work-shot work-shot--hero"><img src="' +
+            escapeHtml(assetUrl(item.img)) +
+            '" alt="" loading="lazy" decoding="async" /></figure>'
+        );
+      }
+      if (item.gallery && item.gallery.length) {
+        for (var gi = 0; gi < item.gallery.length; gi++) {
+          var g = item.gallery[gi];
+          if (!g || !g.src) continue;
+          parts.push(
+            '<figure class="work-shot"><img src="' +
+              escapeHtml(assetUrl(g.src)) +
+              '" alt="' +
+              escapeHtml(g.alt || "") +
+              '" loading="lazy" decoding="async" /></figure>'
+          );
+        }
+      }
+      return parts.join("");
+    }
+
+    function renderExpandableInner(item) {
+      var blocks = "";
+      blocks += renderGallery(item);
+      if (item.detailHtml && String(item.detailHtml).trim()) {
+        blocks += '<div class="work-detail-copy">' + item.detailHtml + "</div>";
+      } else if (item.desc && String(item.desc).trim()) {
+        blocks += "<p>" + escapeHtml(item.desc) + "</p>";
+      }
+      blocks += renderSkills(item.skills);
+      if (item.link && String(item.link).trim()) {
+        var hrefRaw = item.link.trim();
+        var href = escapeHtml(hrefRaw);
+        var label = escapeHtml(
+          hrefRaw.replace(/^https?:\/\//i, "").replace(/\/$/, "") || hrefRaw
+        );
+        blocks +=
+          '<p class="work-live-link-wrap"><a class="work-live-link" href="' +
+          href +
+          '" target="_blank" rel="noopener noreferrer">' +
+          label +
+          '<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a></p>';
+      }
+      return blocks;
+    }
+
+    function renderWorkSummaryToggle(mode) {
+      var expand =
+        mode === "outer" ? t("work.moreStudiesLabel") : t("work.caseStudyExpand");
+      var collapse =
+        mode === "outer" ? t("work.moreStudiesCollapse") : t("work.caseStudyCollapse");
+      return (
+        '<span class="work-summary-toggle">' +
+        '<span class="work-summary-label work-summary-label--when-closed">' +
+        escapeHtml(expand) +
+        '</span><span class="work-summary-label work-summary-label--when-open">' +
+        escapeHtml(collapse) +
+        "</span></span>"
+      );
+    }
+
+    function renderWorkCollapseFooter(mode) {
+      var label =
+        mode === "outer" ? t("work.moreStudiesCollapse") : t("work.caseStudyCollapse");
+      return (
+        '<p class="work-disclosure-foot">' +
+        '<button type="button" class="work-collapse-btn" data-work-collapse>' +
+        escapeHtml(label) +
+        "</button></p>"
+      );
+    }
+
+    function buildFeaturedMarkup(item, sumIdNum) {
+      var innerBlock = renderExpandableInner(item);
+      var headline = escapeHtml(item.title || "");
+      var teaser = teaserInner(item);
+      var outer =
+        '<li class="work-item type-mix">' +
+        '<strong class="work-headline">' +
+        headline +
+        '</strong><div class="work-teaser">' +
+        teaser +
+        "</div>";
+      if (!innerBlock.trim()) {
+        outer += "</li>";
+        return outer;
+      }
+      var sid = sumIdNum != null ? "work-sum-" + sumIdNum : "";
+      var summaryOpen = sid
+        ? '<summary class="work-summary" id="' + escapeHtml(sid) + '">'
+        : '<summary class="work-summary">';
+      outer +=
+        '<details class="work-disclosure">' +
+        summaryOpen +
+        renderWorkSummaryToggle("case") +
+        '</summary><div class="work-disclosure-body faq-a">' +
+        innerBlock +
+        renderWorkCollapseFooter("case") +
+        "</div></details></li>";
+      return outer;
+    }
+
+    function buildMoreNest(item, suffix) {
+      var innerBlock = renderExpandableInner(item);
+      var teaser = teaserInner(item);
+      var headline = escapeHtml(item.title || "");
+      var slug = String(suffix != null ? suffix : "").replace(/[^a-zA-Z0-9_-]/g, "_");
+
+      var head =
+        '<div class="work-more-unit">' +
+        '<strong class="work-more-unit-title">' +
+        headline +
+        '</strong><div class="work-teaser work-teaser--more">' +
+        teaser +
+        "</div>";
+
+      if (!innerBlock.trim()) {
+        head += "</div>";
+        return head;
+      }
+
+      head +=
+        '<details class="work-disclosure work-disclosure--nested">' +
+        '<summary class="work-summary work-summary--nested"' +
+        (slug ? ' id="work-sum-more-' + escapeHtml(slug) + '"' : "") +
+        ">" +
+        renderWorkSummaryToggle("case") +
+        '</summary><div class="work-disclosure-body faq-a">' +
+        innerBlock +
+        renderWorkCollapseFooter("case") +
+        "</div></details></div>";
+      return head;
+    }
+
+    fetch(new URL("portfolioItems.json", document.baseURI || window.location.href))
+      .then(function (resp) {
+        if (!resp.ok) throw new Error("bad status");
+        return resp.json();
+      })
+      .then(function (items) {
+        if (!items || !items.length) throw new Error("empty");
+
+        var featured = [];
+        var featKeys = {};
+        for (var i = 0; i < items.length; i++) {
+          var it = items[i];
+          if (!it || typeof it.featuredRank !== "number") continue;
+          featured.push(it);
+          featKeys[String(it.id)] = true;
+        }
+        featured.sort(function (a, b) {
+          return a.featuredRank - b.featuredRank;
+        });
+
+        var more = [];
+        for (var j = 0; j < items.length; j++) {
+          var ito = items[j];
+          if (!ito) continue;
+          if (!featKeys[String(ito.id)]) more.push(ito);
+        }
+
+        var buf = "";
+        var sumCounter = 0;
+        for (var f = 0; f < featured.length; f++) {
+          sumCounter += 1;
+          buf += buildFeaturedMarkup(featured[f], sumCounter);
+        }
+
+        if (more.length) {
+          buf += '<li class="work-item work-item--accordion type-mix">';
+          buf +=
+            '<details class="work-disclosure work-disclosure--outer">' +
+            '<summary class="work-summary">' +
+            renderWorkSummaryToggle("outer") +
+            '</summary><div class="work-bundle"><p class="work-bundle-intro">';
+          buf += escapeHtml(t("work.caseStudiesMore"));
+          buf +=
+            '</p><div class="work-more-list" role="group">';
+          for (var mi = 0; mi < more.length; mi++) {
+            buf += buildMoreNest(more[mi], "m-" + (mi + 1) + "_" + String(more[mi].id));
+          }
+          buf += "</div>" + renderWorkCollapseFooter("outer") + "</div></details></li>";
+        }
+
+        listEl.innerHTML = buf;
+        applyPH(listEl);
+
+        listEl.addEventListener("click", function (ev) {
+          var btn = ev.target.closest("[data-work-collapse]");
+          if (!btn || !listEl.contains(btn)) return;
+          var details = btn.closest("details");
+          if (!details) return;
+          ev.preventDefault();
+          details.open = false;
+          var sum = details.querySelector(":scope > summary");
+          if (sum) {
+            try {
+              sum.focus();
+            } catch (e1) {}
+          }
+        });
+
+        window.requestAnimationFrame(function () {
+          listEl.removeAttribute("aria-busy");
+        });
+      })
+      .catch(function () {
+        listEl.innerHTML =
+          '<li class="work-item type-mix">' +
+          "<p>" +
+          escapeHtml(t("work.loadProjectsError")) +
+          "</p></li>";
+        listEl.removeAttribute("aria-busy");
+      });
+  })();
+
   (function () {
     function openFaqItemFromHash() {
       var id = window.location.hash.replace(/^#/, "");
       if (!id) return;
       var summary = document.getElementById(id);
-      if (!summary || !summary.classList.contains("faq-summary")) return;
+      if (!summary) return;
+      if (
+        !summary.classList.contains("faq-summary") &&
+        !summary.classList.contains("work-summary")
+      ) {
+        return;
+      }
       var details = summary.closest("details");
       if (details) details.open = true;
     }
