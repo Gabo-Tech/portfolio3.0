@@ -111,11 +111,11 @@
         li2:
           "<strong>10+</strong> client and product initiatives, from marketing sites to integration-heavy workflows.",
         li3:
-          "<strong>Beyondbmi:</strong> Telehealth SaaS work across scheduling, video, clinical flows, and integrations. Built vitals UI with Chart.js (weight, BP, related signals) and multi-step appointment reminders (email + SMS at 24h, 6h, and 1h before visits)—<strong>targeting the no-show and under-utilized slot problem</strong> scheduled care teams routinely optimize for, without a post-launch metric I was given. Learned Angular on the job; <strong>first production MR in week one</strong>; ~1 month solo ownership (production DB, critical bugs, releases). Shipped until budgets tightened near a milestone.",
+          "<strong>Beyondbmi:</strong> Telehealth SaaS work across scheduling, video, clinical flows, and integrations. Built vitals UI with Chart.js (weight, BP, related signals) and multi-step appointment reminders (email + SMS at 24h, 6h, and 1h before visits), <strong>targeting the no-show and under-utilized slot problem</strong> scheduled care teams routinely optimize for. No post-launch metrics were shared with me. Learned Angular on the job; <strong>first production MR in week one</strong>; ~1 month solo ownership (production DB, critical bugs, releases). Shipped until budgets tightened near a milestone.",
         li4:
           "<strong>IriusRisk:</strong> <strong>20+</strong> React components (Ant Design, TanStack Query, Zustand); <strong>100+</strong> production fixes over ~6 months. Helped deliver a <strong>domain-pages redesign</strong> for clearer IA and workflow UX. <strong>2nd place</strong> company hackathon.",
         li5:
-          "<strong>GABO (current):</strong> Puto Pulse at <strong>500+</strong> subscribers; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> on npm—guardrailed, repo-backed copy workflow for clients; <strong>2.5k+</strong> downloads in a recent 12-month window on the public registry.",
+          "<strong>GABO (current):</strong> Puto Pulse at <strong>500+</strong> subscribers; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> on npm: guardrailed, repo-backed copy workflow for clients. <strong>2.5k+</strong> downloads in a recent 12-month window on the public registry.",
       },
       experience: { heading: "Experience" },
       jobs: {
@@ -126,7 +126,7 @@
           li1:
             "Client delivery and owned products: Puto Pulse (newsletter + automation), integrations (email/social), and open-source npm tooling.",
           li2:
-            "Shipped arturorodes.com (Astro, Alpine.js, GSAP) and client editorial workflows with frontend-auto-cms—guardrailed, repo-backed content changes.",
+            "Shipped arturorodes.com (Astro, Alpine.js, GSAP) and client editorial workflows with frontend-auto-cms: guardrailed, repo-backed content changes.",
           li3:
             "frontend-auto-cms is verifiable on the public npm registry (2.5k+ downloads in a recent 12-month span); I still own code through production.",
         },
@@ -147,7 +147,7 @@
           meta: '<time datetime="2024-04">Apr 2024</time> to <time datetime="2024-10">Oct 2024</time>',
           company: "Self-directed, remote",
           li1:
-            "Full-time search window with continuous delivery: public repos, portfolio-ready projects, and interview artifacts—no long idle stretch.",
+            "Full-time search window with continuous delivery: public repos, portfolio-ready projects, and interview artifacts, with no long idle stretch.",
           li2:
             "Kept a shipping rhythm (small releases, readable commits, docs) so hiring conversations could point to real, recent work.",
         },
@@ -160,7 +160,7 @@
           li2:
             "Learned Angular from zero; first merge request in week one; ~1 month solo ownership while senior was away (production DB, critical bugs, releases).",
           li3:
-            "Delivered scheduling, video, clinical flows, and integrations. Built vitals tracking with Chart.js (weight, blood pressure, related data) and appointment reminders via email + SMS (24h, 6h, 1h pre-visit), aimed at reducing missed visits and wasted clinical time—the outcome that class of feature is built for. Engagement ended when budgets tightened near a milestone.",
+            "Delivered scheduling, video, clinical flows, and integrations. Built vitals tracking with Chart.js (weight, blood pressure, related data) and appointment reminders via email + SMS (24h, 6h, 1h pre-visit), aimed at reducing missed visits and wasted clinical time. That is the outcome that class of feature is built for. The engagement ended when budgets tightened near a milestone.",
         },
         solo: {
           title: '<span class="type-mix__hit">Solo</span> full-stack developer',
@@ -178,7 +178,7 @@
           li1:
             "Landing page redesign end to end: clearer information hierarchy, stronger calls to action, and accessibility-minded UI for a B2B marketing surface.",
           li2:
-            "Reordered content blocks so primary actions and trust signals surfaced earlier—execution focused on funnel clarity, not post-launch analytics I could access.",
+            "Reordered content blocks so primary actions and trust signals surfaced earlier. Work focused on funnel clarity; I did not have access to post-launch analytics.",
         },
         lujo: {
           title: '<span class="type-mix__hit">Technical</span> support specialist',
@@ -210,13 +210,13 @@
         chatgpt:
           'Native-feel desktop for Linux (Tauri + JS) where the official installers skip Linux. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Telehealth product work: scheduling, vitals charts (Chart.js), and multi-step appointment reminders (email/SMS)—aimed at missed-visit risk and utilization—plus video sessions and integration-heavy flows across <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres, and <strong>AWS</strong>.',
+          'Telehealth product work: scheduling, vitals charts (Chart.js), and multi-step appointment reminders (email/SMS) aimed at missed-visit risk and utilization, plus video sessions and integration-heavy flows across <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres, and <strong>AWS</strong>.',
         iriusCase:
           'Enterprise <strong>threat-modeling</strong> UI in a regulated context: complex React surface; contributed to a domain-pages redesign (Ant Design, TanStack Query, Zustand, Vitest).',
         moreStudiesLabel: "More case studies",
         moreStudiesCollapse: "Collapse list",
         caseStudiesMore:
-          'Other shipped projects—including learning builds and tooling—listed below.',
+          "Other shipped projects, including learning builds and tooling, are listed below.",
         caseStudyExpand: "Expand case study",
         caseStudyCollapse: "Collapse case study",
         loadProjectsError: "Could not load project list. Reload the page or try again later.",
@@ -343,15 +343,15 @@
       impact: {
         heading: "Impacto",
         li1:
-          "<strong>Más de 4 años</strong> entregando productos JavaScript/TypeScript para usuarios reales (B2B, regulado, consumer).",
+          "<strong>Más de 4 años</strong> entregando productos JavaScript/TypeScript para usuarios reales (B2B, regulado, B2C).",
         li2:
           "<strong>Más de 10</strong> iniciativas de cliente y producto, desde webs de marketing hasta flujos con muchas integraciones.",
         li3:
-          "<strong>Beyondbmi:</strong> Telesalud: agenda, vídeo, flujos clínicos e integraciones. UI de constantes vitales con Chart.js (peso, TA, señales relacionadas) y recordatorios por etapas (email + SMS a 24h, 6h y 1h antes)—<strong>orientados al problema de inasistencias y franjas vacías</strong> que los equipos de cita suelen optimizar, sin una métrica post‑lanzamiento que me compartieran. Aprendí Angular sobre la marcha; <strong>primer MR en producción en la primera semana</strong>; ~1 mes a solas (BD en prod, bugs críticos, releases). Entrega hasta un cierre por presupuesto cerca de un hito.",
+          "<strong>Beyondbmi:</strong> Telesalud: agenda, vídeo, flujos clínicos e integraciones. UI de constantes vitales con Chart.js (peso, TA, señales relacionadas) y recordatorios por etapas (email + SMS a 24h, 6h y 1h antes), <strong>orientados al problema de inasistencias y franjas vacías</strong> que los equipos de cita suelen optimizar. No me compartieron métricas tras el lanzamiento. Aprendí Angular sobre la marcha; <strong>primer MR en producción en la primera semana</strong>; ~1 mes a solas (BD en prod, bugs críticos, releases). Entrega hasta un cierre por presupuesto cerca de un hito.",
         li4:
           "<strong>IriusRisk:</strong> Más de <strong>20</strong> componentes React (Ant Design, TanStack Query, Zustand); más de <strong>100</strong> correcciones en prod en ~6 meses. Participé en un <strong>rediseño de páginas de dominio</strong> con mejor jerarquía y flujo. <strong>2.º puesto</strong> en el hackathon de la empresa.",
         li5:
-          "<strong>GABO (actual):</strong> Puto Pulse con más de <strong>500</strong> suscriptores; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> en npm—flujo editorial con salvaguardas y repo; <strong>más de 2,5k</strong> descargas en una ventana reciente de 12 meses en el registro público.",
+          "<strong>GABO (actual):</strong> Puto Pulse con más de <strong>500</strong> suscriptores; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> en npm: flujo editorial con salvaguardas y repo. <strong>Más de 2,5k</strong> descargas en una ventana reciente de 12 meses en el registro público.",
       },
       experience: { heading: "Experiencia" },
       jobs: {
@@ -362,7 +362,7 @@
           li1:
             "Entrega a clientes y producto propio: Puto Pulse (newsletter y automatización), integraciones (email/redes) y herramientas npm abiertas.",
           li2:
-            "Lancé arturorodes.com (Astro, Alpine.js, GSAP) y flujos editoriales con frontend-auto-cms—cambios de contenido con salvaguardas y repo.",
+            "Lancé arturorodes.com (Astro, Alpine.js, GSAP) y flujos editoriales con frontend-auto-cms: cambios de contenido con salvaguardas y repo.",
           li3:
             "frontend-auto-cms es comprobable en el registro npm público (más de 2,5k descargas en un periodo reciente de 12 meses); sigo llevando el código hasta producción.",
         },
@@ -383,7 +383,7 @@
           meta: '<time datetime="2024-04">Abr 2024</time> a <time datetime="2024-10">Oct 2024</time>',
           company: "Por cuenta propia, remoto",
           li1:
-            "Búsqueda de trabajo a tiempo completo con entrega continua: repos públicos, proyectos listos para portafolio y material para entrevistas—sin meses parado.",
+            "Búsqueda de trabajo a tiempo completo con entrega continua: repos públicos, proyectos listos para portafolio y material para entrevistas, sin meses parado.",
           li2:
             "Mantuve ritmo de publicación (releases pequeñas, commits legibles, documentación) para enseñar trabajo reciente y real en procesos de selección.",
         },
@@ -396,7 +396,7 @@
           li2:
             "Aprendí Angular desde cero; primera merge request en la primera semana; ~1 mes a solas mientras el senior estaba fuera (BD en prod, bugs críticos, releases).",
           li3:
-            "Entregué agenda, vídeo, flujos clínicos e integraciones. Constantes vitales con Chart.js (peso, tensión arterial, datos relacionados) y recordatorios por email y SMS (24h, 6h y 1h antes), orientados a reducir inasistencias y tiempo clínico vacío—el resultado que ese tipo de funcionalidad persigue. La colaboración terminó cuando el presupuesto se ajustó cerca de un hito.",
+            "Entregué agenda, vídeo, flujos clínicos e integraciones. Constantes vitales con Chart.js (peso, tensión arterial, datos relacionados) y recordatorios por email y SMS (24h, 6h y 1h antes), orientados a reducir inasistencias y tiempo clínico desperdiciado. Ese es el resultado que persigue ese tipo de función. La colaboración terminó cuando el presupuesto se ajustó cerca de un hito.",
         },
         solo: {
           title: "Desarrollador full-stack <span class=\"type-mix__hit\">en solitario</span>",
@@ -415,7 +415,7 @@
           li1:
             "Rediseño completo de la landing: jerarquía de información más clara, llamadas a la acción más fuertes y UI con criterios de accesibilidad para marketing B2B.",
           li2:
-            "Reorganicé bloques para que las acciones principales y las señales de confianza aparecieran antes; enfoque en claridad de funnel, sin analíticas post-lanzamiento a mi alcance.",
+            "Reorganicé bloques para que las acciones principales y las señales de confianza aparecieran antes. Prioricé claridad en el embudo de conversión; no tuve analíticas post-lanzamiento.",
         },
         lujo: {
           title: "Especialista de soporte <span class=\"type-mix__hit\">técnico</span>",
@@ -424,7 +424,7 @@
           li1:
             "Endurecimiento operativo: accesos seguros, reglas de firewall, copias; migración desde Google Sheets a base de datos real.",
           li2:
-            "Apoyo en actualizaciones web con stakeholders y sesiones prácticas de seguridad para compañeros no técnicos.",
+            "Apoyo en actualizaciones web con las partes implicadas y sesiones prácticas de seguridad para compañeros no técnicos.",
         },
       },
       stack: {
@@ -447,12 +447,12 @@
         chatgpt:
           'Escritorio con sensación nativa en Linux (Tauri + JS) donde los instaladores oficiales ignoran Linux. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Producto de telesalud: agenda, gráficas de constantes (Chart.js) y recordatorios por etapas (email/SMS)—orientados a inasistencias y uso de franjas—además de videollamadas y flujos con muchas integraciones sobre <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres y <strong>AWS</strong>.',
+          'Producto de telesalud: agenda, gráficas de constantes (Chart.js) y recordatorios por etapas (email/SMS) para reducir inasistencias y mejorar el uso de franjas, además de videollamadas y flujos con muchas integraciones sobre <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres y <strong>AWS</strong>.',
         iriusCase:
           'UI de <strong>modelado de amenazas</strong> enterprise en contexto regulado: React complejo; participación en rediseño de páginas de dominio (Ant Design, TanStack Query, Zustand y Vitest).',
         moreStudiesLabel: "Más casos de estudio",
         moreStudiesCollapse: "Cerrar lista",
-        caseStudiesMore: "Otros proyectos—incluye prácticas y herramientas—en la lista de abajo.",
+        caseStudiesMore: "Otros proyectos aparecen en la lista de abajo, incluidas prácticas de aprendizaje y herramientas.",
         caseStudyExpand: "Expandir caso",
         caseStudyCollapse: "Cerrar caso de estudio",
         loadProjectsError: "No se pudo cargar la lista de proyectos. Recarga la página o inténtalo más tarde.",
@@ -515,9 +515,9 @@
     },
     de: {
       doc: {
-        title: "Gabriel Clemente, Full-Stack JS/TS Engineer | Zürich",
+        title: "Gabriel Clemente, Full-Stack-Softwareingenieur (JS/TS) | Zürich",
         description:
-          "Selbstgelernter Full-Stack-Entwickler (TypeScript, React, Node). UI, APIs und Integrationen in Healthtech, Cybersecurity-SaaS und Kundenprojekten geliefert. Schweizer B-Bewilligung. Static-first Portfolio. Offen für Zürich, Zug oder EU-Remote gemäss Vorgaben.",
+          "Selbstgelernter Full-Stack-Entwickler (TypeScript, React, Node). UI, APIs und Integrationen in Gesundheitstech, Cybersecurity-SaaS und Kundenprojekten geliefert. Schweizer B-Bewilligung. Static-first-Portfolio. Offen für Zürich, Zug oder EU-Remote gemäss Vorgaben.",
       },
       a11y: { newTab: " (öffnet in neuem Tab)", opensResume: " (öffnet Lebenslauf in neuem Tab)" },
       skip: { content: "Zum Inhalt springen" },
@@ -530,7 +530,7 @@
         skip: "Intro überspringen",
         skipAria: "Einführung überspringen und zum Portfolio-Inhalt",
         help:
-          "Start antippen für eine kurze animierte Übersicht der Werkzeugkategorien. Optional kann Hintergrundmusik laufen. Escape oder Intro überspringen schliesst das Fenster.",
+          "Tippen Sie auf Start für eine kurze animierte Übersicht der Werkzeugkategorien. Optional kann Hintergrundmusik laufen. Escape oder Intro überspringen schliesst das Fenster.",
         start: "Start",
         startAria: "Animierte Einführung starten; Hintergrundmusik kann abspielen, wenn Ihr Gerät es erlaubt",
         announceSection: "Bereich: ",
@@ -576,7 +576,7 @@
       },
       contactList: { aria: "Kontakt und Profile", caseStudies: "Fallstudien", resume: "Lebenslauf (PDF)" },
       lede:
-        'Ich liefere Full-Stack-Produktarbeit: UIs, APIs, Integrationen und alles, was den Betrieb in Produktion hält. Seit 2019 selbst gelernt (ein Jahr Informatik an der BYU Idaho, dann raus, um echte Dinge zu shipen). Seither unter anderem ein <strong>Telehealth</strong>-Stack (Angular, React Native, Node, Postgres, AWS), eine <strong>Enterprise-Threat-Modeling</strong>-UI (React, TanStack Query, Zustand, Vitest) und jetzt <strong>freiberufliche Engineering</strong>-Arbeit bei GABO: Kundenlaunches, Automatisierung und öffentliche Tools. Ich schreibe Code, den die nächste Person lesen kann, und Systeme, die in Prod nicht umfallen. Neuer Stack? Lerne ich.',
+        'Ich liefere Full-Stack-Produktarbeit: UIs, APIs, Integrationen und alles, was den Betrieb in der Produktion unterstützt. Seit 2019 selbst gelernt (ein Jahr Informatik an der BYU Idaho, dann raus, um echte Produkte auszuliefern). Seither unter anderem ein <strong>Telehealth</strong>-Stack (Angular, React Native, Node, Postgres, AWS), eine <strong>Enterprise-Threat-Modeling</strong>-UI (React, TanStack Query, Zustand, Vitest) und jetzt <strong>freiberufliche Engineering</strong>-Arbeit bei GABO: Kundenlaunches, Automatisierung und öffentliche Tools. Ich schreibe Code, den die nächste Person lesen kann, und Systeme, die in der Produktion stabil bleiben. Neuer Stack? Lerne ich.',
       impact: {
         heading: "Wirkung",
         li1:
@@ -584,11 +584,11 @@
         li2:
           "<strong>Über 10</strong> Kunden- und Produktinitiativen: von Marketing-Sites bis zu integrationslastigen Workflows.",
         li3:
-          "<strong>Beyondbmi:</strong> Telehealth-SaaS: Terminplanung, Video, klinische Flows und Integrationen. Vitals-UI mit Chart.js (Gewicht, Blutdruck, verwandte Signale) und mehrstufigen Termin-Erinnerungen (E-Mail + SMS bei 24h, 6h und 1h vor dem Termin)—<strong>gegen Nichterscheinen und ungenutzte Slots</strong>, wie sie Teams mit Buchungslogik typischerweise optimieren, ohne mir nachträglich offizielle Kennzahlen. Angular on the job gelernt; <strong>erster Production-MR in Woche eins</strong>; ~1 Monat in alleiniger Verantwortung (Prod-DB, kritische Bugs, Releases). Lieferung bis zu einer budgetbedingten Auslaufphase nahe einem Meilenstein.",
+          "<strong>Beyondbmi:</strong> Telehealth-SaaS: Terminplanung, Video, klinische Abläufe und Integrationen. Vitals-Oberfläche mit Chart.js (Gewicht, Blutdruck, verwandte Werte) und mehrstufigen Termin-Erinnerungen (E-Mail und SMS bei 24h, 6h und 1h vor dem Termin), <strong>ausgerichtet auf Nichterscheinen und schlecht genutzte Kapazität</strong>, wie sie in der Terminplanung üblich sind. Offizielle Kennzahlen nach dem Livegang wurden mir nicht mitgeteilt. Angular habe ich direkt im Projekt erlernt; <strong>erster Merge-Request für die Produktion in Woche eins</strong>; etwa einen Monat in alleiniger Verantwortung (Produktions-DB, kritische Fehler, Releases). Auslieferung bis zu einer budgetbedingten Auslaufphase nahe einem Meilenstein.",
         li4:
-          "<strong>IriusRisk:</strong> <strong>20+</strong> React-Komponenten (Ant Design, TanStack Query, Zustand); <strong>100+</strong> Prod-Fixes in ~6 Monaten. Mitwirkung an einem <strong>Redesign der Domain-Seiten</strong> für klarere Informationsarchitektur und Workflow-UX. <strong>2. Platz</strong> beim Firmen-Hackathon.",
+          "<strong>IriusRisk:</strong> <strong>20+</strong> React-Komponenten (Ant Design, TanStack Query, Zustand); <strong>100+</strong> Produktionskorrekturen in ~6 Monaten. Mitwirkung an einem <strong>Redesign der Domain-Seiten</strong> für klarere Informationsarchitektur und Workflow-UX. <strong>2. Platz</strong> beim Firmen-Hackathon.",
         li5:
-          "<strong>GABO (aktuell):</strong> Puto Pulse mit <strong>500+</strong> Abonnenten; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> auf npm—abgesicherte, repo-gestützte Redaktion für Kunden; <strong>2,5k+</strong> Downloads in einem aktuellen 12-Monats-Fenster im öffentlichen Registry.",
+          "<strong>GABO (aktuell):</strong> Puto Pulse mit <strong>500+</strong> Abonnenten; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> auf npm: abgesicherte, repo-gestützte Redaktion für Kunden. <strong>2,5k+</strong> Downloads in einem aktuellen 12-Monatszeitraum im öffentlichen npm-Register.",
       },
       experience: { heading: "Erfahrung" },
       jobs: {
@@ -599,9 +599,9 @@
           li1:
             "Kundenprojekte und eigene Produkte: Puto Pulse (Newsletter + Automatisierung), Integrationen (E-Mail/Social) und Open-Source-npm-Tools.",
           li2:
-            "arturorodes.com (Astro, Alpine.js, GSAP) ausgeliefert sowie Redaktions-Workflows mit frontend-auto-cms—abgesicherte, repo-gestützte Content-Änderungen.",
+            "arturorodes.com (Astro, Alpine.js, GSAP) ausgeliefert sowie Redaktions-Workflows mit frontend-auto-cms: abgesicherte, repo-gestützte Content-Änderungen.",
           li3:
-            "frontend-auto-cms ist im öffentlichen npm-Registry prüfbar (2,5k+ Downloads in einem aktuellen 12-Monatszeitraum); ich trage den Code bis in die Produktion.",
+            "frontend-auto-cms ist im öffentlichen npm-Register nachvollziehbar (2,5k+ Downloads in einem aktuellen 12-Monatszeitraum); ich trage den Code bis in die Produktion.",
         },
         irius: {
           title: '<span class="type-mix__hit">Frontend</span>-Entwickler',
@@ -620,7 +620,7 @@
           meta: '<time datetime="2024-04">Apr. 2024</time> bis <time datetime="2024-10">Okt. 2024</time>',
           company: "Selbst organisiert, remote",
           li1:
-            "Vollzeit-Suche bei laufender Lieferung: öffentliche Repos, portfolio-taugliche Projekte und Interview-Material—keine langen Inaktivphasen.",
+            "Vollzeit-Suche bei laufender Lieferung: öffentliche Repos, portfolio-taugliche Projekte und Interview-Material, ohne lange Inaktivitätsphasen.",
           li2:
             "Fokus auf Rhythmus: kleine Releases, nachvollziehbare Commits und Docs, damit Gespräche echte, aktuelle Arbeit zeigen konnten.",
         },
@@ -633,7 +633,7 @@
           li2:
             "Angular von Null gelernt; erster Merge Request in Woche eins; ~1 Monat alleinverantwortlich während Senior abwesend (Prod-DB, kritische Bugs, Releases).",
           li3:
-            "Terminplanung, Video, klinische Flows und Integrationen geliefert. Vitals-Tracking mit Chart.js (Gewicht, Blutdruck, verwandte Daten) und Erinnerungen per E-Mail + SMS (24h, 6h, 1h vor Termin), ausgerichtet auf weniger No-Shows und weniger ungenutzte klinische Zeit—das ist das übliche Ziel solcher Flows. Engagement endete bei budgetbedingter Auslaufphase nahe einem Meilenstein.",
+            "Terminplanung, Video, klinische Abläufe und Integrationen geliefert. Vitals-Tracking mit Chart.js (Gewicht, Blutdruck, verwandte Daten) und Erinnerungen per E-Mail und SMS (24h, 6h, 1h vor dem Termin), um Nichterscheinen und ungenutzte klinische Zeit zu verringern. Das ist das übliche Ziel solcher Abläufe. Die Zusammenarbeit endete bei einer budgetbedingten Auslaufphase nahe einem Meilenstein.",
         },
         solo: {
           title: '<span class="type-mix__hit">Solo</span> Full-Stack-Entwickler',
@@ -642,7 +642,7 @@
           li1:
             "KMU- und Startup-Arbeit: Marketing-Sites, E-Commerce, SEO; von Greenfield-JavaScript bis WordPress, PHP und Drittintegrations.",
           li2: "Futuria / Digital Kit: Rehubik-Automatisierung (Formulare, SQL, Odoo, Zapier, APIs, Python, Google Apps Script).",
-          li3: "Aufträge über València-Beschleuniger; US-Entity für unkompliziertes internationales Contracting.",
+          li3: "Aufträge über València-Beschleuniger; US-Gesellschaft für unkomplizierte internationale Aufträge.",
         },
         uiDesigner: {
           title: '<span class="type-mix__hit">UI</span>-Designer',
@@ -651,7 +651,7 @@
           li1:
             "Landing-Redesign Ende-zu-Ende: klarere Informationsarchitektur, stärkere CTAs und accessibility-orientierte UI für B2B-Marketing.",
           li2:
-            "Content-Blöcke neu geordnet, damit Hauptaktionen und Vertrauenssignale früher sichtbar werden—Fokus auf Funnel-Klarheit ohne Post-Launch-Kennzahlen in meiner Hand.",
+            "Inhaltsblöcke neu geordnet, damit Hauptaktionen und Vertrauenssignale früher sichtbar werden. Schwerpunkt auf klarerem Marketing-Funnel; Kennzahlen nach dem Livegang lagen mir nicht vor.",
         },
         lujo: {
           title: 'Spezialist <span class="type-mix__hit">technischer</span> Support',
@@ -668,7 +668,7 @@
         frontend: "Frontend",
         backend: "Backend & APIs",
         data: "Daten & Plattform",
-        quality: "Qualität & Delivery",
+        quality: "Qualität und Auslieferung",
         more:
           'Ausserdem: <span class="type-mix__hit">React Native</span>, WordPress, PHP, <span class="type-mix__hit">Python</span>, Laravel, Playwright, Tauri, Svelte, Zapier, Google Apps Script, Odoo und mehr. Frag gern nach Details.',
       },
@@ -679,17 +679,17 @@
         puto:
           'Newsletter und Automatisierung, <strong>500+</strong> Abonnenten. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
-          'Frontend in ein kleines, abgesichertes Repo-CMS verwandeln (<code>npm i frontend-auto-cms</code>). <strong>2,5k+</strong> npm-Downloads in einem aktuellen 12-Monats-Fenster (öffentliches Registry). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Frontend in ein kleines, abgesichertes Repo-CMS verwandeln (<code>npm i frontend-auto-cms</code>). <strong>2,5k+</strong> npm-Downloads in einem aktuellen 12-Monatszeitraum (öffentliches npm-Register). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         chatgpt:
           'Desktop mit nativem Gefühl für Linux (Tauri + JS), wo offizielle Installer Linux auslassen. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Telehealth-Produkt: Terminplanung, Vitals-Charts (Chart.js) und mehrstufige Termin-Erinnerungen (E-Mail/SMS)—gezielt gegen No-Show-Risiko und Slot-Auslastung—plus Videosessions und integrationslastige Flows mit <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres und <strong>AWS</strong>.',
+          'Telehealth-Produkt: Terminplanung, Vitals-Charts (Chart.js) und mehrstufige Termin-Erinnerungen (E-Mail/SMS) zur Verringerung von Nichterscheinen und besserer Auslastung der Terminslots; dazu Videosessions und integrationslastige Abläufe mit <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres und <strong>AWS</strong>.',
         iriusCase:
           '<strong>Threat-Modeling</strong>-Enterprise-UI in reguliertem Umfeld: komplexe React-Oberfläche; Mitwirkung am Redesign der Domain-Seiten (Ant Design, TanStack Query, Zustand, Vitest).',
         moreStudiesLabel: "Weitere Fallstudien",
         moreStudiesCollapse: "Liste schließen",
         caseStudiesMore:
-          "Weitere Projekte—Übungsprojekte und Tools—stehen in der Liste unten.",
+          "Weitere Projekte, darunter Übungsaufbauten und Tools, stehen in der Liste unten.",
         caseStudyExpand: "Fallstudie öffnen",
         caseStudyCollapse: "Fallstudie schließen",
         loadProjectsError: "Projektliste konnte nicht geladen werden. Seite neu laden oder später erneut versuchen.",
@@ -715,7 +715,7 @@
       education: {
         heading: "Ausbildung & Weg",
         li1:
-          "<strong>Selbst gelernter Weg</strong>, 2019 bis heute: Uni nach einem Jahr verlassen, um echte Produkte zu liefern; weiter lernend on the job.",
+          "<strong>Selbst gelernter Weg</strong>, 2019 bis heute: Uni nach einem Jahr verlassen, um echte Produkte zu liefern; weiterlernend im Job.",
         li2: "<strong>Informatik</strong>, BYU Idaho (2020 bis 2021), danach Vollzeitarbeit.",
         li3: "<strong>Full-stack Web (MERN)</strong>-Bootcamp an der CEU Cardenal Herrera, Apr. bis Jul. 2022.",
         li4:

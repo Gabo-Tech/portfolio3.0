@@ -45,7 +45,7 @@
     ],
     "featuredRank": 1,
     "summaryKey": "work.arturo",
-    "detailHtml": "<p>GABO client build (2026, Switzerland): public marketing site plus an editorial workflow the client owns. Astro keeps pages fast and boring in the right way; Alpine.js handles light interaction; GSAP where motion earns its place.</p><p>I shipped <strong>frontend-auto-cms</strong> on npm so their team proposes copy updates in a small dashboard and lands changes through Git—guardrails instead of emailing Word files around.</p>"
+    "detailHtml": "<p>GABO client build (2026, Switzerland): public marketing site plus an editorial workflow the client owns. Astro keeps pages fast and boring in the right way; Alpine.js handles light interaction; GSAP where motion earns its place.</p><p>I shipped <strong>frontend-auto-cms</strong> on npm so their team proposes copy updates in a small dashboard and lands changes through Git: guardrails instead of emailing Word files around.</p>"
   },
   {
     "id": 18,
@@ -88,7 +88,7 @@
     ],
     "featuredRank": 2,
     "summaryKey": "work.puto",
-    "detailHtml": "<p><strong>putopulse.org</strong>: started Oct&nbsp;2025. Weekly book-summary newsletter—500+ subscribers, deep back catalogue.</p><p>I built the site and stitched automation end to end (AI where it actually helps, email, social) so editorial does not need a full content ops team.</p>"
+    "detailHtml": "<p><strong>putopulse.org</strong>: started Oct&nbsp;2025. Weekly book-summary newsletter with 500+ subscribers, deep back catalogue.</p><p>I built the site and stitched automation end to end (AI where it actually helps, email, social) so editorial does not need a full content ops team.</p>"
   },
   {
     "id": 14,
@@ -279,7 +279,7 @@
     ],
     "featuredRank": 4,
     "summaryKey": "work.beyondCase",
-    "detailHtml": "<p>Nov&nbsp;2022–Apr&nbsp;2024, full-time remote (two-engineer squad). Angular on web, React Native for the member apps, Node/Express + TypeORM + Postgres on AWS, plus Stripe, messaging, scheduling, trackers, clinical flows, integrations.</p><p>I learned Angular on the job; first production MR in week one; about a month of solo ownership while our senior was out (prod DB moves, escalation bridge, releases). Engagement ended when budgets tightened—not because the codebase froze.</p><p>Public storefront is linked; clinician/member interfaces are protected.</p>"
+    "detailHtml": "<p>Nov&nbsp;2022 to Apr&nbsp;2024, full-time remote (two-engineer squad). Angular on web, React Native for the member apps, Node/Express + TypeORM + Postgres on AWS, plus Stripe, messaging, scheduling, trackers, clinical flows, integrations.</p><p>I learned Angular on the job; first production MR in week one; about a month of solo ownership while our senior was out (prod DB moves, escalation bridge, releases). Engagement ended when budgets tightened, not because the codebase froze.</p><p>Public storefront is linked; clinician/member interfaces are protected.</p>"
   },
   {
     "id": 4,
@@ -867,7 +867,7 @@
     "title": "frontend-auto-cms",
     "summaryKey": "work.cms",
     "desc": "npm library: repo-backed CMS workflows so marketing can propose copy without breaking production. Public registry shows thousands of downloads over a typical 12-month window.",
-    "detailHtml": "<p>Turn a static site into a guardrailed CMS: authors edit in a tiny dashboard, changes land as pull requests against the same Git repository developers already trust—no surprise SQL or mystery CMS servers.</p><p>Shipped on npm and wired for teams that already think in repos and reviews.</p>",
+    "detailHtml": "<p>Turn a static site into a guardrailed CMS: authors edit in a tiny dashboard, changes land as pull requests against the same Git repository developers already trust, with no surprise SQL or mystery CMS servers.</p><p>Shipped on npm and wired for teams that already think in repos and reviews.</p>",
     "img": "",
     "link": "https://www.npmjs.com/package/frontend-auto-cms",
     "skills": [
@@ -894,7 +894,7 @@
     "title": "ChatGPT Multiplatform Desktop Wrapper",
     "summaryKey": "work.chatgpt",
     "desc": "Tauri + JavaScript shell for Linux where vendor desktop builds are uneven.",
-    "detailHtml": "<p>Native-ish desktop wrapper for the ChatGPT web app on Linux—Tauri keeps the footprint small versus shipping a separate browser bundle.</p><p>For users who prefer an app chrome (taskbar entry, sane windowing) instead of leaving another pinned browser tab alive.</p>",
+    "detailHtml": "<p>Native-ish desktop wrapper for the ChatGPT web app on Linux. Tauri keeps the footprint small versus shipping a separate browser bundle.</p><p>For users who prefer an app chrome (taskbar entry, sane windowing) instead of leaving another pinned browser tab alive.</p>",
     "img": "",
     "link": "https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper",
     "skills": [
