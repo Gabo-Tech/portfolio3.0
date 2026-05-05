@@ -111,11 +111,11 @@
         li2:
           "<strong>10+</strong> client and product initiatives, from marketing sites to integration-heavy workflows.",
         li3:
-          "<strong>Beyondbmi:</strong> Full-stack features across scheduling, trackers, video, and clinical flows. Learned Angular on the job; <strong>first production MR in week one</strong>; ~1 month solo ownership (production DB, critical bugs, releases). Shipped steadily until budgets tightened near a product milestone.",
+          "<strong>Beyondbmi:</strong> Telehealth SaaS work across scheduling, video, clinical flows, and integrations. Built vitals UI with Chart.js (weight, BP, related signals) and multi-step appointment reminders (email + SMS at 24h, 6h, and 1h before visits)—<strong>targeting the no-show and under-utilized slot problem</strong> scheduled care teams routinely optimize for, without a post-launch metric I was given. Learned Angular on the job; <strong>first production MR in week one</strong>; ~1 month solo ownership (production DB, critical bugs, releases). Shipped until budgets tightened near a milestone.",
         li4:
-          "<strong>IriusRisk:</strong> <strong>20+</strong> React components; Ant Design, TanStack Query, Zustand; <strong>100+</strong> bug fixes over ~6 months; <strong>2nd place</strong> company hackathon.",
+          "<strong>IriusRisk:</strong> <strong>20+</strong> React components (Ant Design, TanStack Query, Zustand); <strong>100+</strong> production fixes over ~6 months. Helped deliver a <strong>domain-pages redesign</strong> for clearer IA and workflow UX. <strong>2nd place</strong> company hackathon.",
         li5:
-          "<strong>GABO (current):</strong> Puto Pulse to <strong>500+</strong> subscribers; arturorodes.com (Astro, Alpine, GSAP); published <strong>frontend-auto-cms</strong> for repo-backed editorial workflows.",
+          "<strong>GABO (current):</strong> Puto Pulse at <strong>500+</strong> subscribers; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> on npm—guardrailed, repo-backed copy workflow for clients; <strong>2.5k+</strong> downloads in a recent 12-month window on the public registry.",
       },
       experience: { heading: "Experience" },
       jobs: {
@@ -123,9 +123,12 @@
           title: '<span class="type-mix__hit">Freelance</span> software engineer',
           meta: '<time datetime="2025-10">Oct 2025</time> to present',
           company: "GABO LLC, Switzerland, remote",
-          li1: "Client delivery plus own products: newsletter (Puto Pulse), automation (email/social), and npm tooling.",
-          li2: "Shipped arturorodes.com with Astro, Alpine.js, GSAP; frontend-auto-cms for guardrailed, repo-backed content updates.",
-          li3: "Stack varies by project; I still write the production code.",
+          li1:
+            "Client delivery and owned products: Puto Pulse (newsletter + automation), integrations (email/social), and open-source npm tooling.",
+          li2:
+            "Shipped arturorodes.com (Astro, Alpine.js, GSAP) and client editorial workflows with frontend-auto-cms—guardrailed, repo-backed content changes.",
+          li3:
+            "frontend-auto-cms is verifiable on the public npm registry (2.5k+ downloads in a recent 12-month span); I still own code through production.",
         },
         irius: {
           title: '<span class="type-mix__hit">Frontend</span> developer',
@@ -134,15 +137,19 @@
           company: "IriusRisk, Huesca, Spain (remote)",
           li1:
             "Enterprise threat-modeling product UI: React, TypeScript, Ant Design, TanStack Query, Zustand, SASS, Vitest.",
-          li2: "PR review, backend API collaboration, and production support in a regulated context.",
-          li3: "2nd place company-wide hackathon; reliable feature delivery on high-complexity UI.",
+          li2:
+            "PR review, backend API collaboration, and production support in a regulated, audit-sensitive context.",
+          li3:
+            "Contributed to a domain-pages redesign (navigation, layout, workflow clarity). 2nd place company-wide hackathon; steady shipping on a high-complexity surface.",
         },
         independent: {
           title: '<span class="type-mix__hit">Independent</span> build period',
           meta: '<time datetime="2024-04">Apr 2024</time> to <time datetime="2024-10">Oct 2024</time>',
           company: "Self-directed, remote",
-          li1: "Looking for full-time roles while keeping public projects alive so I didn't go stale.",
-          li2: "Steady commits and portfolio-visible work; there wasn't really a gap.",
+          li1:
+            "Full-time search window with continuous delivery: public repos, portfolio-ready projects, and interview artifacts—no long idle stretch.",
+          li2:
+            "Kept a shipping rhythm (small releases, readable commits, docs) so hiring conversations could point to real, recent work.",
         },
         beyond: {
           title: '<span class="type-mix__hit">Full-stack</span> engineer',
@@ -151,33 +158,36 @@
           li1:
             "Telehealth SaaS: Angular, TypeScript, Express, TypeORM, Postgres, React Native, AWS (incl. Lambda), Stripe, messaging/automation.",
           li2:
-            "Learned Angular from zero; first merge request in week one; solo ownership for ~1 month while senior was away (production DB, critical bugs, releases).",
+            "Learned Angular from zero; first merge request in week one; ~1 month solo ownership while senior was away (production DB, critical bugs, releases).",
           li3:
-            "Shipped scheduling, trackers, video, clinical flows, and integrations until the engagement ended when company budgets tightened; product was near a target milestone.",
+            "Delivered scheduling, video, clinical flows, and integrations. Built vitals tracking with Chart.js (weight, blood pressure, related data) and appointment reminders via email + SMS (24h, 6h, 1h pre-visit), aimed at reducing missed visits and wasted clinical time—the outcome that class of feature is built for. Engagement ended when budgets tightened near a milestone.",
         },
         solo: {
           title: '<span class="type-mix__hit">Solo</span> full-stack developer',
           meta: '<time datetime="2021-08">Aug 2021</time> to <time datetime="2022-11">Nov 2022</time>',
           company: "GABO, Spain / self-employed, mostly remote",
           li1:
-            "SMB and startup work: landings, ecommerce, SEO; everything from greenfield JS to WordPress, PHP, and integrations.",
+            "SMB and startup delivery: marketing sites, ecommerce, SEO; greenfield JavaScript through WordPress, PHP, and third-party integrations.",
           li2: "Futuria / Digital Kit: Rehubik automation (forms, SQL, Odoo, Zapier, APIs, Python, Google Apps Script).",
-          li3: "Clients via Valencia accelerators; US entity for clean contracting.",
+          li3: "Engagements through València accelerators; US entity for straightforward international contracting.",
         },
         uiDesigner: {
           title: '<span class="type-mix__hit">UI</span> designer',
           meta: '<time datetime="2022-07">Jul 2022</time> to <time datetime="2022-08">Aug 2022</time>',
           company: "talenTeal, Valencia, Spain (on-site)",
-          li1: "Redesigned company landing for clearer UX/UI and accessibility.",
-          li2: "Stronger engagement and a more navigable marketing surface.",
+          li1:
+            "Landing page redesign end to end: clearer information hierarchy, stronger calls to action, and accessibility-minded UI for a B2B marketing surface.",
+          li2:
+            "Reordered content blocks so primary actions and trust signals surfaced earlier—execution focused on funnel clarity, not post-launch analytics I could access.",
         },
         lujo: {
           title: '<span class="type-mix__hit">Technical</span> support specialist',
           meta: '<time datetime="2022-02">Feb 2022</time> to <time datetime="2022-03">Mar 2022</time>',
           company: "Lujo Network, Valencia, Spain (hybrid)",
           li1:
-            "Hardened digital footprint: secure sign-in flows, firewalls, backup posture; database work including migration off Google Sheets to a real database.",
-          li2: "Contributed to website segments and team training on security practices.",
+            "Hardened operational footprint: secure sign-in paths, firewall rules, backups; engineered migration from Google Sheets into a proper database.",
+          li2:
+            "Supported website updates with stakeholders and ran practical security walkthroughs so non-technical teammates could follow baseline practices.",
         },
       },
       stack: {
@@ -196,13 +206,13 @@
         puto:
           'Newsletter and automation, <strong>500+</strong> subscribers. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
-          'Turn a frontend into a small editable CMS (<code>npm i frontend-auto-cms</code>). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Turn a frontend into a guardrailed, repo-backed CMS (<code>npm i frontend-auto-cms</code>). <strong>2.5k+</strong> npm downloads in a recent 12-month window (public registry). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         chatgpt:
           'Native-feel desktop for Linux (Tauri + JS) where the official installers skip Linux. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Telehealth product work: scheduling, clinical trackers, video sessions, and integration-heavy flows across <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres, and <strong>AWS</strong>.',
+          'Telehealth product work: scheduling, vitals charts (Chart.js), and multi-step appointment reminders (email/SMS)—aimed at missed-visit risk and utilization—plus video sessions and integration-heavy flows across <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres, and <strong>AWS</strong>.',
         iriusCase:
-          'Enterprise <strong>threat-modeling</strong> UI in a regulated context: complex React surface with Ant Design, TanStack Query, Zustand, and Vitest.',
+          'Enterprise <strong>threat-modeling</strong> UI in a regulated context: complex React surface; contributed to a domain-pages redesign (Ant Design, TanStack Query, Zustand, Vitest).',
         moreStudiesLabel: "More case studies",
         moreStudiesCollapse: "Collapse list",
         caseStudiesMore:
@@ -216,7 +226,7 @@
         cite: "Arturo Rodés, Product Manager (client, arturorodes.com)",
         quote2:
           "&ldquo;Working with Gabriel was a pleasure. He is a really hard-working dedicated guy who is always keen to learn something new and looking to do things better. His attitude is something commendable in the sense that he looks for solutions in different sources with a very proactive mindset and always looking for long-term solutions.&rdquo;",
-        cite2: "Ciro Vivacqua, CTO &amp; Enterprise Architect, Beyondbmi (managed Gabriel directly)",
+        cite2: "Ciro Vivacqua, CTO & Enterprise Architect, Beyondbmi (managed Gabriel directly)",
         more:
           'More on gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span><span aria-hidden="true"> &rarr;</span>',
       },
@@ -255,7 +265,7 @@
         aBuild:
           "Static-first HTML and CSS with minimal JavaScript: localized copy, theme toggle, optional intro sequence, and scroll helpers. No heavy client framework on this page.",
         aVerify:
-          'See selected work on <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> plus case studies on <a href="https://www.gabo.rocks/portfolio/" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, code on GitHub at <a href="https://github.com/bugslayer" target="_blank" rel="noopener noreferrer">github.com/bugslayer<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> and <a href="https://github.com/Gabo-Tech/" target="_blank" rel="noopener noreferrer">github.com/Gabo-Tech<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, the npm package <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">frontend-auto-cms<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> and live shipped sites such as <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> and <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> linked from this portfolio.',
+          'See selected work on <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; case studies are in the <a href="#work">Selected work</a> section, with code on GitHub at <a href="https://github.com/Gabo-Tech" target="_blank" rel="noopener noreferrer">github.com/Gabo-Tech<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, the npm package <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">frontend-auto-cms<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> and live shipped sites such as <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> and <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> linked from this portfolio.',
         aContact:
           'Email <a href="mailto:sendmessage@gabo.email">sendmessage@gabo.email</a> or telephone <a href="tel:+41767331655">+41&nbsp;76&nbsp;733&nbsp;16&nbsp;55</a>. His résumé PDF is linked from the <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> footer and longer-form pages include <a href="https://portfolio.gabo.rocks/" target="_blank" rel="noopener noreferrer">portfolio.gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
       },
@@ -337,11 +347,11 @@
         li2:
           "<strong>Más de 10</strong> iniciativas de cliente y producto, desde webs de marketing hasta flujos con muchas integraciones.",
         li3:
-          "<strong>Beyondbmi:</strong> Funcionalidades full-stack en agenda, trackers, vídeo y flujos clínicos. Aprendí Angular sobre la marcha; <strong>primer MR en producción en la primera semana</strong>; ~1 mes a solas (BD en prod, bugs críticos, releases). Entrega continua hasta un cierre por presupuesto cerca de un hito.",
+          "<strong>Beyondbmi:</strong> Telesalud: agenda, vídeo, flujos clínicos e integraciones. UI de constantes vitales con Chart.js (peso, TA, señales relacionadas) y recordatorios por etapas (email + SMS a 24h, 6h y 1h antes)—<strong>orientados al problema de inasistencias y franjas vacías</strong> que los equipos de cita suelen optimizar, sin una métrica post‑lanzamiento que me compartieran. Aprendí Angular sobre la marcha; <strong>primer MR en producción en la primera semana</strong>; ~1 mes a solas (BD en prod, bugs críticos, releases). Entrega hasta un cierre por presupuesto cerca de un hito.",
         li4:
-          "<strong>IriusRisk:</strong> Más de <strong>20</strong> componentes React; Ant Design, TanStack Query, Zustand; más de <strong>100</strong> correcciones en ~6 meses; <strong>2.º puesto</strong> en el hackathon de la empresa.",
+          "<strong>IriusRisk:</strong> Más de <strong>20</strong> componentes React (Ant Design, TanStack Query, Zustand); más de <strong>100</strong> correcciones en prod en ~6 meses. Participé en un <strong>rediseño de páginas de dominio</strong> con mejor jerarquía y flujo. <strong>2.º puesto</strong> en el hackathon de la empresa.",
         li5:
-          "<strong>GABO (actual):</strong> Puto Pulse con más de <strong>500</strong> suscriptores; arturorodes.com (Astro, Alpine, GSAP); publicado <strong>frontend-auto-cms</strong> para flujos editoriales respaldados por repo.",
+          "<strong>GABO (actual):</strong> Puto Pulse con más de <strong>500</strong> suscriptores; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> en npm—flujo editorial con salvaguardas y repo; <strong>más de 2,5k</strong> descargas en una ventana reciente de 12 meses en el registro público.",
       },
       experience: { heading: "Experiencia" },
       jobs: {
@@ -350,10 +360,11 @@
           meta: '<time datetime="2025-10">Oct 2025</time> a la fecha',
           company: "GABO LLC, Suiza, remoto",
           li1:
-            "Entrega a clientes y productos propios: newsletter (Puto Pulse), automatización (email/redes) y paquetes npm.",
+            "Entrega a clientes y producto propio: Puto Pulse (newsletter y automatización), integraciones (email/redes) y herramientas npm abiertas.",
           li2:
-            "Entregué arturorodes.com con Astro, Alpine.js y GSAP; frontend-auto-cms para contenido con salvaguardas y repo.",
-          li3: "El stack varía por proyecto; sigo escribiendo el código de producción.",
+            "Lancé arturorodes.com (Astro, Alpine.js, GSAP) y flujos editoriales con frontend-auto-cms—cambios de contenido con salvaguardas y repo.",
+          li3:
+            "frontend-auto-cms es comprobable en el registro npm público (más de 2,5k descargas en un periodo reciente de 12 meses); sigo llevando el código hasta producción.",
         },
         irius: {
           title: "Desarrollador <span class=\"type-mix__hit\">frontend</span>",
@@ -362,16 +373,19 @@
           company: "IriusRisk, Huesca, España (remoto)",
           li1:
             "UI de producto de modelado de amenazas enterprise: React, TypeScript, Ant Design, TanStack Query, Zustand, SASS, Vitest.",
-          li2: "Revisión de PRs, colaboración con API backend y soporte en producción en contexto regulado.",
-          li3: "2.º puesto en el hackathon de la empresa; entrega fiable de features en UI compleja.",
+          li2:
+            "Revisión de PRs, integración con APIs backend y soporte en producción en contexto regulado y sensible a auditoría.",
+          li3:
+            "Participé en un rediseño de páginas de dominio (navegación, maquetación, claridad de flujo). 2.º puesto en el hackathon; entrega constante sobre una superficie muy compleja.",
         },
         independent: {
           title: "Periodo de construcción <span class=\"type-mix__hit\">independiente</span>",
           meta: '<time datetime="2024-04">Abr 2024</time> a <time datetime="2024-10">Oct 2024</time>',
           company: "Por cuenta propia, remoto",
           li1:
-            "Buscando roles a tiempo completo mientras mantenía proyectos públicos para no perder ritmo.",
-          li2: "Commits constantes y trabajo visible en portafolio; no hubo un hueco real.",
+            "Búsqueda de trabajo a tiempo completo con entrega continua: repos públicos, proyectos listos para portafolio y material para entrevistas—sin meses parado.",
+          li2:
+            "Mantuve ritmo de publicación (releases pequeñas, commits legibles, documentación) para enseñar trabajo reciente y real en procesos de selección.",
         },
         beyond: {
           title: "Ingeniero <span class=\"type-mix__hit\">full-stack</span>",
@@ -382,32 +396,35 @@
           li2:
             "Aprendí Angular desde cero; primera merge request en la primera semana; ~1 mes a solas mientras el senior estaba fuera (BD en prod, bugs críticos, releases).",
           li3:
-            "Entregué agenda, trackers, vídeo, flujos clínicos e integraciones hasta que la colaboración terminó al ajustar el presupuesto; el producto estaba cerca de un hito.",
+            "Entregué agenda, vídeo, flujos clínicos e integraciones. Constantes vitales con Chart.js (peso, tensión arterial, datos relacionados) y recordatorios por email y SMS (24h, 6h y 1h antes), orientados a reducir inasistencias y tiempo clínico vacío—el resultado que ese tipo de funcionalidad persigue. La colaboración terminó cuando el presupuesto se ajustó cerca de un hito.",
         },
         solo: {
           title: "Desarrollador full-stack <span class=\"type-mix__hit\">en solitario</span>",
           meta: '<time datetime="2021-08">Ago 2021</time> a <time datetime="2022-11">Nov 2022</time>',
           company: "GABO, España / autónomo, mayormente remoto",
           li1:
-            "PYMEs y startups: landings, ecommerce, SEO; desde JS greenfield hasta WordPress, PHP e integraciones.",
+            "PYMEs y startups: webs de marketing, ecommerce, SEO; JavaScript greenfield hasta WordPress, PHP e integraciones de terceros.",
           li2:
             "Futuria / Kit Digital: automatización Rehubik (formularios, SQL, Odoo, Zapier, APIs, Python, Google Apps Script).",
-          li3: "Clientes vía aceleradoras de Valencia; entidad en EE. UU. para contratos claros.",
+          li3: "Encargos vía aceleradoras de València; entidad en EE. UU. para contratación internacional sencilla.",
         },
         uiDesigner: {
           title: "Diseñador de <span class=\"type-mix__hit\">UI</span>",
           meta: '<time datetime="2022-07">Jul 2022</time> a <time datetime="2022-08">Ago 2022</time>',
           company: "talenTeal, Valencia, España (presencial)",
-          li1: "Rediseño de la landing para una UX/UI más clara y mejor accesibilidad.",
-          li2: "Mayor engagement y una superficie de marketing más navegable.",
+          li1:
+            "Rediseño completo de la landing: jerarquía de información más clara, llamadas a la acción más fuertes y UI con criterios de accesibilidad para marketing B2B.",
+          li2:
+            "Reorganicé bloques para que las acciones principales y las señales de confianza aparecieran antes; enfoque en claridad de funnel, sin analíticas post-lanzamiento a mi alcance.",
         },
         lujo: {
           title: "Especialista de soporte <span class=\"type-mix__hit\">técnico</span>",
           meta: '<time datetime="2022-02">Feb 2022</time> a <time datetime="2022-03">Mar 2022</time>',
           company: "Lujo Network, Valencia, España (híbrido)",
           li1:
-            "Endurecimiento de la huella digital: flujos de inicio de sesión, firewalls, copias de seguridad; migración desde Hojas de cálculo a una base de datos real.",
-          li2: "Contribución a tramos web y formación del equipo en buenas prácticas de seguridad.",
+            "Endurecimiento operativo: accesos seguros, reglas de firewall, copias; migración desde Google Sheets a base de datos real.",
+          li2:
+            "Apoyo en actualizaciones web con stakeholders y sesiones prácticas de seguridad para compañeros no técnicos.",
         },
       },
       stack: {
@@ -426,13 +443,13 @@
         puto:
           'Newsletter y automatización, más de <strong>500</strong> suscriptores. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
-          'Convierte un frontend en un CMS editable pequeño (<code>npm i frontend-auto-cms</code>). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Convierte un frontend en un CMS pequeño con salvaguardas y repo (<code>npm i frontend-auto-cms</code>). <strong>Más de 2,5k</strong> descargas npm en una ventana reciente de 12 meses (registro público). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         chatgpt:
           'Escritorio con sensación nativa en Linux (Tauri + JS) donde los instaladores oficiales ignoran Linux. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Producto de telesalud: citas, trackers clínicos, videollamadas y flujos con muchas integraciones sobre <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres y <strong>AWS</strong>.',
+          'Producto de telesalud: agenda, gráficas de constantes (Chart.js) y recordatorios por etapas (email/SMS)—orientados a inasistencias y uso de franjas—además de videollamadas y flujos con muchas integraciones sobre <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres y <strong>AWS</strong>.',
         iriusCase:
-          'UI de <strong>modelado de amenazas</strong> enterprise en contexto regulado: React complejo con Ant Design, TanStack Query, Zustand y Vitest.',
+          'UI de <strong>modelado de amenazas</strong> enterprise en contexto regulado: React complejo; participación en rediseño de páginas de dominio (Ant Design, TanStack Query, Zustand y Vitest).',
         moreStudiesLabel: "Más casos de estudio",
         moreStudiesCollapse: "Cerrar lista",
         caseStudiesMore: "Otros proyectos—incluye prácticas y herramientas—en la lista de abajo.",
@@ -485,7 +502,7 @@
         aBuild:
           "HTML y CSS static-first con JavaScript mínimo: textos localizados, tema, intro opcional y ayudas de scroll. Sin framework pesado en esta página.",
         aVerify:
-          'Vea trabajos destacados en <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> y casos en <a href="https://www.gabo.rocks/portfolio/" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; código en GitHub: <a href="https://github.com/bugslayer" target="_blank" rel="noopener noreferrer">github.com/bugslayer<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> y <a href="https://github.com/Gabo-Tech/" target="_blank" rel="noopener noreferrer">github.com/Gabo-Tech<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; el paquete npm <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">frontend-auto-cms<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; sitios en producción como <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> y <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, enlazados desde este portafolio.',
+          'Vea trabajos destacados en <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; los casos de estudio están en <a href="#work">Trabajos seleccionados</a>; código en GitHub: <a href="https://github.com/Gabo-Tech" target="_blank" rel="noopener noreferrer">github.com/Gabo-Tech<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; el paquete npm <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">frontend-auto-cms<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; sitios en producción como <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> y <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, enlazados desde este portafolio.',
         aContact:
           'Correo <a href="mailto:sendmessage@gabo.email">sendmessage@gabo.email</a> o teléfono <a href="tel:+41767331655">+41&nbsp;76&nbsp;733&nbsp;16&nbsp;55</a>. El CV en PDF está enlazado desde el pie de <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; páginas más largas en <a href="https://portfolio.gabo.rocks/" target="_blank" rel="noopener noreferrer">portfolio.gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
       },
@@ -567,11 +584,11 @@
         li2:
           "<strong>Über 10</strong> Kunden- und Produktinitiativen: von Marketing-Sites bis zu integrationslastigen Workflows.",
         li3:
-          "<strong>Beyondbmi:</strong> Full-Stack-Features für Terminplanung, Tracker, Video und klinische Flows; Angular on the job gelernt; <strong>erster Production-MR in Woche eins</strong>; ~1 Monat allein verantwortlich (Prod-DB, kritische Bugs, Releases). Stetige Lieferung bis zu einer budgetbedingten Auslaufphase nahe einem Meilenstein.",
+          "<strong>Beyondbmi:</strong> Telehealth-SaaS: Terminplanung, Video, klinische Flows und Integrationen. Vitals-UI mit Chart.js (Gewicht, Blutdruck, verwandte Signale) und mehrstufigen Termin-Erinnerungen (E-Mail + SMS bei 24h, 6h und 1h vor dem Termin)—<strong>gegen Nichterscheinen und ungenutzte Slots</strong>, wie sie Teams mit Buchungslogik typischerweise optimieren, ohne mir nachträglich offizielle Kennzahlen. Angular on the job gelernt; <strong>erster Production-MR in Woche eins</strong>; ~1 Monat in alleiniger Verantwortung (Prod-DB, kritische Bugs, Releases). Lieferung bis zu einer budgetbedingten Auslaufphase nahe einem Meilenstein.",
         li4:
-          "<strong>IriusRisk:</strong> <strong>20+</strong> React-Komponenten; Ant Design, TanStack Query, Zustand; <strong>100+</strong> Bugfixes in ~6 Monaten; <strong>2. Platz</strong> beim Firmen-Hackathon.",
+          "<strong>IriusRisk:</strong> <strong>20+</strong> React-Komponenten (Ant Design, TanStack Query, Zustand); <strong>100+</strong> Prod-Fixes in ~6 Monaten. Mitwirkung an einem <strong>Redesign der Domain-Seiten</strong> für klarere Informationsarchitektur und Workflow-UX. <strong>2. Platz</strong> beim Firmen-Hackathon.",
         li5:
-          "<strong>GABO (aktuell):</strong> Puto Pulse mit <strong>500+</strong> Abonnenten; arturorodes.com (Astro, Alpine, GSAP); <strong>frontend-auto-cms</strong> für repo-gestützte Redaktions-Workflows veröffentlicht.",
+          "<strong>GABO (aktuell):</strong> Puto Pulse mit <strong>500+</strong> Abonnenten; arturorodes.com (Astro, Alpine, GSAP). <strong>frontend-auto-cms</strong> auf npm—abgesicherte, repo-gestützte Redaktion für Kunden; <strong>2,5k+</strong> Downloads in einem aktuellen 12-Monats-Fenster im öffentlichen Registry.",
       },
       experience: { heading: "Erfahrung" },
       jobs: {
@@ -579,9 +596,12 @@
           title: '<span class="type-mix__hit">Freiberuflicher</span> Softwareingenieur',
           meta: '<time datetime="2025-10">Okt. 2025</time> bis heute',
           company: "GABO LLC, Schweiz, remote",
-          li1: "Kundenlieferung und eigene Produkte: Newsletter (Puto Pulse), Automatisierung (E-Mail/Social) und npm-Tooling.",
-          li2: "arturorodes.com mit Astro, Alpine.js, GSAP ausgeliefert; frontend-auto-cms für abgesicherte, repo-gestützte Content-Updates.",
-          li3: "Stack variiert je Projekt; ich schreibe weiterhin den Produktionscode.",
+          li1:
+            "Kundenprojekte und eigene Produkte: Puto Pulse (Newsletter + Automatisierung), Integrationen (E-Mail/Social) und Open-Source-npm-Tools.",
+          li2:
+            "arturorodes.com (Astro, Alpine.js, GSAP) ausgeliefert sowie Redaktions-Workflows mit frontend-auto-cms—abgesicherte, repo-gestützte Content-Änderungen.",
+          li3:
+            "frontend-auto-cms ist im öffentlichen npm-Registry prüfbar (2,5k+ Downloads in einem aktuellen 12-Monatszeitraum); ich trage den Code bis in die Produktion.",
         },
         irius: {
           title: '<span class="type-mix__hit">Frontend</span>-Entwickler',
@@ -590,15 +610,19 @@
           company: "IriusRisk, Huesca, Spanien (remote)",
           li1:
             "Enterprise-Threat-Modeling-Produkt-UI: React, TypeScript, Ant Design, TanStack Query, Zustand, SASS, Vitest.",
-          li2: "PR-Reviews, Zusammenarbeit mit Backend-APIs und Produktionssupport in reguliertem Umfeld.",
-          li3: "2. Platz beim firmenweiten Hackathon; zuverlässige Feature-Lieferung bei komplexer UI.",
+          li2:
+            "PR-Reviews, API-Zusammenarbeit mit dem Backend und Produktionssupport in reguliertem, auditrelevantem Umfeld.",
+          li3:
+            "Mitwirkung an einem Redesign der Domain-Bereiche (Navigation, Layout, Workflow-Klarheit). 2. Platz beim firmenweiten Hackathon; verlässliche Lieferung auf komplexer Oberfläche.",
         },
         independent: {
           title: '<span class="type-mix__hit">Selbstständige</span> Projektphase',
           meta: '<time datetime="2024-04">Apr. 2024</time> bis <time datetime="2024-10">Okt. 2024</time>',
           company: "Selbst organisiert, remote",
-          li1: "Vollzeitrollen gesucht, während öffentliche Projekte weiterliefen; kein Stillstand.",
-          li2: "Stetige Commits und portfolio-sichtbare Arbeit; eine echte Lücke gab es nicht.",
+          li1:
+            "Vollzeit-Suche bei laufender Lieferung: öffentliche Repos, portfolio-taugliche Projekte und Interview-Material—keine langen Inaktivphasen.",
+          li2:
+            "Fokus auf Rhythmus: kleine Releases, nachvollziehbare Commits und Docs, damit Gespräche echte, aktuelle Arbeit zeigen konnten.",
         },
         beyond: {
           title: '<span class="type-mix__hit">Full-Stack</span>-Engineer',
@@ -609,31 +633,34 @@
           li2:
             "Angular von Null gelernt; erster Merge Request in Woche eins; ~1 Monat alleinverantwortlich während Senior abwesend (Prod-DB, kritische Bugs, Releases).",
           li3:
-            "Ausgeliefert: Terminplanung, Tracker, Video, klinische Flows und Integrationen bis das Engagement bei Budgetanpassung endete; Produkt nahe einem Meilenstein.",
+            "Terminplanung, Video, klinische Flows und Integrationen geliefert. Vitals-Tracking mit Chart.js (Gewicht, Blutdruck, verwandte Daten) und Erinnerungen per E-Mail + SMS (24h, 6h, 1h vor Termin), ausgerichtet auf weniger No-Shows und weniger ungenutzte klinische Zeit—das ist das übliche Ziel solcher Flows. Engagement endete bei budgetbedingter Auslaufphase nahe einem Meilenstein.",
         },
         solo: {
           title: '<span class="type-mix__hit">Solo</span> Full-Stack-Entwickler',
           meta: '<time datetime="2021-08">Aug. 2021</time> bis <time datetime="2022-11">Nov. 2022</time>',
           company: "GABO, Spanien / selbstständig, meist remote",
           li1:
-            "KMU- und Startup-Arbeit: Landings, E-Commerce, SEO; von Greenfield-JS bis WordPress, PHP und Integrationen.",
+            "KMU- und Startup-Arbeit: Marketing-Sites, E-Commerce, SEO; von Greenfield-JavaScript bis WordPress, PHP und Drittintegrations.",
           li2: "Futuria / Digital Kit: Rehubik-Automatisierung (Formulare, SQL, Odoo, Zapier, APIs, Python, Google Apps Script).",
-          li3: "Kunden über València-Beschleuniger; US-Entity für saubere Verträge.",
+          li3: "Aufträge über València-Beschleuniger; US-Entity für unkompliziertes internationales Contracting.",
         },
         uiDesigner: {
           title: '<span class="type-mix__hit">UI</span>-Designer',
           meta: '<time datetime="2022-07">Jul. 2022</time> bis <time datetime="2022-08">Aug. 2022</time>',
           company: "talenTeal, Valencia, Spanien (vor Ort)",
-          li1: "Firmen-Landing für klarere UX/UI und bessere Accessibility neu gestaltet.",
-          li2: "Stärkeres Engagement und eine navigierbarere Marketing-Oberfläche.",
+          li1:
+            "Landing-Redesign Ende-zu-Ende: klarere Informationsarchitektur, stärkere CTAs und accessibility-orientierte UI für B2B-Marketing.",
+          li2:
+            "Content-Blöcke neu geordnet, damit Hauptaktionen und Vertrauenssignale früher sichtbar werden—Fokus auf Funnel-Klarheit ohne Post-Launch-Kennzahlen in meiner Hand.",
         },
         lujo: {
-          title: '<span class="type-mix__hit">Technical</span> Support Specialist',
+          title: 'Spezialist <span class="type-mix__hit">technischer</span> Support',
           meta: '<time datetime="2022-02">Feb. 2022</time> bis <time datetime="2022-03">März 2022</time>',
           company: "Lujo Network, Valencia, Spanien (hybrid)",
           li1:
-            "Digitalen Footprint gehärtet: sichere Sign-in-Flows, Firewalls, Backup; DB-Arbeit inkl. Migration von Google Sheets in eine echte Datenbank.",
-          li2: "Website-Segmente und Team-Schulungen zu Security-Practices.",
+            "Betrieb gehärtet: sichere Anmeldewege, Firewall-Regeln, Backups; Migration von Google Sheets in eine echte Datenbank.",
+          li2:
+            "Website-Updates mit Stakeholdern begleitet und praxisnahe Security-Sessions für nicht-technische Kolleginnen und Kollegen.",
         },
       },
       stack: {
@@ -652,13 +679,13 @@
         puto:
           'Newsletter und Automatisierung, <strong>500+</strong> Abonnenten. <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>',
         cms:
-          'Frontend in ein kleines editierbares CMS verwandeln (<code>npm i frontend-auto-cms</code>). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
+          'Frontend in ein kleines, abgesichertes Repo-CMS verwandeln (<code>npm i frontend-auto-cms</code>). <strong>2,5k+</strong> npm-Downloads in einem aktuellen 12-Monats-Fenster (öffentliches Registry). <a href="https://github.com/Gabo-Tech/frontend-auto-cms" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">npm<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         chatgpt:
           'Desktop mit nativem Gefühl für Linux (Tauri + JS), wo offizielle Installer Linux auslassen. <a href="https://github.com/Gabo-Tech/ChatGPT-Multiplatform-Desktop-Wrapper" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
         beyondCase:
-          'Telehealth-Produkt: Termine, klinische Tracker, Videosessions und integrationslastige Flows mit <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres und <strong>AWS</strong>.',
+          'Telehealth-Produkt: Terminplanung, Vitals-Charts (Chart.js) und mehrstufige Termin-Erinnerungen (E-Mail/SMS)—gezielt gegen No-Show-Risiko und Slot-Auslastung—plus Videosessions und integrationslastige Flows mit <strong>Angular</strong>, <strong>React Native</strong>, Node, Postgres und <strong>AWS</strong>.',
         iriusCase:
-          '<strong>Threat-Modeling</strong>-Enterprise-UI in reguliertem Umfeld: komplexe React-Oberfläche mit Ant Design, TanStack Query, Zustand und Vitest.',
+          '<strong>Threat-Modeling</strong>-Enterprise-UI in reguliertem Umfeld: komplexe React-Oberfläche; Mitwirkung am Redesign der Domain-Seiten (Ant Design, TanStack Query, Zustand, Vitest).',
         moreStudiesLabel: "Weitere Fallstudien",
         moreStudiesCollapse: "Liste schließen",
         caseStudiesMore:
@@ -672,7 +699,7 @@
         cite: "Arturo Rodés, Product Manager (Kunde, arturorodes.com)",
         quote2:
           "&ldquo;Working with Gabriel was a pleasure. He is a really hard-working dedicated guy who is always keen to learn something new and looking to do things better. His attitude is something commendable in the sense that he looks for solutions in different sources with a very proactive mindset and always looking for long-term solutions.&rdquo;",
-        cite2: "Ciro Vivacqua, CTO &amp; Enterprise Architect, Beyondbmi (hat Gabriel direkt geführt)",
+        cite2: "Ciro Vivacqua, CTO & Enterprise Architect, Beyondbmi (hat Gabriel direkt geführt)",
         more:
           'Mehr auf gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span><span aria-hidden="true"> &rarr;</span>',
       },
@@ -711,7 +738,7 @@
         aBuild:
           "Static-first HTML und CSS mit wenig JavaScript: Lokalisierung, Theme-Umschaltung, optionale Intro-Sequenz und Scroll-Hilfen. Kein schweres Client-Framework auf dieser Seite.",
         aVerify:
-          'Ausgewählte Arbeiten auf <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, Fallstudien auf <a href="https://www.gabo.rocks/portfolio/" target="_blank" rel="noopener noreferrer">gabo.rocks/portfolio<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, Code auf GitHub unter <a href="https://github.com/bugslayer" target="_blank" rel="noopener noreferrer">github.com/bugslayer<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> und <a href="https://github.com/Gabo-Tech/" target="_blank" rel="noopener noreferrer">github.com/Gabo-Tech<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, das npm-Paket <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">frontend-auto-cms<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> sowie Live-Sites wie <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> und <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, verlinkt von diesem Portfolio.',
+          'Ausgewählte Arbeiten auf <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>; Fallstudien im Abschnitt <a href="#work">Ausgewählte Arbeiten</a>, Code auf GitHub unter <a href="https://github.com/Gabo-Tech" target="_blank" rel="noopener noreferrer">github.com/Gabo-Tech<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, das npm-Paket <a href="https://www.npmjs.com/package/frontend-auto-cms" target="_blank" rel="noopener noreferrer">frontend-auto-cms<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> sowie Live-Sites wie <a href="https://arturorodes.com" target="_blank" rel="noopener noreferrer">arturorodes.com<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> und <a href="https://putopulse.org" target="_blank" rel="noopener noreferrer">putopulse.org<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>, verlinkt von diesem Portfolio.',
         aContact:
           'E-Mail <a href="mailto:sendmessage@gabo.email">sendmessage@gabo.email</a> oder Telefon <a href="tel:+41767331655">+41&nbsp;76&nbsp;733&nbsp;16&nbsp;55</a>. Der Lebenslauf (PDF) ist in der Fusszeile von <a href="https://www.gabo.rocks/" target="_blank" rel="noopener noreferrer">gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a> verlinkt; längere Seiten unter <a href="https://portfolio.gabo.rocks/" target="_blank" rel="noopener noreferrer">portfolio.gabo.rocks<span class="visually-hidden" data-i18n-placeholder="a11y.newTab"></span></a>.',
       },
@@ -849,8 +876,6 @@
   var INTRO_BATCH_HOLD_MS = 240;
 
   var abortState = {
-    mq: null,
-    onScheme: null,
     escHandler: null,
   };
 
@@ -859,8 +884,31 @@
       document.removeEventListener("keydown", abortState.escHandler);
     }
     abortState.escHandler = null;
-    abortState.mq = null;
-    abortState.onScheme = null;
+  }
+
+  /** Match intro chrome to the same resolved theme as the page (`data-theme`: system, user toggle, or stored preference). */
+  function syncIntroOverlayTheme(overlay) {
+    if (!overlay) return;
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    overlay.classList.toggle("intro-overlay--dark", dark);
+  }
+
+  function attachIntroThemeSync(overlay) {
+    syncIntroOverlayTheme(overlay);
+    var obs = new MutationObserver(function () {
+      syncIntroOverlayTheme(overlay);
+    });
+    try {
+      obs.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"],
+      });
+    } catch (e) {}
+    return obs;
+  }
+
+  function detachIntroThemeSync(obs) {
+    if (obs && typeof obs.disconnect === "function") obs.disconnect();
   }
 
   function announceSlide(text) {
@@ -1117,39 +1165,32 @@
     await wait(520);
   }
 
-  function detachSchemeListener(mq, onScheme) {
-    if (!onScheme || !mq) return;
-    if (mq.removeEventListener) mq.removeEventListener("change", onScheme);
-    else if (mq.removeListener) mq.removeListener(onScheme);
-  }
 
-  function teardown(overlay, mq, onScheme) {
+  function teardown(overlay, themeObs) {
     teardownAbortListeners();
     stopIntroTheme();
-    detachSchemeListener(mq, onScheme);
+    detachIntroThemeSync(themeObs);
     var live = document.getElementById(LIVE_ID);
     if (live) live.textContent = "";
     document.body.classList.remove("intro-active");
     if (overlay && overlay.parentNode) overlay.parentNode.removeChild(overlay);
   }
 
-  function fadeOutAndRemove(overlay, mq, onScheme) {
+  function fadeOutAndRemove(overlay, themeObs) {
     if (!overlay || !overlay.parentNode) return;
     overlay.classList.add("intro-overlay--exit");
     setTimeout(function () {
-      teardown(overlay, mq, onScheme);
+      teardown(overlay, themeObs);
     }, 560);
   }
 
-  function registerAbortShortcuts(overlay, mq, onScheme) {
+  function registerAbortShortcuts(overlay, themeObs) {
     teardownAbortListeners();
-    abortState.mq = mq;
-    abortState.onScheme = onScheme;
 
     abortState.escHandler = function (ev) {
       if (ev.key !== "Escape") return;
       ev.preventDefault();
-      fadeOutAndRemove(overlay, mq, onScheme);
+      fadeOutAndRemove(overlay, themeObs);
     };
 
     document.addEventListener("keydown", abortState.escHandler);
@@ -1182,31 +1223,20 @@
   }
 
   async function runSequence(overlay, frame, withAudio) {
-    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+    var themeObs = attachIntroThemeSync(overlay);
 
-    function syncScheme() {
-      overlay.classList.toggle("intro-overlay--dark", mq.matches);
-    }
-
-    var onScheme = function () {
-      syncScheme();
-    };
-    if (mq.addEventListener) mq.addEventListener("change", onScheme);
-    else mq.addListener(onScheme);
-    syncScheme();
-
-    registerAbortShortcuts(overlay, mq, onScheme);
+    registerAbortShortcuts(overlay, themeObs);
 
     var skipBtn = document.getElementById("intro-skip");
     if (skipBtn) {
       skipBtn.onclick = function (ev) {
         ev.preventDefault();
-        fadeOutAndRemove(overlay, mq, onScheme);
+        fadeOutAndRemove(overlay, themeObs);
       };
     }
 
     var end = function () {
-      fadeOutAndRemove(overlay, mq, onScheme);
+      fadeOutAndRemove(overlay, themeObs);
     };
 
     var plan = buildPlanFromStack();
@@ -1277,21 +1307,15 @@
     overlay.removeAttribute("hidden");
     overlay.classList.add("intro-overlay--awaiting-start");
 
-    var mqEarly = window.matchMedia("(prefers-color-scheme: dark)");
-    function onSchemeEarly() {
-      overlay.classList.toggle("intro-overlay--dark", mqEarly.matches);
-    }
-    if (mqEarly.addEventListener) mqEarly.addEventListener("change", onSchemeEarly);
-    else mqEarly.addListener(onSchemeEarly);
-    onSchemeEarly();
+    var themeObsEarly = attachIntroThemeSync(overlay);
 
-    registerAbortShortcuts(overlay, mqEarly, onSchemeEarly);
+    registerAbortShortcuts(overlay, themeObsEarly);
 
     var skipBtnEarly = document.getElementById("intro-skip");
     if (skipBtnEarly) {
       skipBtnEarly.onclick = function (ev) {
         ev.preventDefault();
-        fadeOutAndRemove(overlay, mqEarly, onSchemeEarly);
+        fadeOutAndRemove(overlay, themeObsEarly);
       };
     }
 
@@ -1301,11 +1325,10 @@
     });
 
     waitForStart().then(function (withAudio) {
-      detachSchemeListener(mqEarly, onSchemeEarly);
+      detachIntroThemeSync(themeObsEarly);
       overlay.classList.remove("intro-overlay--awaiting-start");
       runSequence(overlay, frame, withAudio).catch(function () {
-        var mq = window.matchMedia("(prefers-color-scheme: dark)");
-        fadeOutAndRemove(overlay, mq, null);
+        fadeOutAndRemove(overlay, null);
       });
     });
   }

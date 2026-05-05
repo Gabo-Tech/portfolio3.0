@@ -1400,6 +1400,7 @@ body.intro-active {
   --intro-muted: #4f4f4f;
   --intro-accent: #0a84ff;
   --intro-icon-filter: none;
+  color-scheme: light;
 
   position: fixed;
   inset: 0;
@@ -1428,6 +1429,7 @@ body.intro-active {
   --intro-muted: #b0b0b0;
   --intro-accent: #4da3ff;
   --intro-icon-filter: brightness(1.15) contrast(1.05);
+  color-scheme: dark;
 }
 
 .intro-overlay.intro-overlay--exit {

@@ -866,7 +866,7 @@
     "featuredRank": 3,
     "title": "frontend-auto-cms",
     "summaryKey": "work.cms",
-    "desc": "npm library: frontend repo-backed CMS workflows so marketing can propose copy without breaking production.",
+    "desc": "npm library: repo-backed CMS workflows so marketing can propose copy without breaking production. Public registry shows thousands of downloads over a typical 12-month window.",
     "detailHtml": "<p>Turn a static site into a guardrailed CMS: authors edit in a tiny dashboard, changes land as pull requests against the same Git repository developers already trust—no surprise SQL or mystery CMS servers.</p><p>Shipped on npm and wired for teams that already think in repos and reviews.</p>",
     "img": "",
     "link": "https://www.npmjs.com/package/frontend-auto-cms",

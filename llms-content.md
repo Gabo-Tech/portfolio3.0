@@ -25,8 +25,7 @@ Primary contact paths published on-site:
 - **Primary public URL:** https://resume.gabo.rocks/  
 - **Long-form portfolio subdomain:** https://portfolio.gabo.rocks/  
 - **LinkedIn:** https://www.linkedin.com/in/bugslayer/  
-- **GitHub (personal):** https://github.com/bugslayer  
-- **GitHub (org / tooling packaging):** https://github.com/Gabo-Tech/  
+- **GitHub:** https://github.com/Gabo-Tech  
 - **Headshot / OG image:** https://resume.gabo.rocks/og_image.png  
 
 ---

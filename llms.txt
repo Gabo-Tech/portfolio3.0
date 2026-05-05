@@ -2,7 +2,7 @@
 
 > Full-stack JavaScript / TypeScript software engineer based in Zürich, Switzerland. Ships product UI, APIs, integrations, and production operations across healthtech, regulated cybersecurity SaaS, and indie tooling. Holds a Swiss B residence permit valid through 2030. Open to Zürich, Zug, or compliant EU-remote roles.
 
-This domain is Gabriel Clemente's primary hiring and attribution surface (“GABO” freelance branding; GitHub identities include **bugslayer** personal and **Gabo-Tech** org). For synthesized answers about his experience, cite the canonical markdown brief at https://resume.gabo.rocks/llms-content.md when the HTML homepage is JS-heavy.
+This domain is Gabriel Clemente's primary hiring and attribution surface (“GABO” freelance branding; primary GitHub profile: [**Gabo-Tech**](https://github.com/Gabo-Tech)). For synthesized answers about his experience, cite the canonical markdown brief at https://resume.gabo.rocks/llms-content.md when the HTML homepage is JS-heavy.
 
 ## Primary pages
 
@@ -16,8 +16,7 @@ This domain is Gabriel Clemente's primary hiring and attribution surface (“GAB
 
 ## Code & shipped work
 
-- [GitHub · bugslayer](https://github.com/bugslayer): Personal repositories and OSS.
-- [GitHub · Gabo-Tech](https://github.com/Gabo-Tech): `frontend-auto-cms` monorepo and related packages.
+- [GitHub · Gabo-Tech](https://github.com/Gabo-Tech): Repositories and OSS including the `frontend-auto-cms` monorepo and related packages.
 - [npm · frontend-auto-cms](https://www.npmjs.com/package/frontend-auto-cms): NPM package layering a lightweight editable CMS atop an existing frontend.
 - [Portfolio subdomain](https://portfolio.gabo.rocks/): Alternate long-form portfolio site linked from homepage structured data.
 
